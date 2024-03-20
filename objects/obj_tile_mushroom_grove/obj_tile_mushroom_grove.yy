@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_left",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tile_mushroom_grove",
+  "eventList":[],
   "managed":true,
-  "name":"obj_tile_left",
+  "name":"obj_tile_mushroom_grove",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Map Sprit Obj",
+    "path":"folders/Objects/Map Sprit Obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_left",
-    "path":"sprites/sp_tile_left/sp_tile_left.yy",
+    "name":"sp_tile_mushroom_grove",
+    "path":"sprites/sp_tile_mushroom_grove/sp_tile_mushroom_grove.yy",
   },
   "spriteMaskId":null,
   "visible":true,

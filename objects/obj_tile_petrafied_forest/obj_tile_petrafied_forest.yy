@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_right",
+  "%Name":"obj_tile_petrafied_forest",
   "eventList":[],
   "managed":true,
-  "name":"obj_tile_right",
+  "name":"obj_tile_petrafied_forest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Map Sprit Obj",
+    "path":"folders/Objects/Map Sprit Obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_right",
-    "path":"sprites/sp_tile_right/sp_tile_right.yy",
+    "name":"sp_tile_petrafied_forest",
+    "path":"sprites/sp_tile_petrafied_forest/sp_tile_petrafied_forest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

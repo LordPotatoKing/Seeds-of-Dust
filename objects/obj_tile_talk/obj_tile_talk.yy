@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_clickable",
+  "%Name":"obj_tile_talk",
   "eventList":[],
   "managed":true,
-  "name":"obj_tile_clickable",
+  "name":"obj_tile_talk",
   "overriddenProperties":[],
   "parent":{
     "name":"Main",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_clickable",
-    "path":"sprites/sp_tile_clickable/sp_tile_clickable.yy",
+    "name":"sp_tile_talk",
+    "path":"sprites/sp_tile_talk/sp_tile_talk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

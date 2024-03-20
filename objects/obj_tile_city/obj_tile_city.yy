@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_clickable",
-  "eventList":[],
+  "%Name":"obj_tile_city",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_tile_clickable",
+  "name":"obj_tile_city",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main",
-    "path":"folders/Objects/Main.yy",
+    "name":"Map Sprit Obj",
+    "path":"folders/Objects/Map Sprit Obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_clickable",
-    "path":"sprites/sp_tile_clickable/sp_tile_clickable.yy",
+    "name":"sp_tile_city",
+    "path":"sprites/sp_tile_city/sp_tile_city.yy",
   },
   "spriteMaskId":null,
   "visible":true,

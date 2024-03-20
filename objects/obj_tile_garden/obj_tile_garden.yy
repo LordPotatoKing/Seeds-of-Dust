@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_clickable",
+  "%Name":"obj_tile_garden",
   "eventList":[],
   "managed":true,
-  "name":"obj_tile_clickable",
+  "name":"obj_tile_garden",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main",
-    "path":"folders/Objects/Main.yy",
+    "name":"Map Sprit Obj",
+    "path":"folders/Objects/Map Sprit Obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_clickable",
-    "path":"sprites/sp_tile_clickable/sp_tile_clickable.yy",
+    "name":"sp_tile_garden",
+    "path":"sprites/sp_tile_garden/sp_tile_garden.yy",
   },
   "spriteMaskId":null,
   "visible":true,

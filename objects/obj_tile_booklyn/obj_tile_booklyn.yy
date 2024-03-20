@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_examine",
+  "%Name":"obj_tile_booklyn",
   "eventList":[],
   "managed":true,
-  "name":"obj_tile_examine",
+  "name":"obj_tile_booklyn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Map Sprit Obj",
+    "path":"folders/Objects/Map Sprit Obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_examine",
-    "path":"sprites/sp_tile_examine/sp_tile_examine.yy",
+    "name":"sp_tile_brooklyn",
+    "path":"sprites/sp_tile_brooklyn/sp_tile_brooklyn.yy",
   },
   "spriteMaskId":null,
   "visible":true,
