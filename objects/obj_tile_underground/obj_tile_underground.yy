@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_petrafied_forest",
+  "%Name":"obj_tile_underground",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tile_petrafied_forest",
+  "name":"obj_tile_underground",
   "overriddenProperties":[],
   "parent":{
     "name":"Map Sprit Obj",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_petrafied_forest",
-    "path":"sprites/sp_tile_petrafied_forest/sp_tile_petrafied_forest.yy",
+    "name":"sp_tile_underground",
+    "path":"sprites/sp_tile_underground/sp_tile_underground.yy",
   },
   "spriteMaskId":null,
   "visible":true,
