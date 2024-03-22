@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_tile_petrafied_forest",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_tile_petrafied_forest",
   "overriddenProperties":[],
