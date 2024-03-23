@@ -44,9 +44,9 @@
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},},
+    {"id":{"name":"obj_button_Map","path":"objects/obj_button_Map/obj_button_Map.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
-    {"id":{"name":"obj_button_Map","path":"objects/obj_button_Map/obj_button_Map.yy",},},
     {"id":{"name":"obj_tile_booklyn","path":"objects/obj_tile_booklyn/obj_tile_booklyn.yy",},},
     {"id":{"name":"obj_tile_city","path":"objects/obj_tile_city/obj_tile_city.yy",},},
     {"id":{"name":"obj_tile_clickable","path":"objects/obj_tile_clickable/obj_tile_clickable.yy",},},
@@ -58,6 +58,7 @@
     {"id":{"name":"rm_brooklyn","path":"rooms/rm_brooklyn/rm_brooklyn.yy",},},
     {"id":{"name":"rm_city","path":"rooms/rm_city/rm_city.yy",},},
     {"id":{"name":"rm_garden","path":"rooms/rm_garden/rm_garden.yy",},},
+    {"id":{"name":"rm_gui","path":"rooms/rm_gui/rm_gui.yy",},},
     {"id":{"name":"rm_map","path":"rooms/rm_map/rm_map.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_mushroom_grove","path":"rooms/rm_mushroom_grove/rm_mushroom_grove.yy",},},
@@ -86,6 +87,7 @@
     {"roomId":{"name":"rm_city","path":"rooms/rm_city/rm_city.yy",},},
     {"roomId":{"name":"rm_mushroom_grove","path":"rooms/rm_mushroom_grove/rm_mushroom_grove.yy",},},
     {"roomId":{"name":"rm_brooklyn","path":"rooms/rm_brooklyn/rm_brooklyn.yy",},},
+    {"roomId":{"name":"rm_gui","path":"rooms/rm_gui/rm_gui.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
