@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ChatterboxHopBack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ChatterboxHopBack",
+  "parent":{
+    "name":"Flow",
+    "path":"folders/Chatterbox/Flow.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ChatterboxWait",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ChatterboxWait",
+  "parent":{
+    "name":"Flow",
+    "path":"folders/Chatterbox/Flow.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
