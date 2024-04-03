@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 ChatterboxLoadFromFile("Dialog.yarn")				// load file
-ChatterboxAddFunction("bg", backround_set_index)	//Add function to change backround
+// ChatterboxAddFunction("bg", backround_set_index)	//Add function to change backround
 chatterbox=ChatterboxCreate()						//create a chatterbox
 ChatterboxJump(chatterbox,"Start")					//go to "start" box
 chatterbox_update()									//Get current node and node text

@@ -1,5 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
 function wrap(_val,_min,_max){
 	if _val > _max return _min;
 	else if _val < _min return _max;
@@ -12,7 +13,10 @@ function draw_rectangle_center(_x,_y,_width,_height,_outline,_color,_alpha){
 	draw_set_color(_color)
 	draw_set_alpha(_alpha)
 	
-	draw_rectangle(_x - _width /2, _y - _height /2, _x + _width /2, _y + _hight /2, _outline)
+	// _width = 50
+	// _height = 50
+	
+	draw_rectangle(_x - _width /2, _y - _height /2, _x + _width /2, _y + _height /2, _outline)
 	
 	draw_set_color(_old_color)
 	draw_set_alpha(_old_alpha)

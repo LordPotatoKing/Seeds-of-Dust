@@ -9,17 +9,18 @@ var _margin_char = 200 // Horazontal character margin
 
 if IsChatterbox(chatterbox) and text != undefined
 {
-	var _me = (ChatterboxGetContentSpeaker(chatterbox,0)=="Me")
+	// var _me = (ChatterboxGetContentSpeaker(chatterbox,0)=="Me")
 	
-	draw_sprite_ext(characters,0, _margin_char ,				room_height, size[_me], size[_me], 0, color[_me],1)
-	draw_sprite_ext(characters,1, room_width - _margin_char ,	room_height, size[!_me], size[!_me], 0, color[!_me],1)
+	// draw_sprite_ext(characters,0, _margin_char ,				room_height, size[_me], size[_me], 0, color[_me],1)
+	// draw_sprite_ext(characters,1, room_width - _margin_char ,	room_height, size[!_me], size[!_me], 0, color[!_me],1)
 	
-	var _yy = room_height - (_margin_text /2)
+	var _yy = _margin_text  // room_height - (_margin_text /2)
 	
 	draw_rectangle_center(room_width/2, _yy, room_width, _margin_text,false,c_black,0.5)
 	
-	draw_set_halign(_me ? fa_left : fa_right)
-	var _xx = me ? _margin_text : room_width - _margin_text;
+	// draw_set_halign(_me ? fa_left : fa_right)
+	// var _xx = me ? _margin_text : room_width - _margin_text;
+	var _xx = _margin_text;
 	draw_text(_xx,_yy,text)
 	
 	if ChatterboxGetOptionCount(chatterbox)
