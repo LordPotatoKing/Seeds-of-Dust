@@ -30,7 +30,7 @@ if IsChatterbox(chatterbox) and text != undefined
 		var _width = 400;
 		var _height = 64
 		
-		for (var _i = 0; _i<ChatterboxGetOptionCount(chatterbox); i++;)
+		for (var _i = 0; _i < ChatterboxGetOptionCount(chatterbox); _i++;)
 		{
 			if ChatterboxGetOptionConditionBool(chatterbox,_i)
 			{
