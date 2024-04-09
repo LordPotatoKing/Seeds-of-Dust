@@ -173,6 +173,7 @@
     {"id":{"name":"sp_tile_talk","path":"sprites/sp_tile_talk/sp_tile_talk.yy",},},
     {"id":{"name":"sp_tile_underground","path":"sprites/sp_tile_underground/sp_tile_underground.yy",},},
     {"id":{"name":"sp_title","path":"sprites/sp_title/sp_title.yy",},},
+    {"id":{"name":"bk_all","path":"sprites/bk_all/bk_all.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

@@ -23,7 +23,7 @@ function draw_rectangle_center(_x,_y,_width,_height,_outline,_color,_alpha){
 }
 
 function backround_set_index(_arr){
-	var _lay_id = layer_get_id("Backround")
+	var _lay_id = layer_get_id("Background")
 	var _back_id = layer_background_get_id(_lay_id)
 	
 	layer_background_index(_back_id, _arr)

@@ -135,5 +135,6 @@
     {"name":"sp_tile_talk","order":2,"path":"sprites/sp_tile_talk/sp_tile_talk.yy",},
     {"name":"sp_tile_underground","order":5,"path":"sprites/sp_tile_underground/sp_tile_underground.yy",},
     {"name":"sp_title","order":1,"path":"sprites/sp_title/sp_title.yy",},
+    {"name":"bk_all","order":6,"path":"sprites/bk_all/bk_all.yy",},
   ],
 }
