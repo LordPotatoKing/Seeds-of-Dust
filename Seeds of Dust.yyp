@@ -46,6 +46,7 @@
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Dialog.yarn","CopyToMask":-1,"filePath":"datafiles","name":"Dialog.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"NewFile5.yarn","CopyToMask":-1,"filePath":"datafiles","name":"NewFile5.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
