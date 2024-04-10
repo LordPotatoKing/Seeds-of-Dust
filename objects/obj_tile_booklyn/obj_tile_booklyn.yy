@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_brooklyn",
-    "path":"sprites/sp_tile_brooklyn/sp_tile_brooklyn.yy",
+    "name":"spr_tile_brooklyn",
+    "path":"sprites/spr_tile_brooklyn/spr_tile_brooklyn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

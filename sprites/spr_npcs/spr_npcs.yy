@@ -24,10 +24,11 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"0ab7a389-b546-4b4b-a3bd-d220dac8bdb4","blendMode":0,"displayName":"default","isLocked":false,"name":"0ab7a389-b546-4b4b-a3bd-d220dac8bdb4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5c088139-5e52-449f-a959-9594f31b1637","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"5c088139-5e52-449f-a959-9594f31b1637","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_npcs",
   "nineSlice":null,
-  "origin":9,
+  "origin":0,
   "parent":{
     "name":"NPCs",
     "path":"folders/Sprites/NPCs.yy",
@@ -91,8 +92,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":260,
-    "yorigin":265,
+    "xorigin":0,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

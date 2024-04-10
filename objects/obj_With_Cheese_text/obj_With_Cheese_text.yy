@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile_garden",
+  "%Name":"obj_With_Cheese_text",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tile_garden",
+  "name":"obj_With_Cheese_text",
   "overriddenProperties":[],
   "parent":{
-    "name":"Map Sprit Obj",
-    "path":"folders/Objects/Map Sprit Obj.yy",
+    "name":"Text Obj",
+    "path":"folders/Objects/Text Obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_tile_garden",
-    "path":"sprites/spr_tile_garden/spr_tile_garden.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

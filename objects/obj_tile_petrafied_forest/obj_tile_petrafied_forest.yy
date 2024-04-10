@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_petrafied_forest",
-    "path":"sprites/sp_tile_petrafied_forest/sp_tile_petrafied_forest.yy",
+    "name":"spr_tile_petrafied_forest",
+    "path":"sprites/spr_tile_petrafied_forest/spr_tile_petrafied_forest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

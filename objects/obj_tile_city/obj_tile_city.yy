@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_city",
-    "path":"sprites/sp_tile_city/sp_tile_city.yy",
+    "name":"spr_tile_city",
+    "path":"sprites/spr_tile_city/spr_tile_city.yy",
   },
   "spriteMaskId":null,
   "visible":true,

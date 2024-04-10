@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_mushroom_grove",
-    "path":"sprites/sp_tile_mushroom_grove/sp_tile_mushroom_grove.yy",
+    "name":"spr_tile_mushroom_grove",
+    "path":"sprites/spr_tile_mushroom_grove/spr_tile_mushroom_grove.yy",
   },
   "spriteMaskId":null,
   "visible":true,

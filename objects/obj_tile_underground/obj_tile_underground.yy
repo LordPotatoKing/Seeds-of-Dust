@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_underground",
-    "path":"sprites/sp_tile_underground/sp_tile_underground.yy",
+    "name":"spr_tile_underground",
+    "path":"sprites/spr_tile_underground/spr_tile_underground.yy",
   },
   "spriteMaskId":null,
   "visible":true,

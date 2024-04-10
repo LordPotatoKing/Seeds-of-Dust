@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_clickable",
-    "path":"sprites/sp_tile_clickable/sp_tile_clickable.yy",
+    "name":"spr_tile_clickable",
+    "path":"sprites/spr_tile_clickable/spr_tile_clickable.yy",
   },
   "spriteMaskId":null,
   "visible":true,

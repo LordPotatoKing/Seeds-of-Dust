@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_tile_talk",
-    "path":"sprites/sp_tile_talk/sp_tile_talk.yy",
+    "name":"spr_tile_talk",
+    "path":"sprites/spr_tile_talk/spr_tile_talk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
