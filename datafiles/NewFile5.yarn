@@ -374,7 +374,7 @@ title: option L.B
 ---
 //Leads to ending text
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 2722,463
 __PrivCrochet_tags: 
 title: option M.B
@@ -388,12 +388,12 @@ title: option L.A
 ---
 //Leads to ending text
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 2942,-882
 __PrivCrochet_tags: 
 title: option M.A
 ---
-//Takes you back to camp, from which point you can click whatever you want or go back to the map
+Click the map button to continue.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 2274,-739
@@ -410,7 +410,7 @@ But here, there is a chance for something more.
 -> Alright. Say we stayed. What would happen then?
     <<jump Option J.A>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 3528,-2
 __PrivCrochet_tags: 
 title: Forest
@@ -423,7 +423,7 @@ Based on what you see now, you wonder if those stories were ever true.
 The ground is scattered with what you assume are trees,
 but they look more like the stones that litter your underground world.
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 3788,314
 __PrivCrochet_tags: 
 title: Grove
