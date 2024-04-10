@@ -29,6 +29,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Backround","order":1,"path":"folders/Sprites/Backround.yy",},
     {"name":"Click tile sprites","order":2,"path":"folders/Sprites/Click tile sprites.yy",},
+    {"name":"NPCs","order":5,"path":"folders/Sprites/NPCs.yy",},
     {"name":"Text","order":3,"path":"folders/Sprites/Text.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
@@ -121,6 +122,7 @@
     {"name":"ChatterboxVariablesResetAll","order":10,"path":"scripts/ChatterboxVariablesResetAll/ChatterboxVariablesResetAll.yy",},
     {"name":"ChatterboxWait","order":9,"path":"scripts/ChatterboxWait/ChatterboxWait.yy",},
     {"name":"IsChatterbox","order":5,"path":"scripts/IsChatterbox/IsChatterbox.yy",},
+    {"name":"bk_all","order":6,"path":"sprites/bk_all/bk_all.yy",},
     {"name":"bk_camp","order":2,"path":"sprites/bk_camp/bk_camp.yy",},
     {"name":"bk_city","order":3,"path":"sprites/bk_city/bk_city.yy",},
     {"name":"bk_forest","order":4,"path":"sprites/bk_forest/bk_forest.yy",},
@@ -135,6 +137,5 @@
     {"name":"sp_tile_talk","order":2,"path":"sprites/sp_tile_talk/sp_tile_talk.yy",},
     {"name":"sp_tile_underground","order":5,"path":"sprites/sp_tile_underground/sp_tile_underground.yy",},
     {"name":"sp_title","order":1,"path":"sprites/sp_title/sp_title.yy",},
-    {"name":"bk_all","order":6,"path":"sprites/bk_all/bk_all.yy",},
   ],
 }
