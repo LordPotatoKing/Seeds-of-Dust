@@ -1,290 +1,48 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 311,145
-__PrivCrochet_tags: 
-title: Start
----
-<<bg(0)>>
-
-Me: Cheese! You made it out! Are you looking for a way home too?
-Cheese:  I am. I think I heard that there’s another entrance a few days West of here.
-
--> We should travel together then. We’ll probably be safer that way.
-    <<jump Option A>>
-
--> That sounds pretty dangerous. I’m going to try to find another way, but good 
-luck!
-    <<jump Option B>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 556,-257
+__PrivCrochet_position: 999,198
 __PrivCrochet_tags: 
 title: Option A
 ---
-Brooklyn: Hello travelers! You must be from the Underworld. I’m sure our world is strange to you, so please, feel free to take your rest at our camp. We can introduce you to the crows!
 
--> Thank you for your generosity, we'd be glad to meet the crows. 
-<<jump Option C.A>>
-
--> No thank you, we're fine on our own. 
-<<jump Option D.A>>
+Me: This is the classroom.
+Boy: Wow!
+<<jump Start>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 359,726
+__PrivCrochet_position: 650,529
 __PrivCrochet_tags: 
 title: Option B
 ---
-Brooklyn: Hello traveler! You must be from the Underworld. I’m sure our world is strange to you, so please, feel free to take your rest at our camp. We can introduce you to the crows!
 
--> Thank you for your generosity, I'd be glad to meet the crows. 
-<<jump Option C.B>>
-
--> No thank you, I'm fine on my own. 
-    Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always
-<<jump Option D.B>>
+Me: This is the music room.
+Boy: Wow!
+<<jump Start>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 892,-496
+__PrivCrochet_position: 1046,464
 __PrivCrochet_tags: 
-title: Option C.A
+title: Option C
 ---
-Brooklyn: Welcome to our camp. It may not seem like much to you underworlders, but you’re free to share what we have. We’ve got mushrooms, mushrooms, some jerky, some cockroach brittle, and mushrooms.
 
-	-> Mushrooms are fine by us. But what were those crows you mentioned introducing us to? I’d love to know more.
-    <<jump Option E.A>>
+Me: This is the bathroom.
+Boy: Wow!
+<<jump Start>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 583,224
+__PrivCrochet_tags: 
+title: Start
+---
 
-	-> Cheese knows how to get home, but you seem to know much more about surviving up here than we do. Do you know how we could get back home?
-    <<jump Option F.A>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 825,648
-__PrivCrochet_tags: 
-title: Option C.B
----
-Brooklyn: Welcome to our camp. It may not seem like much to an underworlder, but you’re free to share what we have. We’ve got mushrooms, mushrooms, some jerky, some cockroach brittle, and mushrooms.
-
-	-> Mushrooms are fine by me. But what were those crows you mentioned introducing me to? I’d love to know more.
-    <<jump Option E.B>>
-
-	-> You seem to know much more about surviving up here than I do. Do you know how I could get back home?
-    <<jump Option F.B>>
-===
-__PrivCrochet_colorID: 1
-__PrivCrochet_position: 502,1038
-__PrivCrochet_tags: 
-title: Option D.B
----
-//Takes you back to the map
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 876,-22
-__PrivCrochet_tags: 
-title: Option D.A
----
-//Takes you back to the map
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1045,528
-__PrivCrochet_tags: 
-title: Option E.B
----
-Brooklyn: Those black birds are called crows, and they’re sacred to our people. They bring seeds to us in exchange for scraps or trinkets, and we give the seeds to the gardener for safekeeping.
-Me: The gardener?
-Brooklyn: Yes. He tends the seeds, in the hope that we can make them grow again someday. I can introduce you to him if you’d like.
-	-> He sounds fascinating. Lead the way!
-    <<jump Option H.B>>
-    -> Seems like a lost cause. Everyone knows nothing grows up here, and I really need to be getting home. Can you help me with that?
-    <<jump Option G.B>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 858,1230
-__PrivCrochet_tags: 
-title: Option F.B
----
-Brooklyn: If you’d really like to go back underground, I’m sure someone here can help guide you there. We'd need help with a few tasks first to free up some hands though. 
-
-    -> I’ll do it!
-    <<jump Option G.B>>
-
-	-> I think I need more time to decide. Could you tell me more about what it’s like up here? 
-    <<jump Option E.B>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1257,1256
-__PrivCrochet_tags: 
-title: Option G.B
----
-Brooklyn: Explains puzzle
-//Exit to puzzle
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1700,517
-__PrivCrochet_tags: 
-title: Option H.B
----
-Gardener: Welcome to the garden, child. This is the cornerstone of our society here, where I attempt to make seeds grow once again. 
-
-You: I’ve never seen anything like this. A tree, right? How did you learn how to care for it?
-
-Gardener: I found a pre-collapse text in my youth that told me how to care for many now-extinct species. This is the only place any of our people have ever found where anything grows besides mushrooms, so I was entrusted with its care, and I teach the others what I know. I understand you come from the underworld, but if you would like to learn about what we do, we could always use more help, and you are welcome to stay. 
-
-    -> What would happen if I stayed?
-    <<jump Option J.B>>
-    -> I’m sorry, but I have to go. I have a life already.
-    <<jump Option K.B>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2220,393
-__PrivCrochet_tags: 
-title: Option J.B
----
-Gardener: You would learn how to make things grow. I can’t promise you would ever see
-it happen. You must decide what that chance is worth to you.
-	-> I’ll stay. I want a chance to see what the world could be
-    <<jump option L.B>>
-	-> I’m sorry, but I have to go. I have a life already.
-    <<jump Option K.B>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2278,697
-__PrivCrochet_tags: 
-title: Option K.B
----
-Gardener: We'll be sorry to see you go back underground, but I understand. Feel free to go back to the camp and do whatever you need before you go
-
--> Is there any way you could help me get home?
-    Gardener: Indeed. You'll want to ask Brooklyn for help.
-    <<jump Option G.B>>
--> Thank you. Good luck with your mission. I hope something grows here eventually. 
-    <<jump option M.B>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1257,-758
-__PrivCrochet_tags: 
-title: Option E.A
----
-Brooklyn: Those black birds are called crows, and they’re sacred to our people. They bring seeds to us in exchange for scraps or trinkets, and we give the seeds to the gardener for safekeeping.
-Me: The gardener?
-Brooklyn: Yes. He tends the seeds, in the hope that we can make them grow again someday. I can introduce you to him if you’d like.
-	-> He sounds fascinating. Lead the way!
-    <<jump Option H.A>>
-	-> Hmm. That seems pretty futile, but maybe getting home is too. What do you think, Cheese?
-    <<jump Option I.A>>
-    -> Seems like a lost cause. Everyone knows nothing grows up here, and we really need to be getting home. Can you help us with that?
-    <<jump Option G.A>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1257,36
-__PrivCrochet_tags: 
-title: Option F.A
----
-Brooklyn: If you’d really like to go back underground, I’m sure someone here can help guide you there. We'd need help with a few tasks first to free up some hands though. 
-
-    -> We've got this!
-    <<jump Option G.A>>
-
-	-> I think we need more time to decide. Could you tell us more about what it’s like up here?
-    <<jump Option E.A>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1477,-84
-__PrivCrochet_tags: 
-title: Option G.A
----
-Brooklyn: Explains puzzle
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1766,-776
-__PrivCrochet_tags: 
-title: Option H.A
----
-Gardener: Welcome to the garden, children. This is the cornerstone of our society here, where I attempt to make seeds grow once again. 
-
-You: I’ve never seen anything like this. A tree, right? How did you learn how to care for it?
-
-Gardener: I found a pre-collapse text in my youth that told me how to care for many now-extinct species. This is the only place any of our people have ever found where anything grows besides mushrooms, so I was entrusted with its care, and I teach the others what I know. I understand you come from the underworld, but if you would like to learn about what we do, we could always use more help, and you are welcome to stay. 
-
-    -> What would happen if I stayed?
-    <<jump Option J.A>>
-    -> I’m sorry, but I have to go. I have a life already.
-    <<jump Option K.A>>
-    -> Cheese, I'm going to need your input again. 
-    <<jump Option Cheese>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1787,-305
-__PrivCrochet_tags: 
-title: Option I.A
----
-Cheese: I think this is fascinating, and it's not likely that the entrance I know about is going anywhere. Unless there's another earthquake. But then maybe we wouldn't want to be there for that. Hmmm...
-
--> Thanks for that, Cheese. Brooklyn, I think we should probably be getting home, could you help us out with that?
-<<jump Option G.A>>
-
--> Good points, Cheese. I think we'd like to meet this Gardener. Lead on!
-<<jump Option H.A>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2430,-1135
-__PrivCrochet_tags: 
-title: Option J.A
----
-Gardener: You would learn how to make things grow. I can’t promise you would ever see it happen. You must decide what that chance is worth to you.
-	-> We'll stay. I think we both want a chance to see what the world could be
-    <<jump option L.A>>
-	-> I’m sorry, but we have to go. We have a life already.
-    <<jump Option K.A>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2483,-312
-__PrivCrochet_tags: 
-title: Option K.A
----
-Gardener: We'll be sorry to see you both go back underground, but I understand. Feel free to go back to the camp and do whatever you need before you go
-
--> Is there any way you could help us get home?
-    Gardener: Indeed. You'll want to ask Brooklyn for help.
-    <<jump Option G.A>>
--> Thank you. Good luck with your mission. I hope something grows here eventually. 
-    <<jump option M.A>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2812,55
-__PrivCrochet_tags: 
-title: option L.B
----
-//Leads to ending text
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2722,463
-__PrivCrochet_tags: 
-title: option M.B
----
-//Takes you back to camp, from which point you can click whatever you want or go back to the map
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2967,-1203
-__PrivCrochet_tags: 
-title: option L.A
----
-//Leads to ending text
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2942,-882
-__PrivCrochet_tags: 
-title: option M.A
----
-//Takes you back to camp, from which point you can click whatever you want or go back to the map
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2274,-739
-__PrivCrochet_tags: 
-title: Option Cheese
----
-Cheese: We don't have an option that isn't dangerous. We could die going home, but we could die here too. At home, we would have comfort, and familiarity. But here, there is a chance for something more.
-
--> That's that then. We should go home.
-<<jump Option K.A>>
--> Alright. Say we stayed. What would happen then?
-<<jump Option J.A>>
+Boy: Where are you going?
+    -> The classroom
+		Boy: Let's go!
+        <<jump Option A>>
+    -> The music room
+		Boy: Let's go!
+        <<jump Option B>>
+    -> The bathroom <<if visited("Option C") == false>>
+		Boy: Let's go!
+        <<jump Option C>>
 ===

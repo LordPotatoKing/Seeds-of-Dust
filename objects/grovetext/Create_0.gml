@@ -1,10 +1,7 @@
 /// @description Initialize Chatterbox and set varubles
-// You can write your code in this editor
-
-ChatterboxLoadFromFile("NewFile5.yarn")				// load file
-// ChatterboxAddFunction("bg", background_set_index)	//Add function to change backround
+// You can write your code in this editor				
 chatterbox=ChatterboxCreate()						//create a chatterbox
-ChatterboxJump(chatterbox,"Start")					//go to "start" box
+ChatterboxJump(chatterbox,"Grove")					
 chatterbox_update()									//Get current node and node text
 
 option_index = 0									//Initialize index
