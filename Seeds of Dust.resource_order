@@ -55,6 +55,7 @@
     {"name":"rm_mushroom_grove","order":3,"path":"rooms/rm_mushroom_grove/rm_mushroom_grove.yy",},
     {"name":"rm_petrafied_forest","order":4,"path":"rooms/rm_petrafied_forest/rm_petrafied_forest.yy",},
     {"name":"rm_underground","order":5,"path":"rooms/rm_underground/rm_underground.yy",},
+    {"name":"rm_dialog","order":5,"path":"rooms/rm_dialog/rm_dialog.yy",},
     {"name":"__ChatterboxClassBodySubstring","order":1,"path":"scripts/__ChatterboxClassBodySubstring/__ChatterboxClassBodySubstring.yy",},
     {"name":"__ChatterboxClassInstruction","order":2,"path":"scripts/__ChatterboxClassInstruction/__ChatterboxClassInstruction.yy",},
     {"name":"__ChatterboxClassLine","order":3,"path":"scripts/__ChatterboxClassLine/__ChatterboxClassLine.yy",},
