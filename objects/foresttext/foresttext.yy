@@ -10,8 +10,8 @@
   "name":"foresttext",
   "overriddenProperties":[],
   "parent":{
-    "name":"text",
-    "path":"folders/Objects/text.yy",
+    "name":"Text Obj",
+    "path":"folders/Objects/Text Obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
