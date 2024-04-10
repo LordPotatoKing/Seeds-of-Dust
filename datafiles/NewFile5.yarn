@@ -4,16 +4,16 @@ __PrivCrochet_position: 311,145
 __PrivCrochet_tags: 
 title: Start
 ---
-<<bg(0)>>
-
 Me: Cheese! You made it out! Are you looking for a way home too?
 Cheese:  I am. I think I heard that there’s another entrance a few days West of here.
 
 -> We should travel together then. We’ll probably be safer that way.
+    <<set $alone to false>>
     <<jump Option A>>
 
 -> That sounds pretty dangerous. I’m going to try to find another way, but good 
 luck!
+    <<set $alone to true>>
     <<jump Option B>>
 ===
 __PrivCrochet_colorID: 0
@@ -114,8 +114,13 @@ __PrivCrochet_position: 1257,1256
 __PrivCrochet_tags: 
 title: Option G.B
 ---
-Brooklyn: Explains puzzle
-//Exit to puzzle
+Brooklyn: We can give you a guide book that would help you survive the wilderness. In exchange, we could use help with one of the crows. It's stolen a family heirloom from one of our people, and their religion prevents them from taking anything from a crow. That bird over there is the thief, if you could get the item returned.
+
+//find something shiny, distract the crow with item
+<<jump Option N.B>>
+
+//find a rock, kill the crow with it
+<<jump Option O.B>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 1700,517
@@ -178,7 +183,7 @@ __PrivCrochet_position: 1257,36
 __PrivCrochet_tags: 
 title: Option F.A
 ---
-Brooklyn: If you’d really like to go back underground, I’m sure someone here can help guide you there. We'd need help with a few tasks first to free up some hands though. 
+Brooklyn: If you'd really like to go back home, we could help you out. We engage in trade here, so we would exchange a task for a task, if you're willing. 
 
     -> We've got this!
     <<jump Option G.A>>
@@ -186,12 +191,18 @@ Brooklyn: If you’d really like to go back underground, I’m sure someone here
 	-> I think we need more time to decide. Could you tell us more about what it’s like up here?
     <<jump Option E.A>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1477,-84
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: 1496,-101
 __PrivCrochet_tags: 
 title: Option G.A
 ---
-Brooklyn: Explains puzzle
+Brooklyn: We can give you a guide book that would help you survive the wilderness. In exchange, we could use help with one of the crows. It's stolen a family heirloom from one of our people, and their religion prevents them from taking anything from a crow. That bird over there is the thief, if you could get the item returned.
+
+//find something shiny, distract the crow with item
+<<jump Option N.A>>
+
+//find a rock, kill the crow with it
+<<jump Option O.A>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 1766,-776
@@ -212,7 +223,7 @@ Gardener: I found a pre-collapse text in my youth that told me how to care for m
     <<jump Option Cheese>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1787,-305
+__PrivCrochet_position: 1793,-449
 __PrivCrochet_tags: 
 title: Option I.A
 ---
@@ -287,4 +298,54 @@ Cheese: We don't have an option that isn't dangerous. We could die going home, b
 <<jump Option K.A>>
 -> Alright. Say we stayed. What would happen then?
 <<jump Option J.A>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1419,315
+__PrivCrochet_tags: 
+title: Option N.A
+---
+Brooklyn: Thank you for your help! Here's the guide book, and good luck on your travels!
+
+-> Thank you! We'll be on our way now!
+//Goes to map
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2071,66
+__PrivCrochet_tags: 
+title: Option O.A
+---
+Brooklyn: Why would you kill that crow? We told you they're sacred! You can't stay here now!
+
+//Get kicked back to the map
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 895,1588
+__PrivCrochet_tags: 
+title: Option N.B
+---
+Brooklyn: Thank you for your help! Here's the guide book, and good luck on your travels!
+
+-> Thank you! I'll be on my way now!
+//Goes to map
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1776,1440
+__PrivCrochet_tags: 
+title: Option O.B
+---
+Brooklyn: Why would you kill that crow? We told you they're sacred! You can't stay here now!
+
+//Get kicked back to the map
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3785,-521
+__PrivCrochet_tags: 
+title: Forest
+---
+You remember hearing stories in your youth about 'trees'.
+In the old world, they would stand tall, reaching miles above the ground. 
+Some of them were high enough to scrape the ceiling of the sky. 
+They would be covered in shades of brilliant green, like emeralds that grew along its skin. 
+Based on what you see now, you wonder if those stories were ever true. 
+The ground is scattered with what you assume are trees, but they look more like the stones that litter your underground world.
 ===
