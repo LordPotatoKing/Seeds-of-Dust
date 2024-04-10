@@ -1,7 +1,9 @@
+/// @description Initialize Chatterbox and set varubles
+// You can write your code in this editor
+
 ChatterboxLoadFromFile("Forest.yarn")				// load file
-// ChatterboxAddFunction("bg", backround_set_index)	//Add function to change backround
 chatterbox=ChatterboxCreate()						//create a chatterbox
-ChatterboxJump(chatterbox,"Forest")					//go to "start" box
+ChatterboxJump(chatterbox,"Forest")					
 chatterbox_update()									//Get current node and node text
 
 option_index = 0									//Initialize index
