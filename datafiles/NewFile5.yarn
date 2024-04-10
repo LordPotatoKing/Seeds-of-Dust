@@ -54,7 +54,7 @@ I’m sure our world is strange to you, so please,
 feel free to take your rest at our camp. 
 We can introduce you to the crows!
 
--> Thank you for your generosity, we'd be glad to meet the crows. 
+-> We'd be glad to meet the crows. 
     <<jump Option C.A>>
 
 -> No thank you, we're fine on our own. 
@@ -105,10 +105,10 @@ some jerky,
 some cockroach brittle, 
 and mushrooms.
 
-	-> Mushrooms are fine by us. But what were those crows you mentioned introducing us to? I'd love to know more.
+-> What about those crows you mentioned introducing us to?
     <<jump Option E.A>>
 
-	-> Cheese knows how to get home, but you seem to know much more about surviving up here than we do. Do you know how we could get back home?
+-> Do you know how we could get back home?
     <<jump Option F.A>>
 ===
 __PrivCrochet_colorID: 1
@@ -124,10 +124,9 @@ mushrooms,
 some jerky, 
 some cockroach brittle, 
 and mushrooms.
-	-> Mushrooms are fine by me. But what about those crows you mentioned? I'd love to know more.
+-> What about those crows you mentioned? 
     <<jump Option E.B>>
-
-	-> You seem to know much more about surviving up here than I do. Do you know how I could get back home?
+-> Do you know how I could get back home?
     <<jump Option F.B>>
 ===
 __PrivCrochet_colorID: 1
@@ -149,16 +148,16 @@ __PrivCrochet_position: 1045,528
 __PrivCrochet_tags: 
 title: Option E.B
 ---
-Brooklyn: Those black birds are called crows, and they’re sacred to our people. 
+Brooklyn: Those black birds are called crows, and they're sacred to our people. 
 They bring seeds to us in exchange for scraps or trinkets, 
 and we give the seeds to the gardener for safekeeping.
 You: The gardener?
 Brooklyn: Yes. He tends the seeds, 
 in the hope that we can make them grow again someday. 
-I can introduce you to him if you’d like.
-	-> He sounds fascinating. Lead the way!
+I can introduce you to him if you'd like.
+-> He sounds fascinating. Lead the way!
     <<jump Option H.B>>
-    -> Seems like a lost cause. Everyone knows nothing grows up here, and I really need to be getting home. Can you help me with that?
+-> Can you just help me get home?
     <<jump Option G.B>>
 ===
 __PrivCrochet_colorID: 1
@@ -166,23 +165,31 @@ __PrivCrochet_position: 858,1230
 __PrivCrochet_tags: 
 title: Option F.B
 ---
-Brooklyn: If you’d really like to go back underground, 
-I’m sure someone here can help guide you there. 
+Brooklyn: If you'd really like to go back underground, 
+I'm sure someone here can help guide you there. 
 We'd need help with a few tasks first to free up some hands though. 
 
-    -> I’ll do it!
+-> I'll do it!
     <<jump Option G.B>>
 
-	-> I think I need more time to decide. Could you tell me more about what it’s like up here? 
+-> Could you tell me more about what it's like up here? 
     <<jump Option E.B>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1257,1256
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1257,1252
 __PrivCrochet_tags: 
 title: Option G.B
 ---
-Brooklyn: Explains puzzle
-//Exit to puzzle
+Brooklyn: We can give you a guide book that would help you survive the wilderness. 
+In exchange, we could use help with one of the crows. 
+It's stolen a family heirloom from one of our people, 
+and their religion prevents them from taking anything from a crow. 
+That bird over there is the thief, if you could get the item returned.
+->Find something shiny to distract the crow
+    <<jump Option N.B>>
+
+->Find a large rock to kill the crow with
+    <<jump Option O.B>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 1700,517
@@ -225,31 +232,34 @@ Gardener: We'll be sorry to see you go back underground, but I understand. Feel 
 -> Thank you. Good luck with your mission. I hope something grows here eventually. 
     <<jump option M.B>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1257,-758
 __PrivCrochet_tags: 
 title: Option E.A
 ---
-Brooklyn: Those black birds are called crows, and they’re sacred to our people. 
+Brooklyn: Those black birds are called crows, and they're sacred to our people. 
 They bring seeds to us in exchange for scraps or trinkets, 
 and we give the seeds to the gardener for safekeeping.
 You: The gardener?
 Brooklyn: Yes. He tends the seeds, 
 in the hope that we can make them grow again someday. 
-I can introduce you to him if you’d like.
-	-> He sounds fascinating. Lead the way!
+I can introduce you to him if you'd like.
+-> He sounds fascinating. Lead the way!
     <<jump Option H.A>>
-	-> Hmm. That seems pretty futile, but maybe getting home is too. What do you think, Cheese?
+-> What do you think, Cheese?
     <<jump Option I.A>>
-    -> Seems like a lost cause. Everyone knows nothing grows up here, and we really need to be getting home. Can you help us with that?
+-> Can you just help us get home?
     <<jump Option G.A>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1257,36
 __PrivCrochet_tags: 
 title: Option F.A
 ---
-Brooklyn: If you’d really like to go back underground, I’m sure someone here can help guide you there. We'd need help with a few tasks first to free up some hands though. 
+Brooklyn: If you'd really like to go back home, 
+we could help you out. 
+We engage in trade here, 
+so we would exchange a task for a task, if you're willing. 
 
     -> We've got this!
     <<jump Option G.A>>
@@ -379,4 +389,26 @@ title: Grove
 ---
 Down below, your people survive primarily off mushrooms and hope. 
 You don’t have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however. Some of them extend far past your own height, offering cover from the rain.
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1163,1496
+__PrivCrochet_tags: 
+title: Option N.B
+---
+Brooklyn: Thank you for your help! 
+Here's the guide book, and good luck on your travels!
+
+-> Thank you! I'll be on my way now!
+//Goes to map
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1508,1456
+__PrivCrochet_tags: 
+title: Option O.B
+---
+Brooklyn: Why would you kill that crow? 
+We told you they were sacred! 
+You can't stay here now!
+
+//Get kicked back to the map
 ===
