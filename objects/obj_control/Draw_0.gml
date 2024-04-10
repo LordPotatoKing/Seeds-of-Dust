@@ -6,8 +6,9 @@ draw_set_valign(fa_middle)
 
 var _margin_text = 120 // Horazontal text Margin (uses pixle coordenates)
 var _margin_char = 200 // Horazontal character margin
+var _roomname = room_get_name(room);
 
-if IsChatterbox(chatterbox) and text != undefined
+if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 {
 	// var _me = (ChatterboxGetContentSpeaker(chatterbox,0)=="Me")
 	

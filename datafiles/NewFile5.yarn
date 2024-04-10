@@ -191,40 +191,52 @@ That bird over there is the thief, if you could get the item returned.
 ->Find a large rock to kill the crow with
     <<jump Option O.B>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1700,517
 __PrivCrochet_tags: 
 title: Option H.B
 ---
-Gardener: Welcome to the garden, child. This is the cornerstone of our society here, where I attempt to make seeds grow once again. 
+Gardener: Welcome to the garden, children. 
+This is the cornerstone of our society here,
+where I attempt to make seeds grow once again. 
+You: I’ve never seen anything like this. 
+This is a tree, right? 
+How did you learn how to care for it?
 
-You: I’ve never seen anything like this. A tree, right? How did you learn how to care for it?
-
-Gardener: I found a pre-collapse text in my youth that told me how to care for many now-extinct species. This is the only place any of our people have ever found where anything grows besides mushrooms, so I was entrusted with its care, and I teach the others what I know. I understand you come from the underworld, but if you would like to learn about what we do, we could always use more help, and you are welcome to stay. 
-
-    -> What would happen if I stayed?
+Gardener: I found a pre-collapse text in my youth,
+that told me how to care for many now-extinct species. 
+This is the only place where anything grows besides mushrooms,
+so I was entrusted with its care, 
+and I teach the others what I know. 
+I understand you come from the underworld, 
+but if you would like to learn about what we do, 
+we could always use more help, and you are welcome to stay. 
+-> What would happen if I stayed?
     <<jump Option J.B>>
-    -> I’m sorry, but I have to go. I have a life already.
+-> I’m sorry, but I have to go. 
     <<jump Option K.B>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 2220,393
 __PrivCrochet_tags: 
 title: Option J.B
 ---
-Gardener: You would learn how to make things grow. I can’t promise you would ever see
-it happen. You must decide what that chance is worth to you.
-	-> I’ll stay. I want a chance to see what the world could be
+Gardener: You would learn how to make things grow. 
+I can't promise you would ever see it happen. 
+You must decide what that chance is worth to you.
+	-> I'll stay. I want a chance to see what the world could be.
     <<jump option L.B>>
-	-> I’m sorry, but I have to go. I have a life already.
+	-> I'm sorry, but I have to go.
     <<jump Option K.B>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 2278,697
 __PrivCrochet_tags: 
 title: Option K.B
 ---
-Gardener: We'll be sorry to see you go back underground, but I understand. Feel free to go back to the camp and do whatever you need before you go
+Gardener: We'll be sorry to see you go back underground, 
+but I understand. 
+Feel free to go back to the camp before you go.
 
 -> Is there any way you could help me get home?
     Gardener: Indeed. You'll want to ask Brooklyn for help.
@@ -267,66 +279,92 @@ so we would exchange a task for a task, if you're willing.
 	-> I think we need more time to decide. Could you tell us more about what it’s like up here?
     <<jump Option E.A>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1477,-84
 __PrivCrochet_tags: 
 title: Option G.A
 ---
-Brooklyn: Explains puzzle
+Brooklyn: We can give you a guide book that would help you survive the wilderness. 
+In exchange, we could use help with one of the crows. 
+It's stolen a family heirloom from one of our people, 
+and their religion prevents them from taking anything from a crow. 
+That bird over there is the thief, if you could get the item returned.
+->Find something shiny to distract the crow
+    <<jump Option N.A>>
+
+->Find a large rock to kill the crow with
+    <<jump Option O.A>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1766,-776
 __PrivCrochet_tags: 
 title: Option H.A
 ---
-Gardener: Welcome to the garden, children. This is the cornerstone of our society here, where I attempt to make seeds grow once again. 
+Gardener: Welcome to the garden, children. 
+This is the cornerstone of our society here,
+where I attempt to make seeds grow once again. 
+You: I’ve never seen anything like this. 
+This is a tree, right? 
+How did you learn how to care for it?
 
-You: I’ve never seen anything like this. A tree, right? How did you learn how to care for it?
+Gardener: I found a pre-collapse text in my youth,
+that told me how to care for many now-extinct species. 
+This is the only place where anything grows besides mushrooms,
+so I was entrusted with its care, 
+and I teach the others what I know. 
+I understand you come from the underworld, 
+but if you would like to learn about what we do, 
+we could always use more help, and you are welcome to stay. 
 
-Gardener: I found a pre-collapse text in my youth that told me how to care for many now-extinct species. This is the only place any of our people have ever found where anything grows besides mushrooms, so I was entrusted with its care, and I teach the others what I know. I understand you come from the underworld, but if you would like to learn about what we do, we could always use more help, and you are welcome to stay. 
-
-    -> What would happen if I stayed?
+-> What would happen if I stayed?
     <<jump Option J.A>>
-    -> I’m sorry, but I have to go. I have a life already.
+-> I’m sorry, but I have to go. I have a life already.
     <<jump Option K.A>>
-    -> Cheese, I'm going to need your input again. 
+-> Cheese, I'm going to need your input again. 
     <<jump Option Cheese>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1787,-305
 __PrivCrochet_tags: 
 title: Option I.A
 ---
-Cheese: I think this is fascinating, and it's not likely that the entrance I know about is going anywhere. Unless there's another earthquake. But then maybe we wouldn't want to be there for that. Hmmm...
+Cheese: I think this is fascinating, 
+and it's not likely that the entrance I know about is going anywhere. 
+Unless there's another earthquake. 
+But then maybe we wouldn't want to be there for that. Hmmm...
 
--> Thanks for that, Cheese. Brooklyn, I think we should probably be getting home, could you help us out with that?
-<<jump Option G.A>>
+-> We should probably be getting home.
+    <<jump Option G.A>>
 
--> Good points, Cheese. I think we'd like to meet this Gardener. Lead on!
-<<jump Option H.A>>
+-> I think we'd like to meet this Gardener. 
+    <<jump Option H.A>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 2430,-1135
 __PrivCrochet_tags: 
 title: Option J.A
 ---
-Gardener: You would learn how to make things grow. I can’t promise you would ever see it happen. You must decide what that chance is worth to you.
-	-> We'll stay. I think we both want a chance to see what the world could be
+Gardener: You would learn how to make things grow. 
+I can't promise you would ever see it happen. 
+You must decide what that chance is worth to you.
+-> I think we both want a chance to see what the world could be.
     <<jump option L.A>>
-	-> I’m sorry, but we have to go. We have a life already.
+-> I'm sorry, but we have to go.
     <<jump Option K.A>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 2483,-312
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 2358,-314
 __PrivCrochet_tags: 
 title: Option K.A
 ---
-Gardener: We'll be sorry to see you both go back underground, but I understand. Feel free to go back to the camp and do whatever you need before you go
+Gardener: We'll be sorry to see you both go back underground, 
+but I understand. 
+Feel free to go back to the camp before you go.
 
 -> Is there any way you could help us get home?
     Gardener: Indeed. You'll want to ask Brooklyn for help.
     <<jump Option G.A>>
--> Thank you. Good luck with your mission. I hope something grows here eventually. 
+-> Thank you. Good luck with your mission.
     <<jump option M.A>>
 ===
 __PrivCrochet_colorID: 0
@@ -357,17 +395,20 @@ title: option M.A
 ---
 //Takes you back to camp, from which point you can click whatever you want or go back to the map
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 2274,-739
 __PrivCrochet_tags: 
 title: Option Cheese
 ---
-Cheese: We don't have an option that isn't dangerous. We could die going home, but we could die here too. At home, we would have comfort, and familiarity. But here, there is a chance for something more.
+Cheese: We don't have an option that isn't dangerous. 
+We could die going home, but we could die here too. 
+At home, we would have comfort, and familiarity. 
+But here, there is a chance for something more.
 
 -> That's that then. We should go home.
-<<jump Option K.A>>
+    <<jump Option K.A>>
 -> Alright. Say we stayed. What would happen then?
-<<jump Option J.A>>
+    <<jump Option J.A>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 3528,-2
@@ -405,6 +446,28 @@ __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1508,1456
 __PrivCrochet_tags: 
 title: Option O.B
+---
+Brooklyn: Why would you kill that crow? 
+We told you they were sacred! 
+You can't stay here now!
+
+//Get kicked back to the map
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1500,235
+__PrivCrochet_tags: 
+title: Option N.A
+---
+Brooklyn: Thank you for your help! 
+Here's the guide book, and good luck on your travels!
+
+-> Thank you! I'll be on my way now!
+//Goes to map
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1754,233
+__PrivCrochet_tags: 
+title: Option O.A
 ---
 Brooklyn: Why would you kill that crow? 
 We told you they were sacred! 
