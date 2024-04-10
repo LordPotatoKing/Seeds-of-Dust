@@ -60,14 +60,23 @@ __PrivCrochet_position: 359,726
 __PrivCrochet_tags: 
 title: Option B
 ---
-As you walk on, you're still cold and wet, but it is a comfort to have company. Cheese's presence makes the walk more bearable, but you do worry about how the two of you will manage to find food.
-Brooklyn: Hello traveler! You must be from the Underworld. I'm sure our world is strange to you, so please, feel free to take your rest at our camp. We can introduce you to the crows!
+As you walk on, you're still cold and wet, 
+but it is a comfort to have company. 
+Cheese's presence makes the walk more bearable, 
+but you do worry about how the two of you will manage to find food.
+Suddenly, you come across another human being.
+Brooklyn: Hello traveler! You must be from the Underworld. 
+I'm sure our world is strange to you, so please, 
+feel free to take your rest at our camp. 
+We can introduce you to the crows!
 
 -> Thank you for your generosity, I'd be glad to meet the crows. 
     <<jump Option C.B>>
 
 -> No thank you, I'm fine on my own. 
-    Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always
+    Brooklyn: If you insist on going alone, do be careful. 
+    This world can be inhospitable, 
+    and things that look trustworthy aren't always what they seem.
     <<jump Option D.B>>
 ===
 __PrivCrochet_colorID: 0
@@ -84,12 +93,18 @@ Brooklyn: Welcome to our camp. It may not seem like much to you underworlders, b
     <<jump Option F.A>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 825,648
+__PrivCrochet_position: 746,621
 __PrivCrochet_tags: 
 title: Option C.B
 ---
-Brooklyn: Welcome to our camp. It may not seem like much to an underworlder, but you’re free to share what we have. We’ve got mushrooms, mushrooms, some jerky, some cockroach brittle, and mushrooms.
-
+Brooklyn: Welcome to our camp. 
+It may not seem like much to an underworlder, 
+but you’re free to share what we have. 
+We’ve got mushrooms, 
+mushrooms, 
+some jerky, 
+some cockroach brittle, 
+and mushrooms.
 	-> Mushrooms are fine by me. But what were those crows you mentioned introducing me to? I’d love to know more.
     <<jump Option E.B>>
 
@@ -97,11 +112,11 @@ Brooklyn: Welcome to our camp. It may not seem like much to an underworlder, but
     <<jump Option F.B>>
 ===
 __PrivCrochet_colorID: 1
-__PrivCrochet_position: 502,1038
+__PrivCrochet_position: 502,1036
 __PrivCrochet_tags: 
 title: Option D.B
 ---
-//Takes you back to the map
+Click the map button to continue.
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 876,-22
