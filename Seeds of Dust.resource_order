@@ -36,6 +36,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_dialog","order":1,"path":"fonts/fnt_dialog/fnt_dialog.yy",},
+    {"name":"grovetext","order":1,"path":"objects/grovetext/grovetext.yy",},
     {"name":"obj_button_exit","order":2,"path":"objects/obj_button_exit/obj_button_exit.yy",},
     {"name":"obj_button_Map","order":3,"path":"objects/obj_button_Map/obj_button_Map.yy",},
     {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
