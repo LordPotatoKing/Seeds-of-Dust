@@ -38,7 +38,7 @@ if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 				_xx =  room_width/2 
 				_yy = (room_height / 6) * (_i+2)
 				
-				draw_rectangle_center(_xx, _yy, _width*3, _height,false,c_black,0.5)
+				draw_rectangle_center(_xx, _yy, _width, _height,false,c_black,0.5)
 				
 				var _icon = ""
 				if (option_index == _i) _icon = ">"

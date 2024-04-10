@@ -1,0 +1,2 @@
+draw_text(x,y, "The garden takes your breath away. There is an old man digging holes in lines of dirt, then burying things in the dirt. There’s nothing growing from these rows, but that’s hardly important, because in the center of the garden, there is a tree, and it is alive. You have only ever known the word in abstract, as the subject of legend, as an impossibility of a long dead world. This is not abstract or impossible. This is a tree, and it is growing.")
+
