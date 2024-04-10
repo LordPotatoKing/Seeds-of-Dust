@@ -1,5 +1,5 @@
 #__PrivCrochet_version:1
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 311,145
 __PrivCrochet_tags: 
 title: Start
@@ -30,7 +30,7 @@ You've never fought anything before.
 The creature reveals itself from the rubble around you, 
 and instead of a horrible creature, you see a familiar sight.
 
-Me: Cheese! You made it out! Are you looking for a way home too?
+You: Cheese! You made it out! Are you looking for a way home too?
 Cheese:  I am. I think I heard that there's another entrance a few days West of here.
 
 -> We should travel together then. We'll probably be safer that way.
@@ -39,110 +39,157 @@ Cheese:  I am. I think I heard that there's another entrance a few days West of 
 -> That sounds pretty dangerous. I'm going to try to find another way, but good luck!
     <<jump Option B>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 701,-281
 __PrivCrochet_tags: 
 title: Option A
 ---
+As you walk on, you're still cold and wet, 
+but it is a comfort to have company. 
+Cheese's presence makes the walk more bearable, 
+but you do worry about how the two of you will manage to find food.
+Suddenly, you come across another human being.
 Brooklyn: Hello travelers! You must be from the Underworld. 
 I’m sure our world is strange to you, so please, 
 feel free to take your rest at our camp. 
 We can introduce you to the crows!
 
--> Thank you for your generosity, we'd be glad to meet the crows. 
+-> We'd be glad to meet the crows. 
     <<jump Option C.A>>
 
 -> No thank you, we're fine on our own. 
+    Brooklyn: If you insist on going alone, do be careful. 
+    This world can be inhospitable, 
+    and things that look trustworthy aren't always what they seem.
     <<jump Option D.A>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 359,726
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 359,724
 __PrivCrochet_tags: 
 title: Option B
 ---
-As you walk on, you're still cold and wet, but it is a comfort to have company. Cheese's presence makes the walk more bearable, but you do worry about how the two of you will manage to find food.
-Brooklyn: Hello traveler! You must be from the Underworld. I'm sure our world is strange to you, so please, feel free to take your rest at our camp. We can introduce you to the crows!
+As you walk on, you do wish you had company. 
+But it's going to be hard enough to feed yourself in this terrible and hostile world, 
+much less another person. 
+You need to worry about yourself. 
+You approach the ruins of what must once have been a city. 
+You have cities underground, of course, but they don't look anything like this. 
+To your surprise, you see smoke rising in the distance, and you think you hear voices. 
+Just when you've decided you're imagining things, you see someone approaching. 
+How odd! You didn't think people could survive up here!
+Brooklyn: Hello traveler! You must be from the Underworld. 
+I'm sure our world is strange to you, so please, 
+feel free to take your rest at our camp. 
+We can introduce you to the crows!
 
 -> Thank you for your generosity, I'd be glad to meet the crows. 
     <<jump Option C.B>>
 
 -> No thank you, I'm fine on my own. 
-    Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always
+    Brooklyn: If you insist on going alone, do be careful. 
+    This world can be inhospitable, 
+    and things that look trustworthy aren't always what they seem.
     <<jump Option D.B>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 892,-496
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 965,-497
 __PrivCrochet_tags: 
 title: Option C.A
 ---
-Brooklyn: Welcome to our camp. It may not seem like much to you underworlders, but you’re free to share what we have. We’ve got mushrooms, mushrooms, some jerky, some cockroach brittle, and mushrooms.
+Brooklyn: Welcome to our camp. 
+It may not seem like much to you underworlders, 
+but you're free to share what we have. 
+We've got mushrooms, 
+mushrooms, 
+some jerky, 
+some cockroach brittle, 
+and mushrooms.
 
-	-> Mushrooms are fine by us. But what were those crows you mentioned introducing us to? I’d love to know more.
+-> What about those crows you mentioned introducing us to?
     <<jump Option E.A>>
 
-	-> Cheese knows how to get home, but you seem to know much more about surviving up here than we do. Do you know how we could get back home?
+-> Do you know how we could get back home?
     <<jump Option F.A>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 825,648
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 746,621
 __PrivCrochet_tags: 
 title: Option C.B
 ---
-Brooklyn: Welcome to our camp. It may not seem like much to an underworlder, but you’re free to share what we have. We’ve got mushrooms, mushrooms, some jerky, some cockroach brittle, and mushrooms.
-
-	-> Mushrooms are fine by me. But what were those crows you mentioned introducing me to? I’d love to know more.
+Brooklyn: Welcome to our camp. 
+It may not seem like much to an underworlder, 
+but you're free to share what we have. 
+We've got mushrooms, 
+mushrooms, 
+some jerky, 
+some cockroach brittle, 
+and mushrooms.
+-> What about those crows you mentioned? 
     <<jump Option E.B>>
-
-	-> You seem to know much more about surviving up here than I do. Do you know how I could get back home?
+-> Do you know how I could get back home?
     <<jump Option F.B>>
 ===
 __PrivCrochet_colorID: 1
-__PrivCrochet_position: 502,1038
+__PrivCrochet_position: 502,1036
 __PrivCrochet_tags: 
 title: Option D.B
 ---
-//Takes you back to the map
+Click the map button to continue.
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 876,-22
 __PrivCrochet_tags: 
 title: Option D.A
 ---
-//Takes you back to the map
+Click the map button to continue.
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1045,528
 __PrivCrochet_tags: 
 title: Option E.B
 ---
-Brooklyn: Those black birds are called crows, and they’re sacred to our people. They bring seeds to us in exchange for scraps or trinkets, and we give the seeds to the gardener for safekeeping.
-Me: The gardener?
-Brooklyn: Yes. He tends the seeds, in the hope that we can make them grow again someday. I can introduce you to him if you’d like.
-	-> He sounds fascinating. Lead the way!
+Brooklyn: Those black birds are called crows, and they're sacred to our people. 
+They bring seeds to us in exchange for scraps or trinkets, 
+and we give the seeds to the gardener for safekeeping.
+You: The gardener?
+Brooklyn: Yes. He tends the seeds, 
+in the hope that we can make them grow again someday. 
+I can introduce you to him if you'd like.
+-> He sounds fascinating. Lead the way!
     <<jump Option H.B>>
-    -> Seems like a lost cause. Everyone knows nothing grows up here, and I really need to be getting home. Can you help me with that?
+-> Can you just help me get home?
     <<jump Option G.B>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 858,1230
 __PrivCrochet_tags: 
 title: Option F.B
 ---
-Brooklyn: If you’d really like to go back underground, I’m sure someone here can help guide you there. We'd need help with a few tasks first to free up some hands though. 
+Brooklyn: If you'd really like to go back underground, 
+I'm sure someone here can help guide you there. 
+We'd need help with a few tasks first to free up some hands though. 
 
-    -> I’ll do it!
+-> I'll do it!
     <<jump Option G.B>>
 
-	-> I think I need more time to decide. Could you tell me more about what it’s like up here? 
+-> Could you tell me more about what it's like up here? 
     <<jump Option E.B>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1257,1256
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1257,1252
 __PrivCrochet_tags: 
 title: Option G.B
 ---
-Brooklyn: Explains puzzle
-//Exit to puzzle
+Brooklyn: We can give you a guide book that would help you survive the wilderness. 
+In exchange, we could use help with one of the crows. 
+It's stolen a family heirloom from one of our people, 
+and their religion prevents them from taking anything from a crow. 
+That bird over there is the thief, if you could get the item returned.
+->Find something shiny to distract the crow
+    <<jump Option N.B>>
+
+->Find a large rock to kill the crow with
+    <<jump Option O.B>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 1700,517
@@ -185,27 +232,34 @@ Gardener: We'll be sorry to see you go back underground, but I understand. Feel 
 -> Thank you. Good luck with your mission. I hope something grows here eventually. 
     <<jump option M.B>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1257,-758
 __PrivCrochet_tags: 
 title: Option E.A
 ---
-Brooklyn: Those black birds are called crows, and they’re sacred to our people. They bring seeds to us in exchange for scraps or trinkets, and we give the seeds to the gardener for safekeeping.
-Me: The gardener?
-Brooklyn: Yes. He tends the seeds, in the hope that we can make them grow again someday. I can introduce you to him if you’d like.
-	-> He sounds fascinating. Lead the way!
+Brooklyn: Those black birds are called crows, and they're sacred to our people. 
+They bring seeds to us in exchange for scraps or trinkets, 
+and we give the seeds to the gardener for safekeeping.
+You: The gardener?
+Brooklyn: Yes. He tends the seeds, 
+in the hope that we can make them grow again someday. 
+I can introduce you to him if you'd like.
+-> He sounds fascinating. Lead the way!
     <<jump Option H.A>>
-	-> Hmm. That seems pretty futile, but maybe getting home is too. What do you think, Cheese?
+-> What do you think, Cheese?
     <<jump Option I.A>>
-    -> Seems like a lost cause. Everyone knows nothing grows up here, and we really need to be getting home. Can you help us with that?
+-> Can you just help us get home?
     <<jump Option G.A>>
 ===
-__PrivCrochet_colorID: 0
+__PrivCrochet_colorID: 1
 __PrivCrochet_position: 1257,36
 __PrivCrochet_tags: 
 title: Option F.A
 ---
-Brooklyn: If you’d really like to go back underground, I’m sure someone here can help guide you there. We'd need help with a few tasks first to free up some hands though. 
+Brooklyn: If you'd really like to go back home, 
+we could help you out. 
+We engage in trade here, 
+so we would exchange a task for a task, if you're willing. 
 
     -> We've got this!
     <<jump Option G.A>>
@@ -287,7 +341,7 @@ __PrivCrochet_position: 2722,463
 __PrivCrochet_tags: 
 title: option M.B
 ---
-//Takes you back to camp, from which point you can click whatever you want or go back to the map
+Click the map button to continue.
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2967,-1203
@@ -335,4 +389,26 @@ title: Grove
 ---
 Down below, your people survive primarily off mushrooms and hope. 
 You don’t have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however. Some of them extend far past your own height, offering cover from the rain.
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1163,1496
+__PrivCrochet_tags: 
+title: Option N.B
+---
+Brooklyn: Thank you for your help! 
+Here's the guide book, and good luck on your travels!
+
+-> Thank you! I'll be on my way now!
+//Goes to map
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1508,1456
+__PrivCrochet_tags: 
+title: Option O.B
+---
+Brooklyn: Why would you kill that crow? 
+We told you they were sacred! 
+You can't stay here now!
+
+//Get kicked back to the map
 ===
