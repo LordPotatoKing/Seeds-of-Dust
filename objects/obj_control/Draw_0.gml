@@ -10,10 +10,10 @@ var _roomname = room_get_name(room);
 
 if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 {
-	// var _me = (ChatterboxGetContentSpeaker(chatterbox,0)=="Me")
+	var _me = (ChatterboxGetContentSpeaker(chatterbox,0)=="Me")
 	
-	// draw_sprite_ext(characters,0, _margin_char ,				room_height, size[_me], size[_me], 0, color[_me],1)
-	// draw_sprite_ext(characters,1, room_width - _margin_char ,	room_height, size[!_me], size[!_me], 0, color[!_me],1)
+	draw_sprite_ext(spr_npcs,0, _margin_char ,				room_height, size[_me], size[_me], 0, color[_me],1)
+	draw_sprite_ext(spr_npcs,1, room_width - _margin_char ,	room_height, size[!_me], size[!_me], 0, color[!_me],1)
 	
 	var _yy = _margin_text  // room_height - (_margin_text /2)
 	

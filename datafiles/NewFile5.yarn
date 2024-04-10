@@ -50,7 +50,7 @@ Cheese's presence makes the walk more bearable,
 but you do worry about how the two of you will manage to find food.
 Suddenly, you come across another human being.
 Brooklyn: Hello travelers! You must be from the Underworld. 
-I’m sure our world is strange to you, so please, 
+I'm sure our world is strange to you, so please, 
 feel free to take your rest at our camp. 
 We can introduce you to the crows!
 
@@ -199,7 +199,7 @@ title: Option H.B
 Gardener: Welcome to the garden, children. 
 This is the cornerstone of our society here,
 where I attempt to make seeds grow once again. 
-You: I’ve never seen anything like this. 
+You: I've never seen anything like this. 
 This is a tree, right? 
 How did you learn how to care for it?
 
@@ -213,7 +213,7 @@ but if you would like to learn about what we do,
 we could always use more help, and you are welcome to stay. 
 -> What would happen if I stayed?
     <<jump Option J.B>>
--> I’m sorry, but I have to go. 
+-> I'm sorry, but I have to go. 
     <<jump Option K.B>>
 ===
 __PrivCrochet_colorID: 1
@@ -276,7 +276,7 @@ so we would exchange a task for a task, if you're willing.
     -> We've got this!
     <<jump Option G.A>>
 
-	-> I think we need more time to decide. Could you tell us more about what it’s like up here?
+	-> I think we need more time to decide. Could you tell us more about what it's like up here?
     <<jump Option E.A>>
 ===
 __PrivCrochet_colorID: 1
@@ -303,7 +303,7 @@ title: Option H.A
 Gardener: Welcome to the garden, children. 
 This is the cornerstone of our society here,
 where I attempt to make seeds grow once again. 
-You: I’ve never seen anything like this. 
+You: I've never seen anything like this. 
 This is a tree, right? 
 How did you learn how to care for it?
 
@@ -318,7 +318,7 @@ we could always use more help, and you are welcome to stay.
 
 -> What would happen if I stayed?
     <<jump Option J.A>>
--> I’m sorry, but I have to go. I have a life already.
+-> I'm sorry, but I have to go. I have a life already.
     <<jump Option K.A>>
 -> Cheese, I'm going to need your input again. 
     <<jump Option Cheese>>
@@ -429,7 +429,7 @@ __PrivCrochet_tags:
 title: Grove
 ---
 Down below, your people survive primarily off mushrooms and hope. 
-You don’t have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however. Some of them extend far past your own height, offering cover from the rain.
+You don't have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however. Some of them extend far past your own height, offering cover from the rain.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1163,1496

@@ -15,7 +15,7 @@ else if _count
 	{
 		option_index = wrap(option_index + _key, 0, _count-1)
 	}
-	if keyboard_check_pressed(vk_space)
+	if keyboard_check_pressed(vk_enter)
 	{
 		ChatterboxSelect(chatterbox,option_index)
 		option_index = 0
