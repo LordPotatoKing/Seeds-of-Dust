@@ -1,7 +1,5 @@
 /// @description Initialize Chatterbox and set varubles
-// You can write your code in this editor
-
-ChatterboxLoadFromFile("Forest.yarn")				// load file
+// You can write your code in this editor				
 chatterbox=ChatterboxCreate()						//create a chatterbox
 ChatterboxJump(chatterbox,"Forest")					
 chatterbox_update()									//Get current node and node text
