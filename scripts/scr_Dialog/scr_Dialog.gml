@@ -26,7 +26,9 @@ function background_set_index(_arr){
 	var _lay_id = layer_get_id("Background")
 	var _back_id = layer_background_get_id(_lay_id)
 	
-	layer_background_index(_back_id, _arr)
+	// Assuming _arr is an array with a single element
+    var index = _arr[0];
+    layer_background_index(_back_id, index);
 }
 function chatterbox_update(){
 	node = ChatterboxGetCurrent(chatterbox)
