@@ -44,6 +44,7 @@ __PrivCrochet_position: 701,-281
 __PrivCrochet_tags: 
 title: Option A
 ---
+<<rm("rm_petrafied_forest")>>
 As you walk on, you're still cold and wet, 
 but it is a comfort to have company. 
 Cheese's presence makes the walk more bearable, 
@@ -68,6 +69,7 @@ __PrivCrochet_position: 359,724
 __PrivCrochet_tags: 
 title: Option B
 ---
+<<rm("rm_mushroom_grove")>>
 As you walk on, you do wish you had company. 
 But it's going to be hard enough to feed yourself in this terrible and hostile world, 
 much less another person. 

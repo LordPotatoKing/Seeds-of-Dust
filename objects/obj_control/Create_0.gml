@@ -3,6 +3,7 @@
 
 ChatterboxLoadFromFile("NewFile5.yarn")				// load file
 // ChatterboxAddFunction("bg", background_set_index)	//Add function to change backround
+ChatterboxAddFunction("rm", my_room_set)	//Add function to change backround
 chatterbox=ChatterboxCreate()						//create a chatterbox
 ChatterboxJump(chatterbox,"Start")					//go to "start" box
 chatterbox_update()									//Get current node and node text
