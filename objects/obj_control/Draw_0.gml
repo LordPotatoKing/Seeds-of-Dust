@@ -8,8 +8,8 @@ var _margin_text = 120 // Horazontal text Margin (uses pixle coordenates)
 var _margin_char = 200 // Horazontal character margin
 var _roomname = room_get_name(room);
 
-//if IsChatterbox(chatterbox) and text != undefined //and _roomname != "rm_map"
-//{
+if IsChatterbox(chatterbox) and text != undefined //and _roomname != "rm_map"
+{
 	/*
 	var _me = (ChatterboxGetContentSpeaker(chatterbox,0)=="You")
 	
@@ -27,7 +27,20 @@ var _roomname = room_get_name(room);
 	var _xx = _margin_text;
 	// draw_text(_xx,_yy,text)
 	//draw_text_ext(_xx,_yy,text, 40, room_width - (_margin_text * 2))
-	scribble(text).draw(_xx,_yy)
+	// scribble("" + text).draw()
+	
+	//draw_text_scribble_ext(x, y, string, width, [charCount])
+	time_char_for_text += 4;
+	draw_text_scribble_ext(_xx,_yy, text, room_width - (_margin_text * 2), time_char_for_text)
+	
+	///Create
+	// typist = scribble_typist();
+	// typist.in(1, 0);
+
+	///Draw
+	// scribble(text).draw(_xx,_yy, typist);
+	
+	
 	
 	if ChatterboxGetOptionCount(chatterbox)
 	{
@@ -53,4 +66,4 @@ var _roomname = room_get_name(room);
 			}
 		}
 	}
-//}
+}
