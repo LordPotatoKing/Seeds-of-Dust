@@ -22,7 +22,8 @@ if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 	// draw_set_halign(_me ? fa_left : fa_right)
 	// var _xx = me ? _margin_text : room_width - _margin_text;
 	var _xx = _margin_text;
-	draw_text(_xx,_yy,text)
+	// draw_text(_xx,_yy,text)
+	draw_text_ext(_xx,_yy,text, 40, room_width - (_margin_text * 2))
 	
 	if ChatterboxGetOptionCount(chatterbox)
 	{
