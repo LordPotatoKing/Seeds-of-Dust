@@ -1,5 +1,5 @@
 // function for drawing the NPCs to there respective rooms
-// Given room name and charecter.
+// Given room name and charecters.
 /*
 var _npc_gardener=spr_npcs[0]
 var _npc_cheese=spr_npcs[1]
@@ -7,36 +7,48 @@ var _npc_mc=spr_npcs[2]
 var _npc_hot_souce=spr_npcs[3]
 var _npc_brooklyn=spr_npcs[4]
 */
-function draw_npc(_rm_name,_npc_1,_npc_2){
-	if is_string(_npc_1) and is_string(_npc_2){
-	switch _npc_1{
-		case "Gardener"	: npc_1_index = spr_npcs[0]
-		case "Cheese"	: npc_1_index = spr_npcs[1]
-		case "MC"		: npc_1_index = spr_npcs[3]
-		case "Hot Sauce": npc_1_index = spr_npcs[4]
-		case "Brooklyn"	: npc_1_index = spr_npcs[5]
-		case "N/A"		: npc_1_index = spr_npcs[6]
+function draw_npc(_left_npc,_right_npc){
+	if is_string(_left_npc) and is_string(_right_npc){
+	switch _left_npc{
+		case "Gardener"	: npc_1_index = 0; break;
+		case "Cheese"	: npc_1_index = 1; break;
+		case "MC"		: npc_1_index = 2; _left_npc = "You" ;break;
+		case "Hot Sauce": npc_1_index = 3; break;
+		case "Brooklyn"	: npc_1_index = 4; break;
+		case "N/A"		: npc_1_index = 5; break;
+		default			: npc_1_index = 0; break;
 	}
-	switch _npc_2{
-		case "Gardener"	: npc_2_index = spr_npcs[0]
-		case "Cheese"	: npc_2_index = spr_npcs[1]
-		case "MC"		: npc_2_index = spr_npcs[3]
-		case "Hot Sauce": npc_2_index = spr_npcs[4]
-		case "Brooklyn"	: npc_2_index = spr_npcs[5]
-		case "N/A"		: npc_2_index = spr_npcs[6]
+	switch _right_npc{
+		case "Gardener"	: npc_2_index = 0; break;
+		case "Cheese"	: npc_2_index = 1; break;
+		case "MC"		: npc_2_index = 2; _right_npc = "You";break;
+		case "Hot Sauce": npc_2_index = 3; break;
+		case "Brooklyn"	: npc_2_index = 4; break;
+		case "N/A"		: npc_2_index = 5; break;
+		default			: npc_1_index = 0; break;
 	}
-		if IsChatterbox(chatterbox) and text != undefined 
+		if IsChatterbox(chatterbox) and text != undefined
 		{
 			var _margin_char = 200
-			var _me = (ChatterboxGetContentSpeaker(chatterbox,0)=="You")
+			var _left = (ChatterboxGetContentSpeaker(chatterbox,0)==_left_npc)
+			var _right = (ChatterboxGetContentSpeaker(chatterbox,0)==_right_npc)
+			
 	
 				draw_sprite_ext(spr_npcs,npc_1_index, _margin_char ,				room_height,
-					size[_me], size[_me], 0, color[_me],1)
+					_l_size[_left], _l_size[_left], 0, _l_color[_left],1)
 				draw_sprite_ext(spr_npcs,npc_2_index, room_width - _margin_char ,	room_height, 
-					size[!_me], size[!_me], 0, color[!_me],1)
+					_r_size[_right], _r_size[_right], 0, _r_color[_right],1)
 		}
 	else{
 		show_debug_message("NPC's need to be strings")
 	}
 	}
+}
+function set_left_npc(_set_left_npc=""){
+	global._left_npc = _set_left_npc
+	return global._left_npc
+}
+function set_right_npc(_set_right_npc=""){
+	global._right_npc = _set_right_npc
+	return  global._right_npc
 }
