@@ -23,7 +23,8 @@ if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 	// var _xx = me ? _margin_text : room_width - _margin_text;
 	var _xx = _margin_text;
 	// draw_text(_xx,_yy,text)
-	draw_text_ext(_xx,_yy,text, 40, room_width - (_margin_text * 2))
+	//draw_text_ext(_xx,_yy,text, 40, room_width - (_margin_text * 2))
+	scribble(text).draw(_xx,_yy)
 	
 	if ChatterboxGetOptionCount(chatterbox)
 	{
