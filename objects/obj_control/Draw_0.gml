@@ -8,8 +8,8 @@ var _margin_text = 120 // Horazontal text Margin (uses pixle coordenates)
 var _margin_char = 200 // Horazontal character margin
 var _roomname = room_get_name(room);
 
-//if IsChatterbox(chatterbox) and text != undefined //and _roomname != "rm_map"
-//{
+if IsChatterbox(chatterbox) and text != undefined //and _roomname != "rm_map"
+{
 	/*
 	var _me = (ChatterboxGetContentSpeaker(chatterbox,0)=="You")
 	
@@ -17,7 +17,7 @@ var _roomname = room_get_name(room);
 	draw_sprite_ext(spr_npcs,1, room_width - _margin_char ,	room_height, size[!_me], size[!_me], 0, color[!_me],1)
 	*/
 	
-	draw_npc(rm_petrafied_forest,"MC","Cheese")
+	draw_npc(rm_petrafied_forest,"MC","N/A")
 	var _yy = _margin_text  // room_height - (_margin_text /2)
 	
 	draw_rectangle_center(room_width/2, _yy, room_width, _margin_text,false,c_black,0.5)
@@ -53,4 +53,4 @@ var _roomname = room_get_name(room);
 			}
 		}
 	}
-//}
+}
