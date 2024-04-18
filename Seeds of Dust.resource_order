@@ -128,6 +128,7 @@
     {"name":"ChatterboxVariablesResetAll","order":10,"path":"scripts/ChatterboxVariablesResetAll/ChatterboxVariablesResetAll.yy",},
     {"name":"ChatterboxWait","order":9,"path":"scripts/ChatterboxWait/ChatterboxWait.yy",},
     {"name":"IsChatterbox","order":5,"path":"scripts/IsChatterbox/IsChatterbox.yy",},
+    {"name":"scr_NPC","order":1,"path":"scripts/scr_NPC/scr_NPC.yy",},
     {"name":"bk_all","order":6,"path":"sprites/bk_all/bk_all.yy",},
     {"name":"bk_camp","order":2,"path":"sprites/bk_camp/bk_camp.yy",},
     {"name":"bk_city","order":3,"path":"sprites/bk_city/bk_city.yy",},

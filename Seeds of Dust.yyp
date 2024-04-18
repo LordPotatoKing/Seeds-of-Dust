@@ -47,7 +47,6 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"Dialog.yarn","CopyToMask":-1,"filePath":"datafiles","name":"Dialog.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"NewFile5.yarn","CopyToMask":-1,"filePath":"datafiles","name":"NewFile5.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -166,6 +165,7 @@
     {"id":{"name":"ChatterboxWait","path":"scripts/ChatterboxWait/ChatterboxWait.yy",},},
     {"id":{"name":"IsChatterbox","path":"scripts/IsChatterbox/IsChatterbox.yy",},},
     {"id":{"name":"scr_Dialog","path":"scripts/scr_Dialog/scr_Dialog.yy",},},
+    {"id":{"name":"scr_NPC","path":"scripts/scr_NPC/scr_NPC.yy",},},
     {"id":{"name":"bk_all","path":"sprites/bk_all/bk_all.yy",},},
     {"id":{"name":"bk_camp","path":"sprites/bk_camp/bk_camp.yy",},},
     {"id":{"name":"bk_city","path":"sprites/bk_city/bk_city.yy",},},
