@@ -17,8 +17,6 @@ if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 	draw_sprite_ext(spr_npcs,1, room_width - _margin_char ,	room_height, size[!_me], size[!_me], 0, color[!_me],1)
 	*/
 	
-	global._left_npc=""
-	global._right_npc=""
 	
 	draw_npc(global._left_npc,global._right_npc)
 	var _yy = _margin_text  // room_height - (_margin_text /2)

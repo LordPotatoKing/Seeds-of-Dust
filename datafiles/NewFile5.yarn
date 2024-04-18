@@ -15,7 +15,7 @@ only to find a staircase leading up to the world outside.
 Time passes... 
 <<rm("rm_petrafied_forest")>>
 <<set_left_npc("You")>>
-<<set_right_npc("cheese")>>
+<<set_right_npc("Cheese")>>
 This is a strange new world. 
 There are noises you aren't familiar with, and lots of strange creatures, probably. 
 You might get eaten! 

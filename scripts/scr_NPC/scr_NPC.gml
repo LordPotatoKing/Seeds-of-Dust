@@ -12,20 +12,20 @@ function draw_npc(_left_npc,_right_npc){
 	switch _left_npc{
 		case "Gardener"	: npc_1_index = 0; break;
 		case "Cheese"	: npc_1_index = 1; break;
-		case "MC"		: npc_1_index = 2; _left_npc = "You" ;break;
+		case "You"		: npc_1_index = 2 ;break;
 		case "Hot Sauce": npc_1_index = 3; break;
 		case "Brooklyn"	: npc_1_index = 4; break;
 		case "N/A"		: npc_1_index = 5; break;
-		default			: npc_1_index = 0; break;
+		default			: npc_1_index = 5; break;
 	}
 	switch _right_npc{
 		case "Gardener"	: npc_2_index = 0; break;
 		case "Cheese"	: npc_2_index = 1; break;
-		case "MC"		: npc_2_index = 2; _right_npc = "You";break;
+		case "You"		: npc_2_index = 2; break;
 		case "Hot Sauce": npc_2_index = 3; break;
 		case "Brooklyn"	: npc_2_index = 4; break;
 		case "N/A"		: npc_2_index = 5; break;
-		default			: npc_1_index = 0; break;
+		default			: npc_2_index = 5; break;
 	}
 		if IsChatterbox(chatterbox) and text != undefined
 		{
@@ -44,11 +44,11 @@ function draw_npc(_left_npc,_right_npc){
 	}
 	}
 }
-function set_left_npc(_set_left_npc=""){
-	global._left_npc = _set_left_npc
+function set_left_npc(_set_left_npc){
+	global._left_npc = _set_left_npc[0]
 	return global._left_npc
 }
-function set_right_npc(_set_right_npc=""){
-	global._right_npc = _set_right_npc
+function set_right_npc(_set_right_npc){
+	global._right_npc = _set_right_npc[0]
 	return  global._right_npc
 }
