@@ -1,0 +1,700 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: -203,228
+__PrivCrochet_tags: 
+title: Start
+---
+<<rm("rm_underground")>>
+
+Year 2222, Post Collapse
+Subterranean Settlement 439
+
+<<set_right_npc("You")>>
+One day as you wander through your underground hometown, 
+the ground begins to shake and rumble.
+Rocks begin to tumble down the roof of the cave. 
+Seeking shelter, you run into a small hole along the edge of the cave.
+Once the rampaging earthquake has subsided, 
+you come outside to find that your only way back home has caved in. 
+You make your way around the cave, looking for a solution,
+only to find a staircase leading up to the world outside. 
+
+
+<<rm("rm_petrafied_forest")>>
+
+
+This is a strange new world. 
+There are noises you aren't familiar with, and lots of strange creatures, probably. 
+You might get eaten! 
+Suddenly, a drop of water lands on your head. 
+Then another, then a few more. 
+The roof is so high above you, and it's pouring water!
+
+<<rm("rm_city")>>
+
+
+You wander through this unfamiliar land. 
+Your feet hurt, and it's cold, and the roof is still upset with you. 
+You're wet, and you think you saw an animal. 
+You wish you were home. 
+Suddenly, you see something moving. 
+You're prepared to fight. 
+You've never fought anything before. 
+The creature reveals itself from the rubble around you, 
+and instead of a horrible creature, you see a familiar sight.
+
+<<set_left_npc("Cheese")>>
+
+
+You: Cheese! You made it out! Are you looking for a way home too?
+Cheese:  I am. I think I heard that there's another entrance a few days West of here.
+
+-> We should travel together then. We'll probably be safer that way.
+    <<jump Meet Brooklyn, Cheese>>
+
+-> That sounds pretty dangerous. I'm going to try to find another way, but good luck!
+    <<jump Meet Brooklyn, No Cheese>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 571,-318
+__PrivCrochet_tags: 
+title: Meet Brooklyn, Cheese
+---
+As you walk on, you're still cold and wet, 
+but it is a comfort to have company. 
+Cheese's presence makes the walk more bearable, 
+but you do worry about how the two of you will manage to find food.
+The light changes as the two of you walk on, the already dark roof above 
+you growing even dimmer and casting harsh shadows over the ruins of the city you approach.
+You have cities underground, of course, but they don't look anything like this. 
+To your surprise, you see smoke rising in the distance, and you think you hear voices. 
+Just when you've decided you're imagining things, you see someone approaching. 
+How odd! You didn't think people could survive up here!
+
+<<rm("rm_brooklyn")>>
+<<set_left_npc("Brooklyn")>>
+
+Brooklyn: Hello travelers! You must be from the Underworld. 
+I’m sure our world is strange to you, so please, 
+feel free to take your rest at our camp. 
+We can introduce you to the crows!
+
+-> Thank you for your hospitality. We'd love to 
+come to your camp. But what's a crow?
+    <<jump Welcome to Camp A>>
+
+-> No thank you, we're fine on our own. 
+    Brooklyn: If you insist on going alone, do be careful. 
+    This world can be inhospitable, 
+    and things that look trustworthy aren't always what they seem.
+    //jump to exploration section
+        <<rm("rm_petrafied_forest")>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 359,724
+__PrivCrochet_tags: 
+title: Meet Brooklyn, No Cheese
+---
+<<set_left_npc("N/A")>>
+
+
+As you walk on, you do wish you had company. 
+But it's going to be hard enough to feed yourself in this terrible and hostile world, 
+much less another person. 
+You need to worry about yourself. 
+You don't know how long you walk before you begin to approach the ruins of what
+must once have been a city. 
+You have cities underground, of course, but they don't look anything like this. 
+To your surprise, you see smoke rising in the distance, and you think you hear voices. 
+Just when you've decided you're imagining things, you see someone approaching. 
+How odd! You didn't think people could survive up here!
+
+<<rm("rm_brooklyn")>>
+<<set_left_npc("Brooklyn")>>
+
+Brooklyn: Hello traveler! You must be from the Underworld. 
+I'm sure our world is strange to you, so please, 
+feel free to take your rest at our camp. 
+We can introduce you to the crows!
+
+->  Thank you for your hospitality. I'd love to 
+come to your camp. But what's a crow?. 
+    <<jump Welcome to Camp B>>
+
+-> No thank you, I'm fine on my own. 
+    Brooklyn: If you insist on going alone, do be careful. 
+    This world can be inhospitable, 
+    and things that look trustworthy aren't always what they seem.
+    <<rm("rm_petrafied_forest")>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 783,-537
+__PrivCrochet_tags: 
+title: Welcome to Camp A
+---
+Brooklyn: Welcome to our camp. 
+It may not seem like much to you underworlders, 
+but you're free to share what we have. 
+We've got mushrooms, 
+mushrooms, 
+some jerky, 
+some cockroach brittle, 
+and mushrooms.
+
+-> How do you survive up here? Is that all you have? 
+    <<jump Food Lore A>>
+
+-> Do you know how we could get back home?
+    <<jump Camp Puzzle Intro A>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 515,1042
+__PrivCrochet_tags: 
+title: Welcome to Camp B
+---
+Brooklyn: Welcome to our camp. 
+It may not seem like much to an underworlder, 
+but you're free to share what we have. 
+We've got mushrooms, 
+mushrooms, 
+some jerky, 
+some cockroach brittle, 
+and mushrooms.
+-> How do you survive up here? Is that all you have? 
+    <<jump Food Lore B>>
+-> Do you know how I could get back home?
+    <<jump Camp Puzzle Intro B>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 990,784
+__PrivCrochet_tags: 
+title: Camp Puzzle Intro B
+---
+Brooklyn: If you'd really like to go back underground, 
+I'm sure someone here can help guide you there. 
+We'd need help with a few tasks first to free up some hands though. 
+
+-> I'll do it!
+    <<jump Option G.B>>
+
+-> Could you tell me more about what it's like up here? 
+    <<jump Food Lore B>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1310,1270
+__PrivCrochet_tags: 
+title: Option G.B
+---
+<<set_left_npc("Brooklyn")>>
+
+Brooklyn: We can give you a guide book that would help you survive the wilderness. 
+In exchange, we could use help with one of the crows. 
+It's stolen a family heirloom from one of our people, 
+and their religion prevents them from taking anything from a crow. 
+That bird over there is the thief, if you could get the item returned.
+->Find something shiny to distract the crow
+    <<jump Option N.B>>
+
+->Find a large rock to kill the crow with
+    <<jump Option O.B>>
+===
+__PrivCrochet_colorID: 2
+__PrivCrochet_position: 1600,729
+__PrivCrochet_tags: 
+title: Enter the Garden B
+---
+<<rm("rm_garden")>>
+<<set_left_npc("Gardener")>>
+
+
+Gardener: Welcome to the garden, children. 
+This is the cornerstone of our society here,
+where I attempt to make seeds grow once again. 
+You: I’ve never seen anything like this. 
+This is a tree, right? 
+How did you learn how to care for it?
+
+Gardener: I found a pre-collapse text in my youth,
+that told me how to care for many now-extinct species. 
+This is the only place where anything grows besides mushrooms,
+so I was entrusted with its care, 
+and I teach the others what I know. 
+I understand you come from the underworld, 
+but if you would like to learn about what we do, 
+we could always use more help, and you are welcome to stay. 
+-> What would happen if I stayed?
+    <<jump Garden Option B>>
+-> I’m sorry, but I have to go. 
+    <<jump Garden Choice 2 B>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 2255,674
+__PrivCrochet_tags: 
+title: Garden Option B
+---
+Gardener: You would learn how to make things grow. 
+I can't promise you would ever see it happen. 
+You must decide what that chance is worth to you.
+	-> I'll stay. I want a chance to see what the world could be.
+    <<jump Stay Ending>>
+	-> I'm sorry, but I have to go.
+    <<jump Garden Choice 2 B>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 2093,1120
+__PrivCrochet_tags: 
+title: Garden Choice 2 B
+---
+Gardener: We'll be sorry to see you go back underground, 
+but I understand. Feel free to go back to camp before you go, 
+and if you need anything from me, I'm willing to offer help in 
+exchange for some help from you.
+
+-> Is there anyone in camp who could help us get back?
+    Gardener: Indeed. You'll want to ask Brooklyn for help.
+    <<jump Option G.B>>
+-> Thank you. Good luck with your mission.
+    <<rm("rm_petrafied_forest")>>
+-> What's the task you need help with?
+//jump to shovel puzzle
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1167,-67
+__PrivCrochet_tags: 
+title: Camp Puzzle Intro A
+---
+Brooklyn: If you'd really like to go back home, 
+we could help you out. 
+We engage in trade here, 
+so we would exchange a task for a task, if you're willing. 
+
+    -> We've got this!
+    <<jump Option G.A>>
+
+	-> I think we need more time to decide. Could you tell us more about what it’s like up here?
+    <<jump Food Lore A>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1477,-84
+__PrivCrochet_tags: 
+title: Option G.A
+---
+<<set_left_npc("Brooklyn")>>
+Brooklyn: We can give you a guide book that would help you survive the wilderness. 
+In exchange, we could use help with one of the crows. 
+It's stolen a family heirloom from one of our people, 
+and their religion prevents them from taking anything from a crow. 
+That bird over there is the thief, if you could get the item returned.
+->Find something shiny to distract the crow
+    <<jump Option N.A>>
+
+->Find a large rock to kill the crow with
+    <<jump Option O.A>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1766,-776
+__PrivCrochet_tags: 
+title: Enter the Garden A
+---
+<<rm("rm_garden")>>
+<<set_left_npc("Gardener")>>
+
+
+Gardener: Welcome to the garden, children. 
+This is the cornerstone of our society here,
+where I attempt to make seeds grow once again. 
+You: I’ve never seen anything like this. 
+This is a tree, right? 
+How did you learn how to care for it?
+
+Gardener: I found a pre-collapse text in my youth,
+that told me how to care for many now-extinct species. 
+This is the only place where anything grows besides mushrooms,
+so I was entrusted with its care, 
+and I teach the others what I know. 
+I understand you come from the underworld, 
+but if you would like to learn about what we do, 
+we could always use more help, and you are welcome to stay. 
+
+-> What would happen if I stayed?
+    <<jump Garden Option A>>
+-> I’m sorry, but I have to go. I have a life already.
+    <<jump Garden Choice 2 A>>
+-> Cheese, I'm going to need your input again. 
+    <<jump Option Cheese>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1787,-305
+__PrivCrochet_tags: 
+title: Cheese's Opinion
+---
+<<set_left_npc("Cheese")>>
+Cheese: I think this is fascinating, 
+and it's not likely that the entrance I know about is going anywhere. 
+Unless there's another earthquake. 
+But then maybe we wouldn't want to be there for that. Hmmm...
+
+-> We should probably be getting home.
+    <<jump Option G.A>>
+
+-> I think we'd like to meet this Gardener. 
+    <<jump Enter the Garden A>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 2430,-1135
+__PrivCrochet_tags: 
+title: Garden Option A
+---
+<<set_left_npc("Gardener")>>
+
+Gardener: You would learn how to make things grow. 
+I can't promise you would ever see it happen. 
+You must decide what that chance is worth to you.
+-> I think we both want a chance to see what the world could be.
+    <<jump Stay Ending>>
+-> I'm sorry, but we have to go.
+    <<jump Garden Choice 2 A>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 2360,-329
+__PrivCrochet_tags: 
+title: Garden Choice 2 A
+---
+Gardener: We'll be sorry to see you both go back underground, 
+but I understand. Feel free to go back to camp before you go, 
+and if you need anything from me, I'm willing to offer help 
+in exchange for some help from you.
+
+-> Is there anyone in camp who could help us get back?
+    Gardener: Indeed. You'll want to ask Brooklyn for help.
+    <<jump Option G.A>>
+-> Thank you. Good luck with your mission.
+    <<rm("rm_petrafied_forest")>>
+-> What's the task you need help with?
+//jump to shovel puzzle
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2934,-281
+__PrivCrochet_tags: 
+title: Stay Ending
+---
+You have chosen a life for yourself that will be more
+harsh and dangerous than the one you once knew. You 
+know you can’t be sure that you’ll see anything 
+change in your lifetime, whether you make it a day
+or seventy more years, and maybe you have doomed 
+yourself to a life sowing seeds you will never see
+grow. But it is not meaningless. You were told in 
+your youth about how tall trees could stretch, but 
+you know that they grew deep too, and you hope that 
+someday, with time, patience, and care, the things 
+that were buried will no longer remain so.
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 2274,-739
+__PrivCrochet_tags: 
+title: Option Cheese
+---
+<<set_left_npc("Cheese")>>
+Cheese: We don't have an option that isn't dangerous. 
+We could die going home, but we could die here too. 
+At home, we would have comfort, and familiarity. 
+But here, there is a chance for something more.
+
+-> That's that then. We should go home.
+    <<jump Garden Choice 2 A>>
+-> Alright. Say we stayed. What would happen then?
+    <<jump Garden Option A>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 3528,-2
+__PrivCrochet_tags: 
+title: Forest
+---
+You remember hearing stories in your youth about 'trees'. 
+In the old world, they would stand tall, reaching miles above the ground. 
+Some of them were high enough to scrape the ceiling of the sky. 
+They would be covered in shades of brilliant green, like emeralds that grew along its skin. 
+Based on what you see now, you wonder if those stories were ever true. 
+The ground is scattered with what you assume are trees,
+but they look more like the stones that litter your underground world.
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 3788,314
+__PrivCrochet_tags: 
+title: Grove
+---
+Down below, your people survive primarily off mushrooms and hope. 
+You don’t have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however. Some of them extend far past your own height, offering cover from the rain.
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1500,235
+__PrivCrochet_tags: 
+title: Option N.A
+---
+Brooklyn: Thank you for your help! 
+Here's the guide book, and good luck on your travels!
+
+-> Thank you! I'll be on my way now!
+//Goes to map
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1754,233
+__PrivCrochet_tags: 
+title: Option O.A
+---
+Brooklyn: Why would you kill that crow? 
+We told you they were sacred! 
+You can't stay here now!
+
+//Get kicked back to the map
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3347,774
+__PrivCrochet_tags: 
+title: Crow
+---
+The crow holds the [object] in its mouth.
+//If the player has the shiny thing
+->Use the shiny thing you found
+    
+
+->Find a large rock to kill the crow with
+   
+
+->Leave it alone
+//end dialog
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3426,516
+__PrivCrochet_tags: 
+title: CrowGuy
+---
+Oh, I've never seen you here before.
+
+->I'm from underground.
+    Seriously? I didn't think people still lived down there. 
+    Welcome to the surface, friend. Enjoy your stay.
+    ->My stay? Isn't there a way back down?
+        Not that I know of.
+        Actually, come to think of it,
+        I have a guide book that might show a way.
+        It was written not long after the collapse, I think.
+        Has maps of all the entrances down to the surface.
+        ->That's perfect! Could I have it?
+            Not for free, of course.
+            I'm assuming that you don't have any valuables to trade with.
+            I bet you don't even have any seeds either!
+            You underworlders probably pay each other with pebbles or something.
+            Anyways, I'll let you have it if you do me a favor.
+            ->What's the favor?
+                See that crow over there?
+                It stole [important thing] from me.
+                I need you to get it back.
+                Actually, first I need to ask you a question.
+                Are you religious?
+                ->Huh?
+                    Perfect.
+                    ->Why can't you get it from the crow yourself?
+                        Wow. You really must not be from around here.
+                        The crows are sacred to us. They're the heralds of the gods.
+                        We're not allowed to touch them.
+                        I figure it'll be fine for you.
+                        You're gonna go to [food hell] anyways, I guess.
+                    ->Alright, fine. I'll go bother your crow.
+        
+                    ->I don't have time for this. Sorry.
+
+                ->What?
+                    Perfect.
+                    ->Why can't you get it from the crow yourself?
+                        You really must not be from around here.
+                        The crows are sacred to us. They're the heralds of the gods.
+                        We're not allowed to touch them.
+                        I figure it'll be fine for you.
+                        You're gonna go to [food hell] anyways, I guess.
+                    ->Alright, fine. I'll go bother your crow.
+        
+                    ->I don't have time for this. Sorry.
+
+                ->Uhh, I guess not?
+                    Perfect.
+                    ->Why can't you get it from the crow yourself?
+                        You really must not be from around here.
+                        The crows are sacred to us. They're the heralds of the gods.
+                        We're not allowed to touch them.
+                        I figure it'll be fine for you.
+                        You're gonna go to [food hell] anyways, I guess.
+                    ->Alright, fine. I'll go bother your crow.
+        
+                    ->I don't have time for this. Sorry.
+                
+            ->No thanks. I don't have the time.
+        ->[Leave]
+        
+    ->What's it like up here?
+        It's not exactly paradise, I'll tell you that.
+    
+    ->[Leave]
+
+->I heard you were having trouble with a crow?
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3795,548
+__PrivCrochet_tags: 
+title: ClipperGuy
+---
+I thought we didn't get newcomers anymore.
+->The gardener wants their hedge clippers back.
+    Well, that's tough! I still need them.
+    Besides, I don't even like that gardener.
+    ->What do you need them for?
+        [figure that out]
+    ->Well, why did you borrow his clippers then?
+        I need them!
+        ->Uhh... for what?
+            [figure that out]        
+        ->Just give him his damn clippers back!
+    ->What did the gardener do to you?
+        [figure that out]
+    ->Just give him his damn clippers back!
+
+
+->[worldbuilding option]
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4205,198
+__PrivCrochet_tags: 
+title: Mushrooms
+---
+There are plenty of mushrooms here,
+but these ones look small enough to take with you.
+...
+Uh oh.
+You don't know which ones are edible.
+->Take the brown and white ones
+->Take the red and white ones
+->Take the white, flat-topped ones
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 400,1382
+__PrivCrochet_tags: 
+title: Food Lore B
+---
+Brooklyn: Oh, it's not too bad up here. Sure, the food lacks variety
+and the rain is a little bit acid sometimes, but if we live good lives, 
+when we die, the gods of the pantryon will welcome
+us to the Eternal Feast with open arms!
+-> What's the pantryon? And also, you never told me what a crow is!
+    <<jump Crow Lore B>>
+-> That's nice. Do you know how I could get back home?
+    <<jump Option G.B>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 663,1486
+__PrivCrochet_tags: 
+title: Crow Lore B
+---
+Brooklyn: Surely you've heard of the pantryon? They're the 
+old world's gods, back from the abundant times. They were the 
+very embodiment of plenty. Adobo, Carrot, Cheeseburger, and of course,
+Little Deborah, just to name a few. As for the crows, they're those
+black birds, and they're sacred to our people. 
+They bring seeds to us in exchange for scraps or trinkets, 
+and we give the seeds to the gardener for safekeeping.
+You: The gardener?
+Brooklyn: Yes. He tends the seeds, 
+in the hope that we can make them grow again someday. 
+I can introduce you to him if you'd like.
+-> He sounds fascinating. Lead the way!
+    <<jump Enter the Garden B>>
+-> Can you just help me get home?
+    <<jump Option G.B>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1675,1671
+__PrivCrochet_tags: 
+title: Option O.B
+---
+Brooklyn: Why would you kill that crow? 
+We told you they were sacred! 
+You can't stay here now!
+
+//Get kicked back to the map
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1058,1720
+__PrivCrochet_tags: 
+title: Option N.B
+---
+Brooklyn: Thank you for your help! 
+Here's the guide book, and good luck on your travels!
+
+-> Thank you! I'll be on my way now!
+//Goes to map
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 780,-1042
+__PrivCrochet_tags: 
+title: Food Lore A
+---
+Brooklyn: Oh, it's not too bad up here. Sure, the food lacks variety
+and the rain is a little bit acid sometimes, but if we live good lives, 
+when we die, the gods of the pantryon will welcome
+us to the Eternal Feast with open arms!
+-> What's the pantryon? And also, you never told us what a crow is!
+    <<jump Crow Lore A>>
+-> That's nice. Do you know how we could get back home?
+    <<jump Option G.A>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1081,-1158
+__PrivCrochet_tags: 
+title: Crow Lore A
+---
+Brooklyn: Surely you've heard of the pantryon? They're the 
+old world's gods, back from the abundant times. They were the 
+very embodiment of plenty. Adobo, Carrot, Cheeseburger, and of course,
+Little Deborah, just to name a few. As for the crows, they're those
+black birds, and they're sacred to our people. 
+They bring seeds to us in exchange for scraps or trinkets, 
+and we give the seeds to the gardener for safekeeping.
+You: The gardener?
+Brooklyn: Yes. He tends the seeds, 
+in the hope that we can make them grow again someday. 
+I can introduce you to him if you'd like.
+
+-> He sounds fascinating. Lead the way!
+    <<jump Enter the Garden A>>
+-> What do you think, Cheese?
+    <<jump Cheese's Opinion>>
+-> Can you just help us get home?
+    <<jump Option G.A>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3438,-384
+__PrivCrochet_tags: 
+title: Die Ending
+---
+You have died. You probably should have seen that 
+coming. Maybe it will all sort itself out to 
+mean something anyway.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3810,-351
+__PrivCrochet_tags: 
+title: Get Home Ending
+---
+It’s good to be home. The stalactites, the glow of 
+bioluminescence, and the familiar drip, drip, 
+drip of water are all comforting. It’s a miracle 
+that you made it back alive at all, and you’re 
+infinitely grateful. As curious as the world above was, 
+you know you wouldn’t have survived. You think. And
+yet, your mind drifts back to the petrified forest, 
+and the stories you were told in your youth. You 
+wonder if there is hope for the world that once was, 
+and as you walk back into the familiar darkness, 
+you cannot help but wonder 
+just how far those roots go down.
+===

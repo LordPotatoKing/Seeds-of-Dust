@@ -64,6 +64,7 @@
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"NewFile5.yarn","CopyToMask":-1,"filePath":"datafiles","name":"NewFile5.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"yarnwithpuzzles5.yarn","CopyToMask":-1,"filePath":"datafiles","name":"yarnwithpuzzles5.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
