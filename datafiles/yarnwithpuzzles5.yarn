@@ -9,7 +9,7 @@ title: Start
 Year 2222, Post Collapse
 Subterranean Settlement 439
 
-<<set_right_npc("You")>>
+<<set_left_npc("You")>>
 One day as you wander through your underground hometown, 
 the ground begins to shake and rumble.
 Rocks begin to tumble down the roof of the cave. 
@@ -41,7 +41,7 @@ You've never fought anything before.
 The creature reveals itself from the rubble around you, 
 and instead of a horrible creature, you see a familiar sight.
 
-<<set_left_npc("Cheese")>>
+<<set_right_npc("Cheese")>>
 
 
 You: Cheese! You made it out! Are you looking for a way home too?
@@ -70,7 +70,7 @@ Just when you've decided you're imagining things, you see someone approaching.
 How odd! You didn't think people could survive up here!
 
 <<rm("rm_brooklyn")>>
-<<set_left_npc("Brooklyn")>>
+<<set_right_npc("Brooklyn")>>
 
 Brooklyn: Hello travelers! You must be from the Underworld. 
 I’m sure our world is strange to you, so please, 
@@ -93,7 +93,7 @@ __PrivCrochet_position: 359,724
 __PrivCrochet_tags: 
 title: Meet Brooklyn, No Cheese
 ---
-<<set_left_npc("N/A")>>
+<<set_right_npc("N/A")>>
 
 
 As you walk on, you do wish you had company. 
@@ -108,7 +108,7 @@ Just when you've decided you're imagining things, you see someone approaching.
 How odd! You didn't think people could survive up here!
 
 <<rm("rm_brooklyn")>>
-<<set_left_npc("Brooklyn")>>
+<<set_right_npc("Brooklyn")>>
 
 Brooklyn: Hello traveler! You must be from the Underworld. 
 I'm sure our world is strange to you, so please, 
@@ -183,7 +183,7 @@ __PrivCrochet_position: 1310,1270
 __PrivCrochet_tags: 
 title: Option G.B
 ---
-<<set_left_npc("Brooklyn")>>
+<<set_right_npc("Brooklyn")>>
 
 Brooklyn: We can give you a guide book that would help you survive the wilderness. 
 In exchange, we could use help with one of the crows. 
@@ -202,7 +202,7 @@ __PrivCrochet_tags:
 title: Enter the Garden B
 ---
 <<rm("rm_garden")>>
-<<set_left_npc("Gardener")>>
+<<set_right_npc("Gardener")>>
 
 
 Gardener: Welcome to the garden, children. 
@@ -277,7 +277,7 @@ __PrivCrochet_position: 1477,-84
 __PrivCrochet_tags: 
 title: Option G.A
 ---
-<<set_left_npc("Brooklyn")>>
+<<set_right_npc("Brooklyn")>>
 Brooklyn: We can give you a guide book that would help you survive the wilderness. 
 In exchange, we could use help with one of the crows. 
 It's stolen a family heirloom from one of our people, 
@@ -295,7 +295,7 @@ __PrivCrochet_tags:
 title: Enter the Garden A
 ---
 <<rm("rm_garden")>>
-<<set_left_npc("Gardener")>>
+<<set_right_npc("Gardener")>>
 
 
 Gardener: Welcome to the garden, children. 
@@ -326,7 +326,7 @@ __PrivCrochet_position: 1787,-305
 __PrivCrochet_tags: 
 title: Cheese's Opinion
 ---
-<<set_left_npc("Cheese")>>
+<<set_right_npc("Cheese")>>
 Cheese: I think this is fascinating, 
 and it's not likely that the entrance I know about is going anywhere. 
 Unless there's another earthquake. 
@@ -343,7 +343,7 @@ __PrivCrochet_position: 2430,-1135
 __PrivCrochet_tags: 
 title: Garden Option A
 ---
-<<set_left_npc("Gardener")>>
+<<set_right_npc("Gardener")>>
 
 Gardener: You would learn how to make things grow. 
 I can't promise you would ever see it happen. 
@@ -393,7 +393,7 @@ __PrivCrochet_position: 2274,-739
 __PrivCrochet_tags: 
 title: Option Cheese
 ---
-<<set_left_npc("Cheese")>>
+<<set_right_npc("Cheese")>>
 Cheese: We don't have an option that isn't dangerous. 
 We could die going home, but we could die here too. 
 At home, we would have comfort, and familiarity. 
