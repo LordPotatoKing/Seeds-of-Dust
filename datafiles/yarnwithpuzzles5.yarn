@@ -5,13 +5,15 @@ __PrivCrochet_tags:
 title: Start
 ---
 <<rm("rm_underground")>>
-
+<<set $food to 0>>
 Year 2222, Post Collapse
 Subterranean Settlement 439
 
 <<set_left_npc("You")>>
-One day as you wander through your underground hometown, the ground begins to shake and rumble.
-Rocks begin to tumble down the roof of the cave. Seeking shelter, you run into a small hole along the edge of the cave.
+One day as you wander through your underground hometown, 
+the ground begins to shake and rumble.
+Rocks begin to tumble down the roof of the cave. 
+Seeking shelter, you run into a small hole along the edge of the cave.
 Once the rampaging earthquake has subsided, you come outside to find that your only way back home has caved in. 
 You make your way around the cave, looking for a solution, only to find a staircase leading up to the world outside. 
 
@@ -19,19 +21,25 @@ You make your way around the cave, looking for a solution, only to find a stairc
 <<rm("rm_petrafied_forest")>>
 
 
-This is a strange new world. There are noises you aren't familiar with, and lots of strange creatures, probably. 
+This is a strange new world. 
+There are noises you aren't familiar with, and lots of strange creatures, probably. 
 You might get eaten! 
-Suddenly, a drop of water lands on your head. Then another, then a few more. 
+Suddenly, a drop of water lands on your head. 
+Then another, then a few more. 
 The roof is so high above you, and it's pouring water!
 
 <<rm("rm_city")>>
 
 
-You wander through this unfamiliar land. Your feet hurt, and it's cold, and the roof is still upset with you. 
-You're wet, and you think you saw an animal. You wish you were home. 
+You wander through this unfamiliar land. 
+Your feet hurt, and it's cold, and the roof is still upset with you. 
+You're wet, and you think you saw an animal. 
+You wish you were home. 
 Suddenly, you see something moving. 
-You're prepared to fight. You've never fought anything before. 
-The creature reveals itself from the rubble around you, and instead of a horrible creature, you see a familiar sight.
+You're prepared to fight. 
+You've never fought anything before. 
+The creature reveals itself from the rubble around you, 
+and instead of a horrible creature, you see a familiar sight.
 
 <<set_right_npc("Cheese")>>
 
@@ -50,8 +58,12 @@ __PrivCrochet_position: 571,-318
 __PrivCrochet_tags: 
 title: Meet Brooklyn, Cheese
 ---
-As you walk on, you're still cold and wet, but it is a comfort to have company. Cheese's presence makes the walk more bearable, 
-but you do worry about how the two of you will manage to find food.The light changes as the two of you walk on, the already dark roof above 
+<<set $alone to 0>>
+As you walk on, you're still cold and wet, 
+but it is a comfort to have company. 
+Cheese's presence makes the walk more bearable, 
+but you do worry about how the two of you will manage to find food.
+The light changes as the two of you walk on, the already dark roof above 
 you growing even dimmer and casting harsh shadows over the ruins of the city you approach.
 You have cities underground, of course, but they don't look anything like this. 
 To your surprise, you see smoke rising in the distance, and you think you hear voices. 
@@ -66,11 +78,14 @@ I’m sure our world is strange to you, so please,
 feel free to take your rest at our camp. 
 We can introduce you to the crows!
 
--> Thank you for your hospitality. We'd love to come to your camp. But what's a crow?
+-> Thank you for your hospitality. We'd love to 
+come to your camp. But what's a crow?
     <<jump Welcome to Camp A>>
 
 -> No thank you, we're fine on our own. 
-    Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
+    Brooklyn: If you insist on going alone, do be careful. 
+    This world can be inhospitable, 
+    and things that look trustworthy aren't always what they seem.
     //jump to exploration section
         <<rm("rm_petrafied_forest")>>
 ===
@@ -80,7 +95,7 @@ __PrivCrochet_tags:
 title: Meet Brooklyn, No Cheese
 ---
 <<set_right_npc("N/A")>>
-
+<<set $alone to 1>>
 
 As you walk on, you do wish you had company. 
 But it's going to be hard enough to feed yourself in this terrible and hostile world, 
@@ -101,11 +116,14 @@ I'm sure our world is strange to you, so please,
 feel free to take your rest at our camp. 
 We can introduce you to the crows!
 
-->  Thank you for your hospitality. I'd love to come to your camp. But what's a crow?. 
+->  Thank you for your hospitality. I'd love to 
+come to your camp. But what's a crow?. 
     <<jump Welcome to Camp B>>
 
 -> No thank you, I'm fine on my own. 
-    Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
+    Brooklyn: If you insist on going alone, do be careful. 
+    This world can be inhospitable, 
+    and things that look trustworthy aren't always what they seem.
     <<rm("rm_petrafied_forest")>>
 ===
 __PrivCrochet_colorID: 1
@@ -113,8 +131,13 @@ __PrivCrochet_position: 783,-537
 __PrivCrochet_tags: 
 title: Welcome to Camp A
 ---
-Brooklyn: Welcome to our camp. It may not seem like much to you underworlders, but you're free to share what we have. 
-We've got mushrooms, mushrooms, some jerky, some cockroach brittle, 
+Brooklyn: Welcome to our camp. 
+It may not seem like much to you underworlders, 
+but you're free to share what we have. 
+We've got mushrooms, 
+mushrooms, 
+some jerky, 
+some cockroach brittle, 
 and mushrooms.
 
 -> How do you survive up here? Is that all you have? 
@@ -131,7 +154,10 @@ title: Welcome to Camp B
 Brooklyn: Welcome to our camp. 
 It may not seem like much to an underworlder, 
 but you're free to share what we have. 
-We've got mushrooms, mushrooms, some jerky, some cockroach brittle, 
+We've got mushrooms, 
+mushrooms, 
+some jerky, 
+some cockroach brittle, 
 and mushrooms.
 -> How do you survive up here? Is that all you have? 
     <<jump Food Lore B>>
@@ -143,7 +169,8 @@ __PrivCrochet_position: 990,784
 __PrivCrochet_tags: 
 title: Camp Puzzle Intro B
 ---
-Brooklyn: If you'd really like to go back underground, I'm sure someone here can help guide you there. 
+Brooklyn: If you'd really like to go back underground, 
+I'm sure someone here can help guide you there. 
 We'd need help with a few tasks first to free up some hands though. 
 
 -> I'll do it!
@@ -382,13 +409,23 @@ __PrivCrochet_position: 3528,-2
 __PrivCrochet_tags: 
 title: Forest
 ---
-You remember hearing stories in your youth about 'trees'. 
-In the old world, they would stand tall, reaching miles above the ground. 
-Some of them were high enough to scrape the ceiling of the sky. 
+<<set_left_npc("N/A")>>
+<<set_right_npc("N/A")>>
+<<rm("rm_petrafied_forest")>>
+You remember hearing fairy tales in your youth about 'trees'. 
+In the old world, they would stand tall, reaching miles above the ground. Some of them were high enough to scrape the ceiling of the sky. 
 They would be covered in shades of brilliant green, like emeralds that grew along its skin. 
 Based on what you see now, you wonder if those stories were ever true. 
-The ground is scattered with what you assume are trees,
-but they look more like the stones that litter your underground world.
+The ground is scattered with what you assume are trees, but they look more like the stones that litter your underground world.
+Underneath one of the stones looks like a bag. There's food inside.
+You try to pull it out, but it's jammed under the stone tightly, There's no way you could pry it out by yourself.
+<<if $alone == 0>>
+    Luckily, you're not by yourself. You and Cheese manage to lift the massive stone after some effort.
+    Inside the bag was a large stash of mushrooms. This should make the journey a little easier.
+<<else>>
+    Dejected, you turn and continue walking.
+<<endif>>
+<<jump Grove>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 3788,314
@@ -396,7 +433,31 @@ __PrivCrochet_tags:
 title: Grove
 ---
 Down below, your people survive primarily off mushrooms and hope. 
-You don’t have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however. Some of them extend far past your own height, offering cover from the rain.
+You don’t have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however. 
+Some of them extend far past your own height, offering cover from the rain.
+Some of them look small enough to take, but there's a problem.
+You don't know which ones are edible.
+->Take the brown and white ones
+    You put the mushrooms in your bag and carry on.
+    <<set $food to ($food + 1)>>
+    <<set $poison to 0>>
+    <<jump City>>
+->Take the red and white ones
+    You put the mushrooms in your bag and carry on.
+    <<set $poison to 1>>
+    <<jump City>>
+->Take the white, flat-topped ones
+    You put the mushrooms in your bag and carry on.
+    <<set $poison to 1>>
+    <<jump City>>
+<<if $guide == 1>>
+->Consult the guide
+    Good thing you looked. Most of those mushrooms were poisonous. 
+    You pluck the few safe ones out of the ground and carry on.
+    <<set $food to ($food + 1)>>
+    <<set $poison to 0>>
+    <<jump City>>
+<<endif>>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1500,235
@@ -407,7 +468,10 @@ Brooklyn: Thank you for your help!
 Here's the guide book, and good luck on your travels!
 
 -> Thank you! I'll be on my way now!
-//Goes to map
+    [i]Finally, you can make your journey home. The guide shows that the closest entrance home goes through the "petrified forest".
+    You spend the walk there wondering what a "forest" is. Hopefully you'll know when you get there.[/i]
+    <<jump Forest>>
+    <<set $guide to 1>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1754,233
@@ -417,82 +481,12 @@ title: Option O.A
 Brooklyn: Why would you kill that crow? 
 We told you they were sacred! 
 You can't stay here now!
-
-//Get kicked back to the map
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 3426,516
-__PrivCrochet_tags: 
-title: CrowGuy
----
-Oh, I've never seen you here before.
-
-->I'm from underground.
-    Seriously? I didn't think people still lived down there. 
-    Welcome to the surface, friend. Enjoy your stay.
-    ->My stay? Isn't there a way back down?
-        Not that I know of.
-        Actually, come to think of it,
-        I have a guide book that might show a way.
-        It was written not long after the collapse, I think.
-        Has maps of all the entrances down to the surface.
-        ->That's perfect! Could I have it?
-            Not for free, of course.
-            I'm assuming that you don't have any valuables to trade with.
-            I bet you don't even have any seeds either!
-            You underworlders probably pay each other with pebbles or something.
-            Anyways, I'll let you have it if you do me a favor.
-            ->What's the favor?
-                See that crow over there?
-                It stole [important thing] from me.
-                I need you to get it back.
-                Actually, first I need to ask you a question.
-                Are you religious?
-                ->Huh?
-                    Perfect.
-                    ->Why can't you get it from the crow yourself?
-                        Wow. You really must not be from around here.
-                        The crows are sacred to us. They're the heralds of the gods.
-                        We're not allowed to touch them.
-                        I figure it'll be fine for you.
-                        You're gonna go to [food hell] anyways, I guess.
-                    ->Alright, fine. I'll go bother your crow.
-        
-                    ->I don't have time for this. Sorry.
-
-                ->What?
-                    Perfect.
-                    ->Why can't you get it from the crow yourself?
-                        You really must not be from around here.
-                        The crows are sacred to us. They're the heralds of the gods.
-                        We're not allowed to touch them.
-                        I figure it'll be fine for you.
-                        You're gonna go to [food hell] anyways, I guess.
-                    ->Alright, fine. I'll go bother your crow.
-        
-                    ->I don't have time for this. Sorry.
-
-                ->Uhh, I guess not?
-                    Perfect.
-                    ->Why can't you get it from the crow yourself?
-                        You really must not be from around here.
-                        The crows are sacred to us. They're the heralds of the gods.
-                        We're not allowed to touch them.
-                        I figure it'll be fine for you.
-                        You're gonna go to [food hell] anyways, I guess.
-                    ->Alright, fine. I'll go bother your crow.
-        
-                    ->I don't have time for this. Sorry.
-                
-            ->No thanks. I don't have the time.
-        ->[Leave]
-        
-    ->What's it like up here?
-        It's not exactly paradise, I'll tell you that.
-    
-    ->[Leave]
-
-->I heard you were having trouble with a crow?
+<<set $guide to 0>>
+[i]It appears you've been banished from the camp.
+With no other options, you start to set out on your journey home.
+You don't exactly know the way back, so you pick a direction and start walking. 
+Eventually, you come across new scenery.[/i]
+<<jump Forest>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2833,1151
@@ -566,8 +560,12 @@ title: Option O.B
 Brooklyn: Why would you kill that crow? 
 We told you they were sacred! 
 You can't stay here now!
-
-//Get kicked back to the map
+<<set $guide to 0>>
+[i]It appears you've been banished from the camp.
+With no other options, you start to set out on your journey home.
+You don't exactly know the way back, so you pick a direction and start walking. 
+Eventually, you come across new scenery.[/i]
+<<jump Forest>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1058,1720
@@ -576,9 +574,11 @@ title: Option N.B
 ---
 Brooklyn: Thank you for your help! 
 Here's the guide book, and good luck on your travels!
-
+<<set $guide to 1>>
 -> Thank you! I'll be on my way now!
-//Goes to map
+    [i]Finally, you can make your journey home. The guide shows that the closest entrance home goes through the "petrified forest".
+    You spend the walk there wondering what a "forest" is. Hopefully you'll know when you get there.[/i]
+    <<jump Forest>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 780,-1042
@@ -699,7 +699,7 @@ __PrivCrochet_position: 3365,765
 __PrivCrochet_tags: 
 title: theplot
 ---
-Clipper Guy: Your poor sheltered underworlder mind wouldn't understand.
+Your poor sheltered underworlder mind wouldn't understand.
 I'm on a quest sent to me by a higher order.
 ->Oh yeah? What's your quest?
     <<jump sabotage>>
@@ -730,10 +730,11 @@ __PrivCrochet_position: 3779,1496
 __PrivCrochet_tags: 
 title: clipperwin
 ---
-You've finally gotten the clippers back. Now to give them to the gardener.
+[i]You've finally gotten the clippers back. Now to give them to the gardener.[/i]
 <<rm("rm_garden")>>
 <<set_right_npc("Gardener")>>
 Gardener: Thank you! And as a reward, the food I promised.
+<<set $food to ($food + 1>>
 I'm afraid that's all I can do for you. Good luck on your way home.
 Oh, by the way. Speak to Brooklyn again before you leave. She might also have something that could help you get home.
 <<jump Option G.B>>
@@ -755,7 +756,7 @@ Little does he know I will destroy his false idol with his own tools!
     <<jump damnclippers>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 4267,1210
+__PrivCrochet_position: 4267,1200
 __PrivCrochet_tags: 
 title: thegods
 ---
@@ -863,4 +864,11 @@ If I rebuke them now...
 [i]They throw the clippers forcefully at you, and start to run away.[/i]
 Just take them! I need time to think.
 <<jump clipperwin>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4023,-41
+__PrivCrochet_tags: 
+title: City
+---
+You find it hard to believe people used to live like this.
 ===
