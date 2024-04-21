@@ -31,15 +31,11 @@ The roof is so high above you, and it's pouring water!
 <<rm("rm_city")>>
 
 
-You wander through this unfamiliar land. 
-Your feet hurt, and it's cold, and the roof is still upset with you. 
-You're wet, and you think you saw an animal. 
-You wish you were home. 
+You wander through this unfamiliar land. Your feet hurt, and it's cold, and the roof is still upset with you. 
+You're wet, and you think you saw an animal. You wish you were home. 
 Suddenly, you see something moving. 
-You're prepared to fight. 
-You've never fought anything before. 
-The creature reveals itself from the rubble around you, 
-and instead of a horrible creature, you see a familiar sight.
+You're prepared to fight. You've never fought anything before. 
+The creature reveals itself from the rubble around you, and instead of a horrible creature, you see a familiar sight.
 
 <<set_right_npc("Cheese")>>
 
@@ -59,12 +55,8 @@ __PrivCrochet_tags:
 title: Meet Brooklyn, Cheese
 ---
 <<set $alone to 0>>
-As you walk on, you're still cold and wet, 
-but it is a comfort to have company. 
-Cheese's presence makes the walk more bearable, 
-but you do worry about how the two of you will manage to find food.
-The light changes as the two of you walk on, the already dark roof above 
-you growing even dimmer and casting harsh shadows over the ruins of the city you approach.
+As you walk on, you're still cold and wet, but it is a comfort to have company. Cheese's presence makes the walk more bearable, but you do worry about how the two of you will manage to find food.
+The light changes as the two of you walk on, the already dark roof above you growing even dimmer and casting harsh shadows over the ruins of the city you approach.
 You have cities underground, of course, but they don't look anything like this. 
 To your surprise, you see smoke rising in the distance, and you think you hear voices. 
 Just when you've decided you're imagining things, you see someone approaching. 
@@ -78,14 +70,11 @@ I’m sure our world is strange to you, so please,
 feel free to take your rest at our camp. 
 We can introduce you to the crows!
 
--> Thank you for your hospitality. We'd love to 
-come to your camp. But what's a crow?
+-> Thank you for your hospitality. We'd love to come to your camp. But what's a crow?
     <<jump Welcome to Camp A>>
 
 -> No thank you, we're fine on our own. 
-    Brooklyn: If you insist on going alone, do be careful. 
-    This world can be inhospitable, 
-    and things that look trustworthy aren't always what they seem.
+    Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
     //jump to exploration section
         <<rm("rm_petrafied_forest")>>
 ===
@@ -116,14 +105,11 @@ I'm sure our world is strange to you, so please,
 feel free to take your rest at our camp. 
 We can introduce you to the crows!
 
-->  Thank you for your hospitality. I'd love to 
-come to your camp. But what's a crow?. 
+->  Thank you for your hospitality. I'd love to come to your camp. But what's a crow?. 
     <<jump Welcome to Camp B>>
 
 -> No thank you, I'm fine on my own. 
-    Brooklyn: If you insist on going alone, do be careful. 
-    This world can be inhospitable, 
-    and things that look trustworthy aren't always what they seem.
+    Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
     <<rm("rm_petrafied_forest")>>
 ===
 __PrivCrochet_colorID: 1
