@@ -34,9 +34,9 @@ function draw_npc(_left_npc,_right_npc){
 			var _right = (ChatterboxGetContentSpeaker(chatterbox,0)==_right_npc)
 			
 	
-				draw_sprite_ext(spr_npcs,npc_1_index, _margin_char ,				room_height,
+				draw_sprite_ext(spr_npcs_new,npc_1_index, _margin_char ,				room_height,
 					_l_size[_left], _l_size[_left], 0, _l_color[_left],1)
-				draw_sprite_ext(spr_npcs,npc_2_index, room_width - _margin_char ,	room_height, 
+				draw_sprite_ext(spr_npcs_new,npc_2_index, room_width - _margin_char ,	room_height, 
 					_r_size[_right], _r_size[_right], 0, _r_color[_right],1)
 		}
 	else{

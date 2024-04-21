@@ -147,5 +147,6 @@
     {"name":"spr_tile_underground","order":5,"path":"sprites/spr_tile_underground/spr_tile_underground.yy",},
     {"name":"spr_title","order":1,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"spr_you_are_here_map_sprite","order":6,"path":"sprites/spr_you_are_here_map_sprite/spr_you_are_here_map_sprite.yy",},
+    {"name":"spr_npcs_new","order":1,"path":"sprites/spr_npcs_new/spr_npcs_new.yy",},
   ],
 }
