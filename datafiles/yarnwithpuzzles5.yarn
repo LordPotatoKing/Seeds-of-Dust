@@ -187,13 +187,12 @@ title: Option G.B
 
 Brooklyn: We can give you a guide book that would help you survive the wilderness. 
 In exchange, we could use help with one of the crows. 
-It's stolen a family heirloom from one of our people, 
-and their religion prevents them from taking anything from a crow. 
+It's stolen a family heirloom from one of our people, and their religion prevents them from taking anything from a crow. 
 That bird over there is the thief, if you could get the item returned.
-->Find something shiny to distract the crow
+->Use a shiny object to distract the crow
     <<jump Option N.B>>
 
-->Find a large rock to kill the crow with
+->Use a large rock to kill the crow
     <<jump Option O.B>>
 ===
 __PrivCrochet_colorID: 2
@@ -254,7 +253,7 @@ exchange for some help from you.
 -> Thank you. Good luck with your mission.
     <<rm("rm_petrafied_forest")>>
 -> What's the task you need help with?
-//jump to shovel puzzle
+    <<jump Shovel>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1167,-67
@@ -369,7 +368,7 @@ in exchange for some help from you.
 -> Thank you. Good luck with your mission.
     <<rm("rm_petrafied_forest")>>
 -> What's the task you need help with?
-//jump to shovel puzzle
+    <<jump Shovel>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2934,-281
@@ -448,22 +447,6 @@ You can't stay here now!
 //Get kicked back to the map
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3347,774
-__PrivCrochet_tags: 
-title: Crow
----
-The crow holds the [object] in its mouth.
-//If the player has the shiny thing
-->Use the shiny thing you found
-    
-
-->Find a large rock to kill the crow with
-   
-
-->Leave it alone
-//end dialog
-===
-__PrivCrochet_colorID: 0
 __PrivCrochet_position: 3426,516
 __PrivCrochet_tags: 
 title: CrowGuy
@@ -538,27 +521,19 @@ Oh, I've never seen you here before.
 ->I heard you were having trouble with a crow?
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3795,548
+__PrivCrochet_position: 2833,1151
 __PrivCrochet_tags: 
 title: ClipperGuy
 ---
-I thought we didn't get newcomers anymore.
+You walk back to the camp and search for the person who has the gardener's clippers.
+Luckily, you manage to spot them eventually.
+<<rm("rm_brooklyn")>>
+<<set_right_npc("ClipperGuy")>>
+Stranger: Huh. I thought we didn't get newcomers anymore.
 ->The gardener wants their hedge clippers back.
-    Well, that's tough! I still need them.
-    Besides, I don't even like that gardener.
-    ->What do you need them for?
-        [figure that out]
-    ->Well, why did you borrow his clippers then?
-        I need them!
-        ->Uhh... for what?
-            [figure that out]        
-        ->Just give him his damn clippers back!
-    ->What did the gardener do to you?
-        [figure that out]
-    ->Just give him his damn clippers back!
-
-
-->[worldbuilding option]
+    <<jump Iwantmyclippers>>
+->Wait, why not?
+    <<jump clipperexplains>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 4205,198
@@ -695,4 +670,223 @@ wonder if there is hope for the world that once was,
 and as you walk back into the familiar darkness, 
 you cannot help but wonder 
 just how far those roots go down.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2536,1312
+__PrivCrochet_tags: 
+title: Shovel
+---
+Someone in camp borrowed my hedge clippers, and they refuse to give it back.
+If you can convince them to give it back, I'll spare some food for your journey.
+
+->Alright, I'll go talk to them.
+    Thank you. Good luck with this one. 
+    They're not exactly the friendly type.
+    <<jump ClipperGuy>>
+->Sorry, I don't have time for this.
+    Very well. Good luck on your journey. 
+    Brooklyn probably knows the way home. You ought to ask them.
+    <<jump Option G.B>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2862,1449
+__PrivCrochet_tags: 
+title: clipperexplains
+---
+We're the last people alive for at least a hundred miles.
+Everyone else is either hiding underground or... [i]underground[/i].
+You know what I mean.
+
+->Fascinating. The clippers?
+    <<jump Iwantmyclippers>>
+
+//I'll add more lore later
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3402,1096
+__PrivCrochet_tags: 
+title: Iwantmyclippers
+---
+Well, that's tough! I still need them.
+Besides, I don't even like that gardener.
+->What do you need them for?
+    <<jump theplot>>
+->Why not?
+    That idiot doesn't understand the gravity of his actions. He's attempting to grow a "tree".
+    He doesn't understand the depths of his blasphemy!
+    <<jump sabotage>>
+->Well, why did you borrow his clippers then?
+    <<jump ineedthem>>
+->Just give him his damn clippers back!
+    <<jump damnclippers>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3365,765
+__PrivCrochet_tags: 
+title: theplot
+---
+Clipper Guy: Your poor sheltered underworlder mind wouldn't understand.
+I'm on a quest sent to me by a higher order.
+->Oh yeah? What's your quest?
+    <<jump sabotage>>
+->Just give me the damn clippers!
+    <<jump damnclippers>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3210,1522
+__PrivCrochet_tags: 
+title: damnclippers
+---
+Alright, fine. Jeez. No need to be so mean.
+<<jump clipperwin>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2933,854
+__PrivCrochet_tags: 
+title: ineedthem
+---
+I need them!
+    ->Uhh... for what?
+        <<jump theplot>>       
+    ->Just give him his damn clippers back!
+        <<jump damnclippers>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3779,1496
+__PrivCrochet_tags: 
+title: clipperwin
+---
+You've finally gotten the clippers back. Now to give them to the gardener.
+<<rm("rm_garden")>>
+<<set_right_npc("Gardener")>>
+Gardener: Thank you! And as a reward, the food I promised.
+I'm afraid that's all I can do for you. Good luck on your way home.
+Oh, by the way. Speak to Brooklyn again before you leave. She might also have something that could help you get home.
+<<jump Option G.B>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3778,951
+__PrivCrochet_tags: 
+title: sabotage
+---
+I have to destroy the gardener's tree. I HAVE TO.
+He offends the gods with his blasphemy! I need to make him repent!
+The poor fool let me borrow his clippers. I told him I was going to use them to style my hair.
+Little does he know I will destroy his false idol with his own tools!
+->How does growing a tree offend your gods?
+    <<jump thegods>>
+->Couldn't you just talk to the guy?
+    <<jump thefool>>
+->Just give me the damn clippers!
+    <<jump damnclippers>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4267,1210
+__PrivCrochet_tags: 
+title: thegods
+---
+The plants are the domain of the gods! We aren't allowed to lay eyes upon them until The Great Feast.
+In the days before the gods put us on this earth, the world was covered in green.
+The gods would consume this green, and it would fill their stomachs and give them strength.
+They called this strength "taste", a great sensation in their mouths that would provide them with their power.
+We mortals aren't allowed to share in this power until we have proved our worth, and are carried on to The Great Feast,
+where there will be endless food and endless drink, and we can share in the splendor of our creators for eternity!
+
+->You know what? Just cut down the tree. I can't listen to this anymore.
+    <<jump clipperlose>>
+
+->If you looked at the tree, doesn't that mean you sinned too?
+    <<jump uhoh>>
+
+//->If the gardener was able to grow a tree, are they really that divine?
+  //  <<jump fakery>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4252,765
+__PrivCrochet_tags: 
+title: thefool
+---
+I did! And the fool refused to listen!
+For 3 hours I preached to him about the wonders of the Pantryon,
+how they will deliver our souls to The Great Feast, where we will finally experience the miracle of taste as the gods intended!
+The arrogant fool laughed in my face! Told me I was mad!
+He'll understand eventually. He'll understand when his soul is banished to The Infinite Starving,
+where his stomach will twist and churn in agony until the end of days!
+Him and his damn tree! Doesn't he know how he angers the gods!
+->Why would growing a tree offend your gods?
+    <<jump thegods>>
+->Just give me the damn clippers!
+    <<jump damnclippers>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4111,1634
+__PrivCrochet_tags: 
+title: clipperlose
+---
+<<rm("rm_garden")>>
+<<set_right_npc("Gardener")>>
+[i]Before the lunatic can destroy the tree, the gardener delivers a loud blow to their head, knocking them out.[/i]
+Gardener: What... What did you say to them? 
+They were about to destroy my tree! I'm holding you responsible.
+Leave right now. Leave and never come back. Don't make me have to use this shovel.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4718,1043
+__PrivCrochet_tags: 
+title: uhoh
+---
+[i]Their eyes widen, and they start to appear frightened.[/i]
+No. No! I am their most loyal disciple! The gods would never punish me! 
+I looked at the tree because I had to! I had to know it was real so I could start my plan!
+->How were you planning on destroying it if you couldn't look at it?
+    <<jump paradox>>
+->I don't think you're as good of an acolyte as you think.
+    <<jump iamperfect>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4655,1329
+__PrivCrochet_tags: 
+title: fakery
+---
+[maybe include this]
+
+There's no way! He used some kind of evil magic. I've seen the dark texts.
+Pesticides, fertilizer, it's all ungodly!
+That tree is a mockery! A false idol!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4663,719
+__PrivCrochet_tags: 
+title: paradox
+---
+I- I-
+I have no idea! I'm just trying to be a good disciple!
+[i]Tears start welling in their eyes.[/i]
+You have no idea how hard it is! I try so hard. I've pushed everyone away for the sake of this religion.
+This couldn't have all been for nothing! You can't tell me I've come this far only to damn myself now!
+->Perhaps it's time to abandon the religion.
+    <<jump conversion>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 5016,730
+__PrivCrochet_tags: 
+title: iamperfect
+---
+I AM PERFECT! 
+I AM THE LAST TRUE DISCIPLE!
+I'LL SHOW YOU. 
+I'LL DESTROY THE TREE RIGHT NOW!
+HAHAHAHAHAHAHAHAHAHA
+<<jump clipperlose>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4695,446
+__PrivCrochet_tags: 
+title: conversion
+---
+Do you even understand what you're saying! My whole life has been dedicated to the gods.
+If I rebuke them now...
+[i]They throw the clippers forcefully at you, and start to run away.[/i]
+Just take them! I need time to think.
+<<jump clipperwin>>
 ===
