@@ -77,14 +77,11 @@ I’m sure our world is strange to you, so please,
 feel free to take your rest at our camp. 
 We can introduce you to the crows!
 
--> Thank you for your hospitality. We'd love to 
-come to your camp. But what's a crow?
+-> Thank you for your hospitality. We'd love to come to your camp. But what's a crow?
     <<jump Welcome to Camp A>>
 
 -> No thank you, we're fine on our own. 
-    Brooklyn: If you insist on going alone, do be careful. 
-    This world can be inhospitable, 
-    and things that look trustworthy aren't always what they seem.
+    Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
     //jump to exploration section
         <<rm("rm_petrafied_forest")>>
 ===
