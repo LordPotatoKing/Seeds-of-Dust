@@ -24,7 +24,8 @@ function draw_npc(_left_npc,_right_npc){
 		case "You"		: npc_2_index = 2; break;
 		case "Hot Sauce": npc_2_index = 3; break;
 		case "Brooklyn"	: npc_2_index = 4; break;
-		case "ClipperGuy"		: npc_2_index = 5; break;
+		case "N/A" : npc_2_index = 5; break;
+		case "ClipperGuy"		: npc_2_index = 6; break;
 		default			: npc_2_index = 5; break;
 	}
 		if IsChatterbox(chatterbox) and text != undefined
