@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Instuctions",
+  "%Name":"obj_Instuctions_white_text",
   "eventList":[],
   "managed":true,
-  "name":"obj_Instuctions",
+  "name":"obj_Instuctions_white_text",
   "overriddenProperties":[],
   "parent":{
     "name":"Text Obj",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Instructions",
-    "path":"sprites/spr_Instructions/spr_Instructions.yy",
+    "name":"spr_Instructions_white_text",
+    "path":"sprites/spr_Instructions_white_text/spr_Instructions_white_text.yy",
   },
   "spriteMaskId":null,
   "visible":true,
