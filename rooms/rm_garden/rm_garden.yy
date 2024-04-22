@@ -4,7 +4,7 @@
   "creationCodeFile":"",
   "inheritCode":true,
   "inheritCreationOrder":true,
-  "inheritLayers":true,
+  "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_44A29A98","path":"rooms/rm_garden/rm_garden.yy",},
     {"name":"inst_4E5AA7F3","path":"rooms/rm_garden/rm_garden.yy",},
