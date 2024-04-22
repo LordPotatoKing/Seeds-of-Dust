@@ -64,7 +64,6 @@
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"NewFile5.yarn","CopyToMask":-1,"filePath":"datafiles","name":"NewFile5.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"yarnwithpuzzles5.yarn","CopyToMask":-1,"filePath":"datafiles","name":"yarnwithpuzzles5.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"yarnwithpuzzles6.yarn","CopyToMask":-1,"filePath":"datafiles","name":"yarnwithpuzzles6.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -291,7 +290,6 @@
     {"id":{"name":"__shd_scribble_bake_outline_8dir","path":"shaders/__shd_scribble_bake_outline_8dir/__shd_scribble_bake_outline_8dir.yy",},},
     {"id":{"name":"__shd_scribble_bake_shadow","path":"shaders/__shd_scribble_bake_shadow/__shd_scribble_bake_shadow.yy",},},
     {"id":{"name":"__shd_scribble","path":"shaders/__shd_scribble/__shd_scribble.yy",},},
-    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"bk_all","path":"sprites/bk_all/bk_all.yy",},},
     {"id":{"name":"bk_camp","path":"sprites/bk_camp/bk_camp.yy",},},
     {"id":{"name":"bk_city","path":"sprites/bk_city/bk_city.yy",},},
