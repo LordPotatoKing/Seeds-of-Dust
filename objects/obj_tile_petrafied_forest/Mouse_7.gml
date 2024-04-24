@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 if room=rm_map {
-	room_goto(rm_petrafied_forest);
+	room_goto(rm_petrified_forest);
 }

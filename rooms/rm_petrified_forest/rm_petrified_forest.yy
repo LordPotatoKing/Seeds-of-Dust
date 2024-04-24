@@ -1,15 +1,15 @@
 {
   "$GMRoom":"",
-  "%Name":"rm_petrafied_forest",
+  "%Name":"rm_petrified_forest",
   "creationCodeFile":"",
   "inheritCode":true,
   "inheritCreationOrder":true,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_44A29A98","path":"rooms/rm_petrafied_forest/rm_petrafied_forest.yy",},
-    {"name":"inst_4E5AA7F3","path":"rooms/rm_petrafied_forest/rm_petrafied_forest.yy",},
-    {"name":"inst_3DA4CC18","path":"rooms/rm_petrafied_forest/rm_petrafied_forest.yy",},
-    {"name":"inst_757C770E","path":"rooms/rm_petrafied_forest/rm_petrafied_forest.yy",},
+    {"name":"inst_44A29A98","path":"rooms/rm_petrified_forest/rm_petrified_forest.yy",},
+    {"name":"inst_4E5AA7F3","path":"rooms/rm_petrified_forest/rm_petrified_forest.yy",},
+    {"name":"inst_3DA4CC18","path":"rooms/rm_petrified_forest/rm_petrified_forest.yy",},
+    {"name":"inst_757C770E","path":"rooms/rm_petrified_forest/rm_petrified_forest.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,7 +22,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bk_forest","path":"sprites/bk_forest/bk_forest.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_petrafied_forest",
+  "name":"rm_petrified_forest",
   "parent":{
     "name":"Map Rooms",
     "path":"folders/Rooms/Map Rooms.yy",
