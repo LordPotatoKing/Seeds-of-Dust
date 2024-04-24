@@ -56,3 +56,36 @@ function chatterbox_update(){
 	node = ChatterboxGetCurrent(chatterbox)
 	text = ChatterboxGetContent(chatterbox,0)
 }
+
+function item_config(_item_gained) {
+    var _item_list = ds_list_create();
+    ds_list_add(_item_list, _item_gained);
+
+    var _sprite_index = 0;
+
+    switch (ds_list_size(_item_list)) {
+        case 1:
+            switch (ds_list_find_value(_item_list, 0)) {
+                case "Book": _sprite_index = 1; break;
+                case "Shovel": _sprite_index = 2; break;
+                case "Sheers": _sprite_index = 3; break;
+            }
+            break;
+        case 2:
+            if (ds_list_find_index(_item_list, "Book") != -1 && ds_list_find_index(_item_list, "Shovel") != -1) {
+                _sprite_index = 4;
+            } else if (ds_list_find_index(_item_list, "Shovel") != -1 && ds_list_find_index(_item_list, "Sheers") != -1) {
+                _sprite_index = 5;
+            }
+            break;
+        case 3:
+            if (ds_list_find_index(_item_list, "Book") != -1 && ds_list_find_index(_item_list, "Shovel") != -1 && ds_list_find_index(_item_list, "Sheers") != -1) {
+                _sprite_index = 6;
+            }
+            break;
+    }
+
+    draw_sprite(spr_icon_bar, _sprite_index, 30, 340);
+    
+    ds_list_destroy(_item_list); // Cleanup the list
+}

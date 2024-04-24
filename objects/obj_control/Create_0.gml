@@ -1,11 +1,14 @@
 /// @description Initialize Chatterbox and set varubles
 // You can write your code in this editor
 
-ChatterboxLoadFromFile("yarnwithpuzzles6.yarn")				// load file
+ChatterboxLoadFromFile("TestFile.yarn")				// load file
 // ChatterboxAddFunction("bg", background_set_index)	//Add function to change backround
-ChatterboxAddFunction("rm", my_room_set)			//Add function to change backround
+
+ChatterboxAddFunction("rm",				my_room_set)			//Add function to change backround
 ChatterboxAddFunction("set_left_npc",	set_left_npc)
 ChatterboxAddFunction("set_right_npc",	set_right_npc)
+ChatterboxAddFunction("item",			item_config)
+
 chatterbox=ChatterboxCreate()						//create a chatterbox
 ChatterboxJump(chatterbox,"Start")					//go to "start" box
 chatterbox_update()									//Get current node and node text

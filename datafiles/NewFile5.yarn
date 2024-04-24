@@ -1,36 +1,37 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 311,145
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Start
 ---
-One day as you wander through your underground hometown, 
+One day as you wander through your underground hometown,
 the ground begins to shake and rumble.
-Rocks begin to tumble down the roof of the cave. 
+Rocks begin to tumble down the roof of the cave.
 Seeking shelter, you run into a small hole along the edge of the cave.
-Once the rampaging earthquake has subsided, 
-you come outside to find that your only way back home has caved in. 
+Once the rampaging earthquake has subsided,
+you come outside to find that your only way back home has caved in.
 You make your way around the cave, looking for a solution,
-only to find a staircase leading up to the world outside. 
-Time passes... 
-<<rm("rm_petrafied_forest")>>
+only to find a staircase leading up to the world outside.
+Time passes...
+<<item("Shovel")>>
+<<rm("rm_petrified_forest")>>
 <<set_left_npc("You")>>
 <<set_right_npc("Cheese")>>
-This is a strange new world. 
-There are noises you aren't familiar with, and lots of strange creatures, probably. 
-You might get eaten! 
-Suddenly, a drop of water lands on your head. 
-Then another, then a few more. 
+This is a strange new world.
+There are noises you aren't familiar with, and lots of strange creatures, probably.
+You might get eaten!
+Suddenly, a drop of water lands on your head.
+Then another, then a few more.
 The roof is so high above you, and it's pouring water!
 Time passes...
-You wander through this unfamiliar land. 
-Your feet hurt, and it's cold, and the roof is still upset with you. 
-You're wet, and you think you saw an animal. 
-You wish you were home. 
-Suddenly, you see something moving. 
-You're prepared to fight. 
-You've never fought anything before. 
-The creature reveals itself from the rubble around you, 
+You wander through this unfamiliar land.
+Your feet hurt, and it's cold, and the roof is still upset with you.
+You're wet, and you think you saw an animal.
+You wish you were home.
+Suddenly, you see something moving.
+You're prepared to fight.
+You've never fought anything before.
+The creature reveals itself from the rubble around you,
 and instead of a horrible creature, you see a familiar sight.
 
 You: Cheese! You made it out! Are you looking for a way home too?
@@ -44,70 +45,70 @@ Cheese:  I am. I think I heard that there's another entrance a few days West of 
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 701,-281
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option A
 ---
 <<set_right_npc("Brooklyn")>>
-As you walk on, you're still cold and wet, 
-but it is a comfort to have company. 
-Cheese's presence makes the walk more bearable, 
+As you walk on, you're still cold and wet,
+but it is a comfort to have company.
+Cheese's presence makes the walk more bearable,
 but you do worry about how the two of you will manage to find food.
 Suddenly, you come across another human being.
-Brooklyn: Hello travelers! You must be from the Underworld. 
-I'm sure our world is strange to you, so please, 
-feel free to take your rest at our camp. 
+Brooklyn: Hello travelers! You must be from the Underworld.
+I'm sure our world is strange to you, so please,
+feel free to take your rest at our camp.
 We can introduce you to the crows!
 
--> We'd be glad to meet the crows. 
+-> We'd be glad to meet the crows.
     <<jump Option C.A>>
 
--> No thank you, we're fine on our own. 
-    Brooklyn: If you insist on going alone, do be careful. 
-    This world can be inhospitable, 
+-> No thank you, we're fine on our own.
+    Brooklyn: If you insist on going alone, do be careful.
+    This world can be inhospitable,
     and things that look trustworthy aren't always what they seem.
     <<jump Option D.A>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 359,724
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option B
 ---
 <<rm("rm_mushroom_grove")>>
-As you walk on, you do wish you had company. 
-But it's going to be hard enough to feed yourself in this terrible and hostile world, 
-much less another person. 
-You need to worry about yourself. 
-You approach the ruins of what must once have been a city. 
-You have cities underground, of course, but they don't look anything like this. 
-To your surprise, you see smoke rising in the distance, and you think you hear voices. 
-Just when you've decided you're imagining things, you see someone approaching. 
+As you walk on, you do wish you had company.
+But it's going to be hard enough to feed yourself in this terrible and hostile world,
+much less another person.
+You need to worry about yourself.
+You approach the ruins of what must once have been a city.
+You have cities underground, of course, but they don't look anything like this.
+To your surprise, you see smoke rising in the distance, and you think you hear voices.
+Just when you've decided you're imagining things, you see someone approaching.
 How odd! You didn't think people could survive up here!
-Brooklyn: Hello traveler! You must be from the Underworld. 
-I'm sure our world is strange to you, so please, 
-feel free to take your rest at our camp. 
+Brooklyn: Hello traveler! You must be from the Underworld.
+I'm sure our world is strange to you, so please,
+feel free to take your rest at our camp.
 We can introduce you to the crows!
 
--> Thank you for your generosity, I'd be glad to meet the crows. 
+-> Thank you for your generosity, I'd be glad to meet the crows.
     <<jump Option C.B>>
 
--> No thank you, I'm fine on my own. 
-    Brooklyn: If you insist on going alone, do be careful. 
-    This world can be inhospitable, 
+-> No thank you, I'm fine on my own.
+    Brooklyn: If you insist on going alone, do be careful.
+    This world can be inhospitable,
     and things that look trustworthy aren't always what they seem.
     <<jump Option D.B>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 965,-497
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option C.A
 ---
-Brooklyn: Welcome to our camp. 
-It may not seem like much to you underworlders, 
-but you're free to share what we have. 
-We've got mushrooms, 
-mushrooms, 
-some jerky, 
-some cockroach brittle, 
+Brooklyn: Welcome to our camp.
+It may not seem like much to you underworlders,
+but you're free to share what we have.
+We've got mushrooms,
+mushrooms,
+some jerky,
+some cockroach brittle,
 and mushrooms.
 
 -> What about those crows you mentioned introducing us to?
@@ -118,47 +119,47 @@ and mushrooms.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 746,621
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option C.B
 ---
-Brooklyn: Welcome to our camp. 
-It may not seem like much to an underworlder, 
-but you're free to share what we have. 
-We've got mushrooms, 
-mushrooms, 
-some jerky, 
-some cockroach brittle, 
+Brooklyn: Welcome to our camp.
+It may not seem like much to an underworlder,
+but you're free to share what we have.
+We've got mushrooms,
+mushrooms,
+some jerky,
+some cockroach brittle,
 and mushrooms.
--> What about those crows you mentioned? 
+-> What about those crows you mentioned?
     <<jump Option E.B>>
 -> Do you know how I could get back home?
     <<jump Option F.B>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 502,1036
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option D.B
 ---
 Click the map button to continue.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 876,-22
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option D.A
 ---
 Click the map button to continue.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1045,528
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option E.B
 ---
-Brooklyn: Those black birds are called crows, and they're sacred to our people. 
-They bring seeds to us in exchange for scraps or trinkets, 
+Brooklyn: Those black birds are called crows, and they're sacred to our people.
+They bring seeds to us in exchange for scraps or trinkets,
 and we give the seeds to the gardener for safekeeping.
 You: The gardener?
-Brooklyn: Yes. He tends the seeds, 
-in the hope that we can make them grow again someday. 
+Brooklyn: Yes. He tends the seeds,
+in the hope that we can make them grow again someday.
 I can introduce you to him if you'd like.
 -> He sounds fascinating. Lead the way!
     <<jump Option H.B>>
@@ -167,28 +168,28 @@ I can introduce you to him if you'd like.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 858,1230
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option F.B
 ---
-Brooklyn: If you'd really like to go back underground, 
-I'm sure someone here can help guide you there. 
-We'd need help with a few tasks first to free up some hands though. 
+Brooklyn: If you'd really like to go back underground,
+I'm sure someone here can help guide you there.
+We'd need help with a few tasks first to free up some hands though.
 
 -> I'll do it!
     <<jump Option G.B>>
 
--> Could you tell me more about what it's like up here? 
+-> Could you tell me more about what it's like up here?
     <<jump Option E.B>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1257,1252
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option G.B
 ---
-Brooklyn: We can give you a guide book that would help you survive the wilderness. 
-In exchange, we could use help with one of the crows. 
-It's stolen a family heirloom from one of our people, 
-and their religion prevents them from taking anything from a crow. 
+Brooklyn: We can give you a guide book that would help you survive the wilderness.
+In exchange, we could use help with one of the crows.
+It's stolen a family heirloom from one of our people,
+and their religion prevents them from taking anything from a crow.
 That bird over there is the thief, if you could get the item returned.
 ->Find something shiny to distract the crow
     <<jump Option N.B>>
@@ -198,36 +199,36 @@ That bird over there is the thief, if you could get the item returned.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1700,517
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option H.B
 ---
-Gardener: Welcome to the garden, children. 
+Gardener: Welcome to the garden, children.
 This is the cornerstone of our society here,
-where I attempt to make seeds grow once again. 
-You: I've never seen anything like this. 
-This is a tree, right? 
+where I attempt to make seeds grow once again.
+You: I've never seen anything like this.
+This is a tree, right?
 How did you learn how to care for it?
 
 Gardener: I found a pre-collapse text in my youth,
-that told me how to care for many now-extinct species. 
+that told me how to care for many now-extinct species.
 This is the only place where anything grows besides mushrooms,
-so I was entrusted with its care, 
-and I teach the others what I know. 
-I understand you come from the underworld, 
-but if you would like to learn about what we do, 
-we could always use more help, and you are welcome to stay. 
+so I was entrusted with its care,
+and I teach the others what I know.
+I understand you come from the underworld,
+but if you would like to learn about what we do,
+we could always use more help, and you are welcome to stay.
 -> What would happen if I stayed?
     <<jump Option J.B>>
--> I'm sorry, but I have to go. 
+-> I'm sorry, but I have to go.
     <<jump Option K.B>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 2220,393
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option J.B
 ---
-Gardener: You would learn how to make things grow. 
-I can't promise you would ever see it happen. 
+Gardener: You would learn how to make things grow.
+I can't promise you would ever see it happen.
 You must decide what that chance is worth to you.
 	-> I'll stay. I want a chance to see what the world could be.
     <<jump option L.B>>
@@ -236,30 +237,30 @@ You must decide what that chance is worth to you.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 2278,697
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option K.B
 ---
-Gardener: We'll be sorry to see you go back underground, 
-but I understand. 
+Gardener: We'll be sorry to see you go back underground,
+but I understand.
 Feel free to go back to the camp before you go.
 
 -> Is there any way you could help me get home?
     Gardener: Indeed. You'll want to ask Brooklyn for help.
     <<jump Option G.B>>
--> Thank you. Good luck with your mission. I hope something grows here eventually. 
+-> Thank you. Good luck with your mission. I hope something grows here eventually.
     <<jump option M.B>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1257,-758
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option E.A
 ---
-Brooklyn: Those black birds are called crows, and they're sacred to our people. 
-They bring seeds to us in exchange for scraps or trinkets, 
+Brooklyn: Those black birds are called crows, and they're sacred to our people.
+They bring seeds to us in exchange for scraps or trinkets,
 and we give the seeds to the gardener for safekeeping.
 You: The gardener?
-Brooklyn: Yes. He tends the seeds, 
-in the hope that we can make them grow again someday. 
+Brooklyn: Yes. He tends the seeds,
+in the hope that we can make them grow again someday.
 I can introduce you to him if you'd like.
 -> He sounds fascinating. Lead the way!
     <<jump Option H.A>>
@@ -270,13 +271,13 @@ I can introduce you to him if you'd like.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1257,36
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option F.A
 ---
-Brooklyn: If you'd really like to go back home, 
-we could help you out. 
-We engage in trade here, 
-so we would exchange a task for a task, if you're willing. 
+Brooklyn: If you'd really like to go back home,
+we could help you out.
+We engage in trade here,
+so we would exchange a task for a task, if you're willing.
 
     -> We've got this!
     <<jump Option G.A>>
@@ -286,13 +287,13 @@ so we would exchange a task for a task, if you're willing.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1477,-84
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option G.A
 ---
-Brooklyn: We can give you a guide book that would help you survive the wilderness. 
-In exchange, we could use help with one of the crows. 
-It's stolen a family heirloom from one of our people, 
-and their religion prevents them from taking anything from a crow. 
+Brooklyn: We can give you a guide book that would help you survive the wilderness.
+In exchange, we could use help with one of the crows.
+It's stolen a family heirloom from one of our people,
+and their religion prevents them from taking anything from a crow.
 That bird over there is the thief, if you could get the item returned.
 ->Find something shiny to distract the crow
     <<jump Option N.A>>
@@ -302,55 +303,55 @@ That bird over there is the thief, if you could get the item returned.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1766,-776
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option H.A
 ---
-Gardener: Welcome to the garden, children. 
+Gardener: Welcome to the garden, children.
 This is the cornerstone of our society here,
-where I attempt to make seeds grow once again. 
-You: I've never seen anything like this. 
-This is a tree, right? 
+where I attempt to make seeds grow once again.
+You: I've never seen anything like this.
+This is a tree, right?
 How did you learn how to care for it?
 
 Gardener: I found a pre-collapse text in my youth,
-that told me how to care for many now-extinct species. 
+that told me how to care for many now-extinct species.
 This is the only place where anything grows besides mushrooms,
-so I was entrusted with its care, 
-and I teach the others what I know. 
-I understand you come from the underworld, 
-but if you would like to learn about what we do, 
-we could always use more help, and you are welcome to stay. 
+so I was entrusted with its care,
+and I teach the others what I know.
+I understand you come from the underworld,
+but if you would like to learn about what we do,
+we could always use more help, and you are welcome to stay.
 
 -> What would happen if I stayed?
     <<jump Option J.A>>
 -> I'm sorry, but I have to go. I have a life already.
     <<jump Option K.A>>
--> Cheese, I'm going to need your input again. 
+-> Cheese, I'm going to need your input again.
     <<jump Option Cheese>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1787,-305
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option I.A
 ---
-Cheese: I think this is fascinating, 
-and it's not likely that the entrance I know about is going anywhere. 
-Unless there's another earthquake. 
+Cheese: I think this is fascinating,
+and it's not likely that the entrance I know about is going anywhere.
+Unless there's another earthquake.
 But then maybe we wouldn't want to be there for that. Hmmm...
 
 -> We should probably be getting home.
     <<jump Option G.A>>
 
--> I think we'd like to meet this Gardener. 
+-> I think we'd like to meet this Gardener.
     <<jump Option H.A>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 2430,-1135
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option J.A
 ---
-Gardener: You would learn how to make things grow. 
-I can't promise you would ever see it happen. 
+Gardener: You would learn how to make things grow.
+I can't promise you would ever see it happen.
 You must decide what that chance is worth to you.
 -> I think we both want a chance to see what the world could be.
     <<jump option L.A>>
@@ -359,11 +360,11 @@ You must decide what that chance is worth to you.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 2358,-314
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option K.A
 ---
-Gardener: We'll be sorry to see you both go back underground, 
-but I understand. 
+Gardener: We'll be sorry to see you both go back underground,
+but I understand.
 Feel free to go back to the camp before you go.
 
 -> Is there any way you could help us get home?
@@ -374,40 +375,40 @@ Feel free to go back to the camp before you go.
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2812,55
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: option L.B
 ---
 //Leads to ending text
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2722,463
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: option M.B
 ---
 Click the map button to continue.
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2967,-1203
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: option L.A
 ---
 //Leads to ending text
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2942,-882
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: option M.A
 ---
 //Takes you back to camp, from which point you can click whatever you want or go back to the map
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 2274,-739
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option Cheese
 ---
-Cheese: We don't have an option that isn't dangerous. 
-We could die going home, but we could die here too. 
-At home, we would have comfort, and familiarity. 
+Cheese: We don't have an option that isn't dangerous.
+We could die going home, but we could die here too.
+At home, we would have comfort, and familiarity.
 But here, there is a chance for something more.
 
 -> That's that then. We should go home.
@@ -417,31 +418,31 @@ But here, there is a chance for something more.
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 3528,-2
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Forest
 ---
-You remember hearing stories in your youth about 'trees'. 
-In the old world, they would stand tall, reaching miles above the ground. 
-Some of them were high enough to scrape the ceiling of the sky. 
-They would be covered in shades of brilliant green, like emeralds that grew along its skin. 
-Based on what you see now, you wonder if those stories were ever true. 
+You remember hearing stories in your youth about 'trees'.
+In the old world, they would stand tall, reaching miles above the ground.
+Some of them were high enough to scrape the ceiling of the sky.
+They would be covered in shades of brilliant green, like emeralds that grew along its skin.
+Based on what you see now, you wonder if those stories were ever true.
 The ground is scattered with what you assume are trees,
 but they look more like the stones that litter your underground world.
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 3788,314
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Grove
 ---
-Down below, your people survive primarily off mushrooms and hope. 
+Down below, your people survive primarily off mushrooms and hope.
 You don't have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however. Some of them extend far past your own height, offering cover from the rain.
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1163,1496
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option N.B
 ---
-Brooklyn: Thank you for your help! 
+Brooklyn: Thank you for your help!
 Here's the guide book, and good luck on your travels!
 
 -> Thank you! I'll be on my way now!
@@ -449,21 +450,21 @@ Here's the guide book, and good luck on your travels!
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1508,1456
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option O.B
 ---
-Brooklyn: Why would you kill that crow? 
-We told you they were sacred! 
+Brooklyn: Why would you kill that crow?
+We told you they were sacred!
 You can't stay here now!
 
 //Get kicked back to the map
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1500,235
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option N.A
 ---
-Brooklyn: Thank you for your help! 
+Brooklyn: Thank you for your help!
 Here's the guide book, and good luck on your travels!
 
 -> Thank you! I'll be on my way now!
@@ -471,11 +472,11 @@ Here's the guide book, and good luck on your travels!
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1754,233
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Option O.A
 ---
-Brooklyn: Why would you kill that crow? 
-We told you they were sacred! 
+Brooklyn: Why would you kill that crow?
+We told you they were sacred!
 You can't stay here now!
 
 //Get kicked back to the map
