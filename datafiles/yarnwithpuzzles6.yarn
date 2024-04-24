@@ -6,6 +6,7 @@ title: Start
 ---
 <<rm("rm_underground")>>
 <<set $food to 0>>
+<<set $guide to 1>>
 Year 2222, Post Collapse
 Subterranean Settlement 439
 
@@ -74,7 +75,7 @@ How odd! You didn't think people could survive up here!
 <<set_right_npc("Brooklyn")>>
 
 Brooklyn: Hello travelers! You must be from the Underworld.
-I’m sure our world is strange to you, so please,
+I'm sure our world is strange to you, so please,
 feel free to take your rest at our camp.
 We can introduce you to the crows!
 
@@ -208,7 +209,7 @@ title: Enter the Garden B
 Gardener: Welcome to the garden, children.
 This is the cornerstone of our society here,
 where I attempt to make seeds grow once again.
-You: I’ve never seen anything like this.
+You: I've never seen anything like this.
 This is a tree, right?
 How did you learn how to care for it?
 
@@ -222,7 +223,7 @@ but if you would like to learn about what we do,
 we could always use more help, and you are welcome to stay.
 -> What would happen if I stayed?
     <<jump Garden Option B>>
--> I’m sorry, but I have to go.
+-> I'm sorry, but I have to go.
     <<jump Garden Choice 2 B>>
 ===
 __PrivCrochet_colorID: 1
@@ -269,7 +270,7 @@ so we would exchange a task for a task, if you're willing.
     -> We've got this!
     <<jump Option G.A>>
 
-	-> I think we need more time to decide. Could you tell us more about what it’s like up here?
+	-> I think we need more time to decide. Could you tell us more about what it's like up here?
     <<jump Food Lore A>>
 ===
 __PrivCrochet_colorID: 1
@@ -301,7 +302,7 @@ title: Enter the Garden A
 Gardener: Welcome to the garden, children.
 This is the cornerstone of our society here,
 where I attempt to make seeds grow once again.
-You: I’ve never seen anything like this.
+You: I've never seen anything like this.
 This is a tree, right?
 How did you learn how to care for it?
 
@@ -316,7 +317,7 @@ we could always use more help, and you are welcome to stay.
 
 -> What would happen if I stayed?
     <<jump Garden Option A>>
--> I’m sorry, but I have to go. I have a life already.
+-> I'm sorry, but I have to go. I have a life already.
     <<jump Garden Choice 2 A>>
 -> Cheese, I'm going to need your input again.
     <<jump Option Cheese>>
@@ -378,7 +379,7 @@ title: Stay Ending
 ---
 You have chosen a life for yourself that will be more
 harsh and dangerous than the one you once knew. You
-know you can’t be sure that you’ll see anything
+know you can't be sure that you'll see anything
 change in your lifetime, whether you make it a day
 or seventy more years, and maybe you have doomed
 yourself to a life sowing seeds you will never see
@@ -434,7 +435,7 @@ __PrivCrochet_tags:
 title: Grove
 ---
 Down below, your people survive primarily off mushrooms and hope.
-You don’t have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however.
+You don't have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however.
 Some of them extend far past your own height, offering cover from the rain.
 Some of them look small enough to take, but there's a problem.
 You don't know which ones are edible.
@@ -617,12 +618,12 @@ __PrivCrochet_position: 3810,-351
 __PrivCrochet_tags:
 title: Get Home Ending
 ---
-It’s good to be home. The stalactites, the glow of
+It's good to be home. The stalactites, the glow of
 bioluminescence, and the familiar drip, drip,
-drip of water are all comforting. It’s a miracle
-that you made it back alive at all, and you’re
+drip of water are all comforting. It's a miracle
+that you made it back alive at all, and you're
 infinitely grateful. As curious as the world above was,
-you know you wouldn’t have survived. You think. And
+you know you wouldn't have survived. You think. And
 yet, your mind drifts back to the petrified forest,
 and the stories you were told in your youth. You
 wonder if there is hope for the world that once was,
