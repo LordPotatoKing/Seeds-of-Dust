@@ -46,7 +46,7 @@ function my_room_set(_room_name) {
 	    case "rm_city": room_goto(rm_city); break;
 	    case "rm_garden": room_goto(rm_garden); break;
 		case "rm_mushroom_grove": room_goto(rm_mushroom_grove); break;
-		case "rm_petrafied_forest": room_goto(rm_petrafied_forest); break;
+		case "rm_petrified_forest": room_goto(rm_petrafied_forest); break;
 		case "rm_underground": room_goto(rm_underground); break;
 	}
 }
