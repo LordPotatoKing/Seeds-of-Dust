@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"Crows",
+  "%Name":"snd_crows",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Audio_Sound_Effects",
+    "path":"audiogroups/Audio_Sound_Effects",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
   "duration":33.58864,
-  "name":"Crows",
+  "name":"snd_crows",
   "parent":{
     "name":"Sound Effects",
     "path":"folders/Sounds/Sound Effects.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Crows.wav",
+  "soundFile":"snd_crows.wav",
   "type":0,
   "volume":1.0,
 }

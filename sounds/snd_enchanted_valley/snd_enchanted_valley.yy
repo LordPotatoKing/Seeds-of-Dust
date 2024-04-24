@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"Lasting_Hope",
+  "%Name":"snd_enchanted_valley",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Audio_music",
+    "path":"audiogroups/Audio_music",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":143.928,
-  "name":"Lasting_Hope",
+  "duration":190.27592,
+  "name":"snd_enchanted_valley",
   "parent":{
     "name":"Music",
     "path":"folders/Sounds/Music.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Lasting_Hope.mp3",
+  "soundFile":"snd_enchanted_valley.mp3",
   "type":0,
   "volume":1.0,
 }

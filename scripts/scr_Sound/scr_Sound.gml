@@ -1,23 +1,23 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
 function sound_music(_music=""){
 switch (_music) {
-    case "snd_test": audio_play_sound(snd_test,0,false); break;
-	/*
-	case "": ; break;
-	case "": ; break;
-	case "": ; break;
-	case "": ; break;*/
+    case "City"		:audio_play_sound(snd_floating_cities,0,false)	; break;
+	case "Valley"	:audio_play_sound(snd_enchanted_valley,0,false) ; break;
+	case "Hope"		:audio_play_sound(snd_lasting_hope,0,false)		; break;
+	case "Gloom"	:audio_play_sound(snd_oppressive_gloom,0,false) ; break;
     default: audio_stop_all(); break;
 }
 }
+
 function sound_effect(_effect=""){
 switch (_effect) {
-    case "snd_test": audio_play_sound(snd_test,0,false); break;
-	/*case "": ; break;
-	case "": ; break;
-	case "": ; break;
-	case "": ; break;*/
+    case "Bugs"		:audio_play_sound(snd_bugs,0,false)		; break;
+	case "Camp"		:audio_play_sound(snd_campfire,0,false)	; break;
+	case "Cave"		:audio_play_sound(snd_cave,0,false)		; break;
+	case "Crows"	:audio_play_sound(snd_crows,0,false)	; break;
+	case "Rain"		:audio_play_sound(snd_rain,0,false)		; break;
     default: audio_stop_all(); break;
 }
 }

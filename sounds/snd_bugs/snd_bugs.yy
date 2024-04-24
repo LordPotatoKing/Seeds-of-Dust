@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"Cave",
+  "%Name":"snd_bugs",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Audio_Sound_Effects",
+    "path":"audiogroups/Audio_Sound_Effects",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":18.254309,
-  "name":"Cave",
+  "duration":109.008896,
+  "name":"snd_bugs",
   "parent":{
     "name":"Sound Effects",
     "path":"folders/Sounds/Sound Effects.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Cave.wav",
+  "soundFile":"snd_bugs.wav",
   "type":0,
   "volume":1.0,
 }

@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"Floating_Cities",
+  "%Name":"snd_oppressive_gloom",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Audio_music",
+    "path":"audiogroups/Audio_music",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"Floating_Cities",
+  "duration":199.39265,
+  "name":"snd_oppressive_gloom",
   "parent":{
     "name":"Music",
     "path":"folders/Sounds/Music.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Floating_Cities.mp3",
+  "soundFile":"snd_oppressive_gloom.mp3",
   "type":0,
   "volume":1.0,
 }

@@ -6,6 +6,7 @@ function wrap(_val,_min,_max){
 	else if _val < _min return _max;
 	else return _val;
 }
+
 function draw_rectangle_center(_x,_y,_width,_height,_outline,_color,_alpha){
 	var _old_color = draw_get_color()
 	var _old_alpha = draw_get_alpha()

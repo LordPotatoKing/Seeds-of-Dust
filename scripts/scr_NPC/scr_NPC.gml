@@ -45,6 +45,7 @@ function draw_npc(_left_npc,_right_npc){
 	}
 	}
 }
+
 function set_left_npc(_set_left_npc=""){
 	show_debug_message("set_left_npc");
 	show_debug_message(_set_left_npc);
@@ -52,6 +53,7 @@ function set_left_npc(_set_left_npc=""){
 	global._left_npc = _set_left_npc[0]
 	return global._left_npc
 }
+
 function set_right_npc(_set_right_npc=""){
 	show_debug_message("set_right_npc");
 	show_debug_message(_set_right_npc);
