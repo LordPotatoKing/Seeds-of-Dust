@@ -5,6 +5,7 @@ __PrivCrochet_tags:
 title: Start
 ---
 <<rm("rm_underground")>>
+<<effect("Cave")>>
 <<set $food to 0>>
 <<set $guide to 1>>
 Year 2222, Post Collapse
@@ -17,7 +18,9 @@ Rocks begin to tumble down the roof of the cave.
 Seeking shelter, you run into a small hole along the edge of the cave.
 Once the rampaging earthquake has subsided, you come outside to find that your only way back home has caved in.
 You make your way around the cave, looking for a solution, only to find a staircase leading up to the world outside.
-
+<<audio_stop("Cave")>>
+<<effect("Rain", True)>>
+<<music("Gloom", True)>>
 
 <<rm("rm_petrified_forest")>>
 
@@ -79,8 +82,7 @@ Brooklyn: We can introduce you to the crows!
 
 -> No thank you, we're fine on our own.
     Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
-    //jump to exploration section
-        <<rm("rm_petrified_forest")>>
+    <<jump Forest>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 359,724
@@ -110,13 +112,17 @@ Brooklyn: We can introduce you to the crows!
 
 -> No thank you, I'm fine on my own.
     Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
-    <<rm("rm_petrified_forest")>>
+    <<jump Forest>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 783,-537
 __PrivCrochet_tags: 
 title: Welcome to Camp A
 ---
+<<audio_stop("Gloom")>>
+<<music("Valley", True)>>
+<<effects("Camp", True)>>
+
 Brooklyn: Welcome to our camp. It may not seem like much to you underworlders, but you're free to share what we have.
 Brooklyn: We've got mushrooms, mushrooms, some jerky, some cockroach brittle,
 Brooklyn: and mushrooms.
@@ -132,6 +138,9 @@ __PrivCrochet_position: 515,1042
 __PrivCrochet_tags: 
 title: Welcome to Camp B
 ---
+<<audio_stop("Gloom")>>
+<<music("Valley", True)>>
+<<effects("Camp", True)>>
 Brooklyn: Welcome to our camp. It may not seem like much to an underworlder, but you're free to share what we have.
 Brooklyn: We've got mushrooms, mushrooms, some jerky, some cockroach brittle,
 Brooklyn: and mushrooms.
@@ -162,6 +171,7 @@ title: Option G.B
 <<set_right_npc("Brooklyn")>>
 
 Brooklyn: We can give you a guide book that would help you survive the wilderness. In exchange, we could use help with one of the crows.
+<<effect ("Crows", True)>>
 Brooklyn: It's stolen a family heirloom from one of our people, and their religion prevents them from taking anything from a crow. That bird over there is the thief, if you could get the item returned.
 ->Use a shiny object to distract the crow
     <<jump Option N.B>>
@@ -176,6 +186,9 @@ title: Enter the Garden B
 ---
 <<rm("rm_garden")>>
 <<set_right_npc("Gardener")>>
+<<audio_stop("Camp")>>
+<<audio_stop("Valley")>>
+<<music("Hope", True)>>
 
 
 Gardener: Welcome to the garden, child. This is the cornerstone of our society here, where I attempt to make seeds grow once again.
@@ -212,6 +225,8 @@ title: Garden Choice 2 B
 Gardener: We'll be sorry to see you both go back underground, but I understand. 
 Gardener: Feel free to go back to camp before you go, and if you need anything from me, I'm willing to offer help in exchange for some help from you..
 
+<<audio_stop("Hope",True)>>
+
 -> Is there anyone in camp who could help us get back?
     Gardener: Indeed. You'll want to ask Brooklyn for help.
     <<jump Option G.B>>
@@ -240,7 +255,10 @@ __PrivCrochet_tags:
 title: Option G.A
 ---
 <<set_right_npc("Brooklyn")>>
+<<music("Valley", True)>>
+<<effect("Camp", True)>>
 Brooklyn: We can give you a guide book that would help you survive the wilderness. In exchange, we could use help with one of the crows.
+<<effect ("Crows", True)>>
 Brooklyn: It's stolen a family heirloom from one of our people, and their religion prevents them from taking anything from a crow. That bird over there is the thief, if you could get the item returned.
 ->Find something shiny to distract the crow
     <<jump Option N.A>>
@@ -255,6 +273,9 @@ title: Enter the Garden A
 ---
 <<rm("rm_garden")>>
 <<set_right_npc("Gardener")>>
+<<audio_stop("Camp")>>
+<<audio_stop("Valley")>>
+<<music("Hope", True)>>
 
 
 Gardener: Welcome to the garden, children. This is the cornerstone of our society here, where I attempt to make seeds grow once again.
@@ -312,6 +333,8 @@ title: Garden Choice 2 A
 Gardener: We'll be sorry to see you both go back underground, but I understand. 
 Gardener: Feel free to go back to camp before you go, and if you need anything from me, I'm willing to offer help in exchange for some help from you.
 
+<<audio_stop("Hope",True)>>
+
 -> Is there anyone in camp who could help us get back?
     Gardener: Indeed. You'll want to ask Brooklyn for help.
     <<jump Option G.A>>
@@ -356,6 +379,10 @@ title: Forest
 <<jump City>>
 //What's going on with these lines of code up here?
 
+<<effect("Bugs",True)>>
+<<effect("Crows", True)>>
+<<music("City",True)>>
+
 <<rm("rm_petrafied_forest")>>
 You remember hearing fairy tales in your youth about 'trees'. 
 In the old world, they would stand tall, reaching miles above the ground. Some of them were high enough to scrape the ceiling of the sky. 
@@ -386,6 +413,8 @@ __PrivCrochet_position: 4396,265
 __PrivCrochet_tags: 
 title: Grove
 ---
+<<audio_stop("Bugs")>>
+
 Down below, your people survive primarily off mushrooms and hope.
 You don't have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however.
 Some of them extend far past your own height, offering cover from the rain.
@@ -416,9 +445,13 @@ __PrivCrochet_position: 1500,235
 __PrivCrochet_tags: 
 title: Option N.A
 ---
+<<audio_stop("Crows")>>
 Brooklyn: Thank you for your help! Here's the guide book, and good luck on your travels!
 
 -> Thank you! I'll be on my way now!
+    <<audio_stop("Camp")>>
+    <<audio_stop("Valley")>>
+    <<music("City")>>
     [i]Finally, you can make your journey home. The guide shows that the closest entrance home goes through the "petrified forest".
     You spend the walk there wondering what a "forest" is. Hopefully you'll know when you get there.[/i]
     <<jump Forest>>
@@ -429,8 +462,12 @@ __PrivCrochet_position: 1754,233
 __PrivCrochet_tags: 
 title: Option O.A
 ---
+<<audio_stop("Crows")>>
 Brooklyn: Why would you kill that crow? We told you they were sacred!
 Brooklyn: You can't stay here now!
+<<audio_stop("Valley")>>
+<<audio_stop("Camp")>>
+<<music("City", True)>>
 <<set $guide to 0>>
 [i]It appears you've been banished from the camp.
 With no other options, you start to set out on your journey home.
@@ -484,8 +521,12 @@ __PrivCrochet_position: 1675,1671
 __PrivCrochet_tags: 
 title: Option O.B
 ---
+<<audio_stop("Crows")>>
 Brooklyn: Why would you kill that crow? We told you they were sacred!
 Brooklyn: You can't stay here now!
+<<audio_stop("Valley")>>
+<<audio_stop("Camp")>>
+<<music("City", True)>>
 <<set $guide to 0>>
 [i]It appears you've been banished from the camp.
 With no other options, you start to set out on your journey home.
@@ -498,9 +539,14 @@ __PrivCrochet_position: 1058,1720
 __PrivCrochet_tags: 
 title: Option N.B
 ---
+<<audio_stop("Crows")>>
+
 Brooklyn: Thank you for your help! Here's the guide book, and good luck on your travels!
 <<set $guide to 1>>
 -> Thank you! I'll be on my way now!
+    <<audio_stop("Camp")>>
+    <<audio_stop("Valley")>>
+    <<music("City")>>
     [i]Finally, you can make your journey home. The guide shows that the closest entrance home goes through the "petrified forest".
     You spend the walk there wondering what a "forest" is. Hopefully you'll know when you get there.[/i]
     <<jump Forest>>
@@ -548,6 +594,9 @@ __PrivCrochet_position: 3810,-351
 __PrivCrochet_tags: 
 title: Get Home Ending
 ---
+<<audio_stop("Crows")>>
+<<audio_stop("Rain")>>
+<<effect("Cave")>>
 It's good to be home. The stalactites, the glow of bioluminescence, and the familiar drip, 
 drip,
 drip of water are all comforting. 
