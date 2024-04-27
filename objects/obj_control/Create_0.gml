@@ -7,8 +7,9 @@ ChatterboxLoadFromFile("yarnwithpuzzles6.yarn")				// load file
 ChatterboxAddFunction("rm",				my_room_set)			//Add function to change backround
 ChatterboxAddFunction("set_left_npc",	set_left_npc)
 ChatterboxAddFunction("set_right_npc",	set_right_npc)
-ChatterboxAddFunction("Effect",			sound_effect)
-ChatterboxAddFunction("Music",			sound_music)
+ChatterboxAddFunction("effect",			sound_effect)
+ChatterboxAddFunction("music",			sound_music)
+ChatterboxAddFunction("audio_stop",		audio_stop_sound)
 ChatterboxAddFunction("item",			item_config)
 
 
