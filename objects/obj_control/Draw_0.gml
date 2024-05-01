@@ -60,7 +60,7 @@ if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 				draw_rectangle_center(_xx, _yy, _width*5, _height,false,c_black,0.75)
 				
 				var _icon = ""
-				if (option_index == _i) _icon = ">butts>"
+				if (option_index == _i) _icon = ">>"
 				var _option = ChatterboxGetOption(chatterbox, _i)
 				
 				draw_text(_xx,_yy,_icon+_option);
