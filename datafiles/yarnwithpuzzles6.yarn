@@ -5,31 +5,28 @@ __PrivCrochet_tags:
 title: Start
 ---
 <<rm("rm_underground")>>
-<<effect("Cave", "false")>>
+<<effect("Cave","false")>>
 <<set $food to 0>>
 <<set $guide to 1>>
 Year 2222, Post Collapse
-<<effect("Loop", "true")>>
 Subterranean Settlement 439
-<<audio_stop("")>>
 <<set_left_npc("You")>>
-<<music("Hope", "true")>>
 
-some text: [scale,2]This text is twice as big. [/]
-Transformation
-[slant] 	Set/unset italic emulation. The size of the x offset is controlled by SCRIBBLE_SLANT_AMOUNT [/slant]
-Effects
-[wave] 	Set/unset text to wave up and down. Modified by scribble_anim_wave() [/wave]
-[shake] 	Set/unset text to shake. Modified by scribble_anim_shake() [/shake]
-[wobble] 	Set/unset text to wobble by rotating back and forth. Modified by scribble_anim_wobble() [/wobble]
-[pulse] 	Set/unset text to shrink and grow rhythmically. Modified by scribble_anim_pulse() [/pulse]
-[wheel] 	Set/unset text to circulate around their origin. Modified by scribble_anim_wheel() [/wheel]
-[jitter] 	Set/unset text to scale erratically. Modified by scribble_anim_jitter() [/jitter]
-[blink] 	Set/unset text to flash on and off. Modified by scribble_anim_blink() [/blink]
-[rainbow] 	Set/unset rainbow color cycling. Modified by scribble_anim_rainbow() [/rainbow]
-
-[rainbow] [wheel] [jitter] [pulse] [wave] EVERYTHING EVERYTHING EVERYTHING EVERYTHING [/]
-[spr_npcs_new] <- Place any Sprite in text!!
+// some text: [scale,2]This text is twice as big. [/]
+// Transformation
+// [slant] 	Set/unset italic emulation. The size of the x offset is controlled by SCRIBBLE_SLANT_AMOUNT [/slant]
+// Effects
+// [wave] 	Set/unset text to wave up and down. Modified by scribble_anim_wave() [/wave]
+// [shake] 	Set/unset text to shake. Modified by scribble_anim_shake() [/shake]
+// [wobble] 	Set/unset text to wobble by rotating back and forth. Modified by scribble_anim_wobble() [/wobble]
+// [pulse] 	Set/unset text to shrink and grow rhythmically. Modified by scribble_anim_pulse() [/pulse]
+// [wheel] 	Set/unset text to circulate around their origin. Modified by scribble_anim_wheel() [/wheel]
+// [jitter] 	Set/unset text to scale erratically. Modified by scribble_anim_jitter() [/jitter]
+// [blink] 	Set/unset text to flash on and off. Modified by scribble_anim_blink() [/blink]
+// [rainbow] 	Set/unset rainbow color cycling. Modified by scribble_anim_rainbow() [/rainbow]
+//
+// [rainbow] [wheel] [jitter] [pulse] [wave] EVERYTHING EVERYTHING EVERYTHING EVERYTHING [/]
+// [spr_npcs_new] <- Place any Sprite in text!!
 
 
 One day as you wander through your underground hometown,

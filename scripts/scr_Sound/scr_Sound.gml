@@ -20,10 +20,10 @@ function sound_effect(_arguments) {
 	var _loop = _arguments[1]
     //show_debug_message($"Effect:{_effect}, Loop={_loop}")
 
-    if _loop == "true"||"True"{
-        var _loop_ = true;
-    } else {
+    if _loop !="true"{
         var _loop_ = false;
+    } else {
+        var _loop_ = true;
     }
 
     switch (_effect) {
