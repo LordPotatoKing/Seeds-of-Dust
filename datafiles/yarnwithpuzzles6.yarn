@@ -120,8 +120,8 @@ __PrivCrochet_tags:
 title: Welcome to Camp A
 ---
 <<audio_stop("Gloom")>>
-// <<music("Valley", "True")>>
-// <<effects("Camp", "True")>>
+<<music("Valley", "True")>>
+<<effects("Camp", "True")>>
 
 Brooklyn: Welcome to our camp. It may not seem like much to you underworlders, but you're free to share what we have.
 Brooklyn: We've got mushrooms, mushrooms, some jerky, some cockroach brittle,
@@ -140,7 +140,7 @@ title: Welcome to Camp B
 ---
 <<audio_stop("Gloom")>>
 <<music("Valley", "True")>>
-// <<effects("Camp", "True")>>
+<<effects("Camp", "True")>>
 Brooklyn: Welcome to our camp. It may not seem like much to an underworlder, but you're free to share what we have.
 Brooklyn: We've got mushrooms, mushrooms, some jerky, some cockroach brittle,
 Brooklyn: and mushrooms.
