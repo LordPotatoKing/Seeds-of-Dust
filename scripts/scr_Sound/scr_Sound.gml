@@ -1,21 +1,30 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-function sound_music(_music="",_loop=false){
-show_debug_message($"Music:{_music},Loop={_loop}")
-var _musicsw =  _music[0]
-	switch (_musicsw) {
-	    case "City"		:audio_play_sound(snd_floating_cities	,0,_loop)	; break;
-		case "Valley"	:audio_play_sound(snd_enchanted_valley	,0,_loop)	; break;
-		case "Hope"		:audio_play_sound(snd_lasting_hope		,0,_loop)	; break;
-		case "Gloom"	:audio_play_sound(snd_oppressive_gloom	,0,_loop)	; break;
-		case "Loop"		:audio_play_sound(snd_heartbeet			,0,_loop)	; break;
+function sound_music(_arguments){
+	show_debug_message($"music:{_arguments[0]},loop:{_arguments[1]}")
+	var _music=_arguments[0]
+	var _loop = _arguments[1]
+    //show_debug_message($"Effect:{_effect}, Loop={_loop}")
+
+    if _loop !="true"{
+        var _loop_ = false;
+    } else {
+        var _loop_ = true;
+    }
+
+	switch (_music) {
+	    case "City"		:audio_play_sound(snd_floating_cities	,0,_loop_);show_debug_message($"playing {_music}, Loop={_loop_}"); break;
+		case "Valley"	:audio_play_sound(snd_enchanted_valley	,0,_loop_);show_debug_message($"playing {_music}, Loop={_loop_}"); break;
+		case "Hope"		:audio_play_sound(snd_lasting_hope		,0,_loop_);show_debug_message($"playing {_music}, Loop={_loop_}"); break;
+		case "Gloom"	:audio_play_sound(snd_oppressive_gloom	,0,_loop_);show_debug_message($"playing {_music}, Loop={_loop_}"); break;
+		case "Loop"		:audio_play_sound(snd_heartbeet			,0,_loop_);show_debug_message($"playing {_music}, Loop={_loop_}"); break;
 	    default: audio_play_sound(snd_waa,0,true); break;
 	}
 }
 
 function sound_effect(_arguments) {
-	show_debug_message(_arguments)
+	show_debug_message($"effect:{_arguments[0]},loop:{_arguments[1]}")
 	var _effect=_arguments[0]
 	var _loop = _arguments[1]
     //show_debug_message($"Effect:{_effect}, Loop={_loop}")
