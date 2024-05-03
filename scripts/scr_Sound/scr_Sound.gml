@@ -14,28 +14,29 @@ var _musicsw =  _music[0]
 	}
 }
 
-function sound_effect(_effect=""){
-	show_debug_message($"Effect:{_effect},Loop={_effect[0]}")
-	var _effectsw =  _effect[0]
-	
-	if _effect[0]==1{
-		var _loop_ = true
-	}
-	else{
-		var _loop_=false
-	}
-	
+function sound_effect(_effect="", _loop=false) {
+    show_debug_message($"Effect:{_effect}, Loop={_loop}")
 
-	switch (_effectsw) {
-	    case "Bugs"		:audio_play_sound(snd_bugs		,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
-		case "Camp"		:audio_play_sound(snd_campfire	,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
-		case "Cave"		:audio_play_sound(snd_cave		,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
-		case "Crows"	:audio_play_sound(snd_crows		,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
-		case "Rain"		:audio_play_sound(snd_rain		,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
-		case "Loop"		:audio_play_sound(snd_heartbeet	,0,_loop_)	;break;
-	    default: audio_play_sound(snd_waa,0,true);show_debug_message("waa"); break;
-	}
+    var _effectsw = _effect[0];
+
+    if (_loop == "1" || _loop == true) {
+        _loop = true;
+    } else {
+        _loop = false;
+    }
+
+    switch (_effectsw) {
+        case "Bugs": audio_play_sound(snd_bugs, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
+        case "Camp": audio_play_sound(snd_campfire, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
+        case "Cave": audio_play_sound(snd_cave, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
+        case "Crows": audio_play_sound(snd_crows, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
+        case "Rain": audio_play_sound(snd_rain, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
+        case "Loop": audio_play_sound(snd_heartbeet, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
+        default: audio_play_sound(snd_waa, 0, true); show_debug_message("waa"); break; // Set loop to true for default case
+    }
 }
+
+
 function audio_stop_sound(_sound){
 	show_debug_message($"Sound stoping:{_sound}")
 	var _soundsw =  _sound[0]
