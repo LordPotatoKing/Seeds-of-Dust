@@ -9,30 +9,31 @@ var _musicsw =  _music[0]
 		case "Valley"	:audio_play_sound(snd_enchanted_valley	,0,_loop)	; break;
 		case "Hope"		:audio_play_sound(snd_lasting_hope		,0,_loop)	; break;
 		case "Gloom"	:audio_play_sound(snd_oppressive_gloom	,0,_loop)	; break;
-		case "Loop":audio_play_sound(snd_heartbeet,0,_loop);break;
+		case "Loop"		:audio_play_sound(snd_heartbeet			,0,_loop)	; break;
 	    default: audio_play_sound(snd_waa,0,true); break;
 	}
 }
 
-function sound_effect(_effect="", _loop=false) {
-    show_debug_message($"Effect:{_effect}, Loop={_loop}")
+function sound_effect(_arguments) {
+	show_debug_message(_arguments)
+	var _effect=_arguments[0]
+	var _loop = _arguments[1]
+    //show_debug_message($"Effect:{_effect}, Loop={_loop}")
 
-    var _effectsw = _effect[0];
-
-    if (_loop == "1" || _loop == true) {
-        _loop = true;
+    if _loop == "true"||"True"{
+        var _loop_ = true;
     } else {
-        _loop = false;
+        var _loop_ = false;
     }
 
-    switch (_effectsw) {
-        case "Bugs": audio_play_sound(snd_bugs, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
-        case "Camp": audio_play_sound(snd_campfire, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
-        case "Cave": audio_play_sound(snd_cave, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
-        case "Crows": audio_play_sound(snd_crows, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
-        case "Rain": audio_play_sound(snd_rain, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
-        case "Loop": audio_play_sound(snd_heartbeet, 0, _loop); show_debug_message($"playing {_effect}, Loop={_loop}"); break;
-        default: audio_play_sound(snd_waa, 0, true); show_debug_message("waa"); break; // Set loop to true for default case
+    switch (_effect) {
+        case "Bugs"	: audio_play_sound(snd_bugs,		 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
+        case "Camp"	: audio_play_sound(snd_campfire,	 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
+        case "Cave"	: audio_play_sound(snd_cave,		 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
+        case "Crows": audio_play_sound(snd_crows,		 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
+        case "Rain"	: audio_play_sound(snd_rain,		 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
+        case "Loop"	: audio_play_sound(snd_heartbeet,	 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
+        default		: audio_play_sound(snd_waa,			 0, true);	show_debug_message("waa"); break; // Set loop to true for default case
     }
 }
 
