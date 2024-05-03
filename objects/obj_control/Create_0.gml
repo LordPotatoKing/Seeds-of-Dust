@@ -1,7 +1,7 @@
 /// @description Initialize Chatterbox and set varubles
 // You can write your code in this editor
 
-ChatterboxLoadFromFile("yarnwithpuzzles6.yarn")				// load file
+ChatterboxLoadFromFile("yarnwithpuzzles7.yarn")				// load file
 // ChatterboxAddFunction("bg", background_set_index)	//Add function to change backround
 
 ChatterboxAddFunction("rm",				my_room_set)			//Add function to change backround

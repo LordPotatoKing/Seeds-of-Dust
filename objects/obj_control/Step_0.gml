@@ -3,7 +3,7 @@
 
 var _count = ChatterboxGetOptionCount(chatterbox)
 
-if ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(vk_space)
+if ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(vk_space) and !global.midTransition
 {
 	time_char_for_text = 0;
 	ChatterboxContinue(chatterbox)
