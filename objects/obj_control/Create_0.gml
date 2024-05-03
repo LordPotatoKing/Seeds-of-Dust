@@ -1,7 +1,10 @@
 /// @description Initialize Chatterbox and set varubles
 // You can write your code in this editor
 
+audio_group_load(Audio_music)
+audio_group_load(Audio_Sound_Effects)
 ChatterboxLoadFromFile("yarnwithpuzzles6.yarn")				// load file
+
 // ChatterboxAddFunction("bg", background_set_index)	//Add function to change backround
 
 ChatterboxAddFunction("rm",				my_room_set)			//Add function to change backround
@@ -29,5 +32,3 @@ _r_color = [c_ltgray,c_white]
 global._left_npc	=""
 global._right_npc	=""
 
-audio_group_load(Audio_music)
-audio_group_load(Audio_Sound_Effects)

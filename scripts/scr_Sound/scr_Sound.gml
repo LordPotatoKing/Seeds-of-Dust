@@ -3,25 +3,37 @@
 
 function sound_music(_music="",_loop=false){
 show_debug_message($"Music:{_music},Loop={_loop}")
-	switch (_music) {
+var _musicsw =  _music[0]
+	switch (_musicsw) {
 	    case "City"		:audio_play_sound(snd_floating_cities	,0,_loop)	; break;
 		case "Valley"	:audio_play_sound(snd_enchanted_valley	,0,_loop)	; break;
 		case "Hope"		:audio_play_sound(snd_lasting_hope		,0,_loop)	; break;
 		case "Gloom"	:audio_play_sound(snd_oppressive_gloom	,0,_loop)	; break;
-	    default: audio_play_sound(snd_waa	,0,true); break;
+		case "Loop":audio_play_sound(snd_heartbeet,0,_loop);break;
+	    default: audio_play_sound(snd_waa,0,true); break;
 	}
 }
 
-function sound_effect(_effect="",_loop=false){
-	show_debug_message($"Effect:{_effect},Loop={_loop}")
+function sound_effect(_effect=""){
+	show_debug_message($"Effect:{_effect},Loop={_effect[0]}")
 	var _effectsw =  _effect[0]
+	
+	if _effect[0]==1{
+		var _loop_ = true
+	}
+	else{
+		var _loop_=false
+	}
+	
+
 	switch (_effectsw) {
-	    case "Bugs"		:audio_play_sound(snd_bugs		,0,_loop)	; show_debug_message($"playing{_effect}");break;
-		case "Camp"		:audio_play_sound(snd_campfire	,0,_loop)	; show_debug_message($"playing{_effect}");break;
-		case "Cave"		:audio_play_sound(snd_cave		,0,_loop)	; show_debug_message($"playing{_effect}");break;
-		case "Crows"	:audio_play_sound(snd_crows		,0,_loop)	; show_debug_message($"playing{_effect}");break;
-		case "Rain"		:audio_play_sound(snd_rain		,0,_loop)	; show_debug_message($"playing{_effect}");break;
-	    default: audio_play_sound(snd_waa	,0,true);show_debug_message("waa"); break;
+	    case "Bugs"		:audio_play_sound(snd_bugs		,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
+		case "Camp"		:audio_play_sound(snd_campfire	,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
+		case "Cave"		:audio_play_sound(snd_cave		,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
+		case "Crows"	:audio_play_sound(snd_crows		,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
+		case "Rain"		:audio_play_sound(snd_rain		,0,_loop_)	; show_debug_message($"playing{_effect},Loop={_loop_}");break;
+		case "Loop"		:audio_play_sound(snd_heartbeet	,0,_loop_)	;break;
+	    default: audio_play_sound(snd_waa,0,true);show_debug_message("waa"); break;
 	}
 }
 function audio_stop_sound(_sound){

@@ -1,7 +1,7 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: -186,183
-__PrivCrochet_tags: 
+__PrivCrochet_tags:
 title: Start
 ---
 <<rm("rm_underground")>>
@@ -9,10 +9,11 @@ title: Start
 <<set $food to 0>>
 <<set $guide to 1>>
 Year 2222, Post Collapse
+<<effect("Loop",true)>>
 Subterranean Settlement 439
-
+<<audio_stop("")>>
 <<set_left_npc("You")>>
-
+<<music("Hope","true")>>
 
 some text: [scale,2]This text is twice as big. [/]
 Transformation

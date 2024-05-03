@@ -306,6 +306,7 @@
     {"id":{"name":"snd_crows","path":"sounds/snd_crows/snd_crows.yy",},},
     {"id":{"name":"snd_enchanted_valley","path":"sounds/snd_enchanted_valley/snd_enchanted_valley.yy",},},
     {"id":{"name":"snd_floating_cities","path":"sounds/snd_floating_cities/snd_floating_cities.yy",},},
+    {"id":{"name":"snd_heartbeet","path":"sounds/snd_heartbeet/snd_heartbeet.yy",},},
     {"id":{"name":"snd_lasting_hope","path":"sounds/snd_lasting_hope/snd_lasting_hope.yy",},},
     {"id":{"name":"snd_oppressive_gloom","path":"sounds/snd_oppressive_gloom/snd_oppressive_gloom.yy",},},
     {"id":{"name":"snd_rain","path":"sounds/snd_rain/snd_rain.yy",},},
