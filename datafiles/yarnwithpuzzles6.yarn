@@ -36,8 +36,8 @@ Seeking shelter, you run into a small hole along the edge of the cave.
 Once the rampaging earthquake has subsided, you come outside to find that your only way back home has caved in.
 You make your way around the cave, looking for a solution, only to find a staircase leading up to the world outside.
 <<audio_stop("Cave")>>
-<<effect("Rain", "true")>>
-<<music("Gloom", "true")>>
+<<effect("Rain","true")>>
+<<music("Gloom","true")>>
 
 <<rm("rm_petrified_forest")>>
 
@@ -188,7 +188,7 @@ title: Option G.B
 <<set_right_npc("Brooklyn")>>
 
 Brooklyn: We can give you a guide book that would help you survive the wilderness. In exchange, we could use help with one of the crows.
-<<effect ("Crows", "true")>>
+<<effect("Crows", "true")>>
 Brooklyn: It's stolen a family heirloom from one of our people, and their religion prevents them from taking anything from a crow. That bird over there is the thief, if you could get the item returned.
 ->Use a shiny object to distract the crow
     <<jump Option N.B>>
