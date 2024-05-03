@@ -50,16 +50,17 @@ function sound_effect(_arguments) {
 function audio_stop_sound(_sound){
 	show_debug_message($"Sound stoping:{_sound}")
 	var _soundsw =  _sound[0]
+	
 	switch(_soundsw){
-		case "City"		:audio_stop_sound(snd_floating_cities	); break;
-		case "Valley"	:audio_stop_sound(snd_enchanted_valley	); break;
-		case "Hope"		:audio_stop_sound(snd_lasting_hope		); break;
-		case "Gloom"	:audio_stop_sound(snd_oppressive_gloom	); break;
-		case "Bugs"		:audio_stop_sound(snd_bugs				); break;
-		case "Camp"		:audio_stop_sound(snd_campfire			); break;
-		case "Cave"		:audio_stop_sound(snd_cave				); break;
-		case "Crows"	:audio_stop_sound(snd_crows				); break;
-		case "Rain"		:audio_stop_sound(snd_rain				); break;
+		case "City"		:audio_sound_gain(snd_floating_cities	,0,500); break;
+		case "Valley"	:audio_sound_gain(snd_enchanted_valley	,0,500); break;
+		case "Hope"		:audio_sound_gain(snd_lasting_hope		,0,500); break;
+		case "Gloom"	:audio_sound_gain(snd_oppressive_gloom	,0,500); break;
+		case "Bugs"		:audio_sound_gain(snd_bugs				,0,500); break;
+		case "Camp"		:audio_sound_gain(snd_campfire			,0,500); break;
+		case "Cave"		:audio_sound_gain(snd_cave				,0,500); break;
+		case "Crows"	:audio_sound_gain(snd_crows				,0,500); break;
+		case "Rain"		:audio_sound_gain(snd_rain				,0,500); break;
 		default: audio_stop_all();break;
 	}
 }
