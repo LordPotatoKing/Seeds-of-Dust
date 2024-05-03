@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_enchanted_valley",
+  "%Name":"snd_waa",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":190.27592,
-  "name":"snd_enchanted_valley",
+  "duration":4.659116,
+  "name":"snd_waa",
   "parent":{
-    "name":"Music",
-    "path":"folders/Sounds/Music.yy",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_enchanted_valley.mp3",
+  "soundFile":"snd_waa.wav",
   "type":0,
   "volume":1.0,
 }

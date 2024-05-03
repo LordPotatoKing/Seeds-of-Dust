@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"snd_campfire",
   "audioGroupId":{
-    "name":"Audio_Sound_Effects",
-    "path":"audiogroups/Audio_Sound_Effects",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,

@@ -3,8 +3,6 @@
   "%Name":"Seeds of Dust",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
-    {"$GMAudioGroup":"","%Name":"Audio_Sound_Effects","name":"Audio_Sound_Effects","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
-    {"$GMAudioGroup":"","%Name":"Audio_music","name":"Audio_music","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -70,7 +68,6 @@
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"TestFile.yarn","CopyToMask":-1,"filePath":"datafiles","name":"TestFile.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"yarnwithpuzzles6.yarn","CopyToMask":-1,"filePath":"datafiles","name":"yarnwithpuzzles6.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"yarnwithpuzzles7.yarn","CopyToMask":-1,"filePath":"datafiles","name":"yarnwithpuzzles7.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -307,9 +304,11 @@
     {"id":{"name":"snd_crows","path":"sounds/snd_crows/snd_crows.yy",},},
     {"id":{"name":"snd_enchanted_valley","path":"sounds/snd_enchanted_valley/snd_enchanted_valley.yy",},},
     {"id":{"name":"snd_floating_cities","path":"sounds/snd_floating_cities/snd_floating_cities.yy",},},
+    {"id":{"name":"snd_heartbeet","path":"sounds/snd_heartbeet/snd_heartbeet.yy",},},
     {"id":{"name":"snd_lasting_hope","path":"sounds/snd_lasting_hope/snd_lasting_hope.yy",},},
     {"id":{"name":"snd_oppressive_gloom","path":"sounds/snd_oppressive_gloom/snd_oppressive_gloom.yy",},},
     {"id":{"name":"snd_rain","path":"sounds/snd_rain/snd_rain.yy",},},
+    {"id":{"name":"snd_waa","path":"sounds/snd_waa/snd_waa.yy",},},
     {"id":{"name":"bk_all","path":"sprites/bk_all/bk_all.yy",},},
     {"id":{"name":"bk_camp","path":"sprites/bk_camp/bk_camp.yy",},},
     {"id":{"name":"bk_city","path":"sprites/bk_city/bk_city.yy",},},

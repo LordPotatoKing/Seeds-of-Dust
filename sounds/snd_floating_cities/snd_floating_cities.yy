@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"snd_floating_cities",
   "audioGroupId":{
-    "name":"Audio_music",
-    "path":"audiogroups/Audio_music",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
