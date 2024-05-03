@@ -39,16 +39,32 @@ function my_room_set(_room_name) {
 	show_debug_message("Helloooo This is a debug message");
 	show_debug_message("my_room_set", _room_name);
 	show_debug_message(_room_name[0]);
-	show_debug_message("----------");
+	
+	//switch (_room_name[0])
+	//{
+	//    case "rm_brooklyn": room_goto(rm_brooklyn); break;
+	//    case "rm_city": room_goto(rm_city); break;
+	//    case "rm_garden": room_goto(rm_garden); break;
+	//	case "rm_mushroom_grove": room_goto(rm_mushroom_grove); break;
+	//	case "rm_petrified_forest": room_goto(rm_petrified_forest); break;
+	//	case "rm_underground": room_goto(rm_underground); break;
+	//}
+	
 	switch (_room_name[0])
 	{
-	    case "rm_brooklyn": room_goto(rm_brooklyn); break;
-	    case "rm_city": room_goto(rm_city); break;
-	    case "rm_garden": room_goto(rm_garden); break;
-		case "rm_mushroom_grove": room_goto(rm_mushroom_grove); break;
-		case "rm_petrified_forest": room_goto(rm_petrified_forest); break;
-		case "rm_underground": room_goto(rm_underground); break;
+	    case "rm_brooklyn": my_room_goto(rm_brooklyn); break;
+	    case "rm_city": my_room_goto(rm_city); break;
+	    case "rm_garden": my_room_goto(rm_garden); break;
+		case "rm_mushroom_grove": my_room_goto(rm_mushroom_grove); break;
+		case "rm_petrified_forest": my_room_goto(rm_petrified_forest); break;
+		case "rm_underground": my_room_goto(rm_underground); break;
 	}
+}
+
+function my_room_goto(rm_next_room) {
+	show_debug_message(" Calling TransitionStart");
+	TransitionStart(rm_next_room, sq_FadeOut, sq_FadeIn);
+	show_debug_message("----------");
 }
 
 

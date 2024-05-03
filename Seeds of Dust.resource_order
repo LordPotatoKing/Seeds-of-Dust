@@ -133,6 +133,7 @@
     {"name":"IsChatterbox","order":5,"path":"scripts/IsChatterbox/IsChatterbox.yy",},
     {"name":"scr_Sound","order":1,"path":"scripts/scr_Sound/scr_Sound.yy",},
     {"name":"scr_Transitions","order":2,"path":"scripts/scr_Transitions/scr_Transitions.yy",},
+    {"name":"sq_FadeOut","order":1,"path":"sequences/sq_FadeOut/sq_FadeOut.yy",},
     {"name":"snd_bugs","order":1,"path":"sounds/snd_bugs/snd_bugs.yy",},
     {"name":"snd_cave","order":2,"path":"sounds/snd_cave/snd_cave.yy",},
     {"name":"snd_crows","order":3,"path":"sounds/snd_crows/snd_crows.yy",},
