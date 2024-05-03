@@ -70,6 +70,7 @@
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"TestFile.yarn","CopyToMask":-1,"filePath":"datafiles","name":"TestFile.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"yarnwithpuzzles6.yarn","CopyToMask":-1,"filePath":"datafiles","name":"yarnwithpuzzles6.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"yarnwithpuzzles7.yarn","CopyToMask":-1,"filePath":"datafiles","name":"yarnwithpuzzles7.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],

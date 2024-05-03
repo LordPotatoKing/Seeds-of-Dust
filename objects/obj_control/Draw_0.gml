@@ -31,6 +31,9 @@ if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 	// scribble("" + text).draw()
 	
 	//draw_text_scribble_ext(x, y, string, width, [charCount])
+	
+	// This draw_set_halign(fa_left) Fixed the text so it is not drawen off the screen
+	draw_set_halign(fa_left)
 	time_char_for_text += 4;
 	draw_text_scribble_ext(_xx,_yy, text, room_width - (_margin_text * 2), time_char_for_text)
 	
@@ -41,14 +44,12 @@ if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 	///Draw
 	// scribble(text).draw(_xx,_yy, typist);
 	
-	
-	
 	if ChatterboxGetOptionCount(chatterbox)
 	{
 		draw_set_halign(fa_center)
 		
 		var _width = 400;
-		var _height = 64
+		var _height = 80; // old value was 64 for one line
 		
 		for (var _i = 0; _i < ChatterboxGetOptionCount(chatterbox); _i++;)
 		{
@@ -63,7 +64,10 @@ if IsChatterbox(chatterbox) and text != undefined and _roomname != "rm_map"
 				if (option_index == _i) _icon = ">>"
 				var _option = ChatterboxGetOption(chatterbox, _i)
 				
-				draw_text(_xx,_yy,_icon+_option);
+				draw_text_scribble_ext(_xx,_yy, _icon+_option, room_width - (_margin_text * 2))
+	
+				
+//				draw_text(_xx,_yy,_icon+_option);
 			}
 		}
 	}
