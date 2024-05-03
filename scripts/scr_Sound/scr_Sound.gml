@@ -2,30 +2,32 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 function sound_music(_music="",_loop=false){
-show_debug_message($"Music:{_music}")
+show_debug_message($"Music:{_music},Loop={_loop}")
 	switch (_music) {
 	    case "City"		:audio_play_sound(snd_floating_cities	,0,_loop)	; break;
 		case "Valley"	:audio_play_sound(snd_enchanted_valley	,0,_loop)	; break;
 		case "Hope"		:audio_play_sound(snd_lasting_hope		,0,_loop)	; break;
 		case "Gloom"	:audio_play_sound(snd_oppressive_gloom	,0,_loop)	; break;
-	    default: audio_stop_all(); break;
+	    default: audio_play_sound(snd_waa	,0,true); break;
 	}
 }
 
 function sound_effect(_effect="",_loop=false){
-	show_debug_message($"Effect:{_effect}")
-	switch (_effect) {
-	    case "Bugs"		:audio_play_sound(snd_bugs		,0,_loop)	; break;
-		case "Camp"		:audio_play_sound(snd_campfire	,0,_loop)	; break;
-		case "Cave"		:audio_play_sound(snd_cave		,0,_loop)	; break;
-		case "Crows"	:audio_play_sound(snd_crows		,0,_loop)	; break;
-		case "Rain"		:audio_play_sound(snd_rain		,0,_loop)	; break;
-	    default: audio_stop_all(); break;
+	show_debug_message($"Effect:{_effect},Loop={_loop}")
+	var _effectsw =  _effect[0]
+	switch (_effectsw) {
+	    case "Bugs"		:audio_play_sound(snd_bugs		,0,_loop)	; show_debug_message($"playing{_effect}");break;
+		case "Camp"		:audio_play_sound(snd_campfire	,0,_loop)	; show_debug_message($"playing{_effect}");break;
+		case "Cave"		:audio_play_sound(snd_cave		,0,_loop)	; show_debug_message($"playing{_effect}");break;
+		case "Crows"	:audio_play_sound(snd_crows		,0,_loop)	; show_debug_message($"playing{_effect}");break;
+		case "Rain"		:audio_play_sound(snd_rain		,0,_loop)	; show_debug_message($"playing{_effect}");break;
+	    default: audio_play_sound(snd_waa	,0,true);show_debug_message("waa"); break;
 	}
 }
 function audio_stop_sound(_sound){
 	show_debug_message($"Sound stoping:{_sound}")
-	switch(_sound){
+	var _soundsw =  _sound[0]
+	switch(_soundsw){
 		case "City"		:audio_stop_sound(snd_floating_cities	); break;
 		case "Valley"	:audio_stop_sound(snd_enchanted_valley	); break;
 		case "Hope"		:audio_stop_sound(snd_lasting_hope		); break;
