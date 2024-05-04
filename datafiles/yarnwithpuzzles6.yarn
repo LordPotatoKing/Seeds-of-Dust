@@ -396,7 +396,6 @@ title: Forest
 <<set_left_npc("N/A")>>
 <<set_right_npc("N/A")>>
 
-
 <<effect("Bugs","true")>>
 <<effect("Crows", "true")>>
 <<music("City","true")>>
@@ -696,7 +695,8 @@ __PrivCrochet_tags:
 title: thegods
 ---
 Stranger:  The plants are the domain of the gods! We aren't allowed to lay eyes upon them until The Great Feast.
-Stranger: In the days before the gods put us on this earth, the world was covered in green. The gods would consume this green, and it would fill their stomachs and give them strength.
+Stranger: In the days before the gods put us on this earth, the world was covered in green.
+Stranger: The gods would consume this green, and it would fill their stomachs and give them strength.
 Stranger: They called this strength "taste", a great sensation in their mouths that would provide them with their power.
 Stranger: We mortals aren't allowed to share in this power until we have proved our worth, and are carried on to The Great Feast,
 Stranger: where there will be endless food and endless drink, and we can share in the splendor of our creators for eternity!
@@ -718,7 +718,8 @@ title: thefool
 Stranger: I did! And the fool refused to listen! For 3 hours I preached to him about the wonders of the Pantryon,
 how they will deliver our souls to The Great Feast, where we will finally experience the miracle of taste as the gods intended!
 Stranger: The arrogant fool laughed in my face! Told me I was mad!
-Stranger: He'll understand eventually. He'll understand when his soul is banished to The Infinite Starving, where his stomach will twist and churn in agony until the end of days!
+Stranger: He'll understand eventually.
+Stranger: He'll understand when his soul is banished to The Infinite Starving, where his stomach will twist and churn in agony until the end of days!
 Stranger: Him and his damn tree! Doesn't he know how he angers the gods!
 ->Why would growing a tree offend your gods?
     <<jump thegods>>
@@ -735,6 +736,7 @@ title: clipperlose
 [i]Before the lunatic can destroy the tree, the gardener delivers a loud blow to their head, knocking them out.[/i]
 Gardener: What... What did you say to them? They were about to destroy my tree! I'm holding you responsible.
 Gardener: Leave right now. Leave and never come back. Don't make me have to use this shovel.
+<<jump Forest>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 4718,1043
@@ -754,8 +756,7 @@ __PrivCrochet_position: 4655,1329
 __PrivCrochet_tags: 
 title: fakery
 ---
-[maybe include this]
-
+// [maybe include this]
 Stranger: There's no way! He used some kind of evil magic. I've seen the dark texts.
 Stranger: Pesticides, fertilizer, it's all ungodly!
 Stranger: That tree is a mockery! A false idol!
@@ -801,7 +802,6 @@ __PrivCrochet_tags:
 title: City
 ---
 You find it hard to believe people used to live like this.
-
 You see a strange white vault. You approach to see faded text on it reading ‘refrigeraltar’. 
 There’s also a note thanking "Little Deborah, the mightiest god of the pantryon". 
 When you touch the handle to try to pull it open, your hand comes away dusty, but the vault doesn’t open. 

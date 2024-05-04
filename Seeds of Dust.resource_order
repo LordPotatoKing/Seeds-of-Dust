@@ -152,6 +152,7 @@
     {"name":"bk_mushroom","order":5,"path":"sprites/bk_mushroom/bk_mushroom.yy",},
     {"name":"bk_roots","order":7,"path":"sprites/bk_roots/bk_roots.yy",},
     {"name":"bk_town","order":1,"path":"sprites/bk_town/bk_town.yy",},
+    {"name":"Crazy_guy_other_side33","order":2,"path":"sprites/Crazy_guy_other_side33/Crazy_guy_other_side33.yy",},
     {"name":"spr_button","order":4,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_Cave_for_map_2024_03_09_1617","order":7,"path":"sprites/spr_Cave_for_map_2024_03_09_1617/spr_Cave_for_map_2024_03_09_1617.yy",},
     {"name":"spr_icon_bar","order":10,"path":"sprites/spr_icon_bar/spr_icon_bar.yy",},
@@ -159,6 +160,7 @@
     {"name":"spr_Instructions_white_text","order":2,"path":"sprites/spr_Instructions_white_text/spr_Instructions_white_text.yy",},
     {"name":"spr_npcs_new","order":1,"path":"sprites/spr_npcs_new/spr_npcs_new.yy",},
     {"name":"spr_Question_Marks_Map_2024_03_09_1617","order":6,"path":"sprites/spr_Question_Marks_Map_2024_03_09_1617/spr_Question_Marks_Map_2024_03_09_1617.yy",},
+    {"name":"Spr_the_End","order":3,"path":"sprites/Spr_the_End/Spr_the_End.yy",},
     {"name":"spr_tile_brooklyn","order":3,"path":"sprites/spr_tile_brooklyn/spr_tile_brooklyn.yy",},
     {"name":"spr_tile_city","order":4,"path":"sprites/spr_tile_city/spr_tile_city.yy",},
     {"name":"spr_tile_clickable","order":1,"path":"sprites/spr_tile_clickable/spr_tile_clickable.yy",},
@@ -168,6 +170,5 @@
     {"name":"spr_tile_underground","order":5,"path":"sprites/spr_tile_underground/spr_tile_underground.yy",},
     {"name":"spr_transitions","order":6,"path":"sprites/spr_transitions/spr_transitions.yy",},
     {"name":"spr_you_are_here_map_sprite","order":9,"path":"sprites/spr_you_are_here_map_sprite/spr_you_are_here_map_sprite.yy",},
-    {"name":"Spr_the_End","order":3,"path":"sprites/Spr_the_End/Spr_the_End.yy",},
   ],
 }
