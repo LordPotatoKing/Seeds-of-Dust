@@ -1,7 +1,7 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: -186,183
-__PrivCrochet_tags:
+__PrivCrochet_tags: 
 title: Start
 ---
 <<rm("rm_underground")>>
@@ -395,8 +395,7 @@ title: Forest
 ---
 <<set_left_npc("N/A")>>
 <<set_right_npc("N/A")>>
-<<jump City>>
-//What's going on with these lines of code up here?
+
 
 <<effect("Bugs","true")>>
 <<effect("Crows", "true")>>
@@ -410,25 +409,11 @@ Based on what you see now, you wonder if those stories were ever true.
 The ground is scattered with what you assume are trees, but they look more like the stones that litter your underground world.
 
 It's fascinating, but can't quite distract you from your rumbling stomach.
-Every so often, flying creatures will flap in front of you, making strange noises. They must get food somewhere. Maybe you could follow one?
--> Follow the largest flying creature with a scary looking hooked beak
-<<jump Hawk Fail>>
--> Follow the little flying creature that has a pointed, conical beak
-<<jump Bird Succeed>>
--> Follow the small creature with a short, rounded beak
-<<jump Seed Bird Fail>>
-
-//Underneath one of the stones looks like a bag. There's food inside.
-//You try to pull it out, but it's jammed under the stone tightly, There's no way you could pry it out by yourself.
-//<<if $alone == 0>>
-    //Luckily, you're not by yourself. You and Cheese manage to lift the massive stone after some effort.
-    //Inside the bag was a large stash of mushrooms. This should make the journey a little easier.
-//<<else>>
-    //Dejected, you turn and continue walking.
-//<<endif>>
+Every so often, flying creatures flap in front of you, making strange noises. They must get food somewhere. 
+<<jump forestchoice>>
 ===
 __PrivCrochet_colorID: 1
-__PrivCrochet_position: 4396,265
+__PrivCrochet_position: 4376,227
 __PrivCrochet_tags: 
 title: Grove
 ---
@@ -438,26 +423,7 @@ Down below, your people survive primarily off mushrooms and hope.
 You don't have much hope left up here, but there are plenty of mushrooms. The mushrooms here are much bigger than anything you have at home, however.
 Some of them extend far past your own height, offering cover from the rain.
 Some of them look small enough to take, but there's a problem.
-You don't know which ones are edible.
-->Take the brown and white ones
-    You put the mushrooms in your bag and carry on.
-    <<set $food to ($food + 1)>>
-    <<set $poison to 0>>
-    <<jump City>>
-->Take the red and white ones
-    You put the mushrooms in your bag and carry on.
-    <<set $poison to 1>>
-    <<jump City>>
-->Take the white, flat-topped ones
-    You put the mushrooms in your bag and carry on.
-    <<set $poison to 1>>
-    <<jump City>>
-->Consult the guide <<if $guide == 1>>
-    Good thing you looked. Most of those mushrooms were poisonous.
-    You pluck the few safe ones out of the ground and carry on.
-    <<set $food to ($food + 1)>>
-    <<set $poison to 0>>
-    <<jump City>>
+<<jump grovechoice>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 1500,235
@@ -835,24 +801,16 @@ Stranger: Just take them! I need time to think.
 <<jump clipperwin>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 4181,-44
+__PrivCrochet_position: 4283,-136
 __PrivCrochet_tags: 
 title: City
 ---
 You find it hard to believe people used to live like this.
 
-You see a strange white vault. You approach to see faded text on it reading ‘refrigeraltar’. There’s also a note thanking Little Deborah, the mightiest god of the pantryon. When you touch the handle to try to pull it open, your hand comes away dusty, but the vault doesn’t open. You notice a rusted lock, and a ring of three keys hanging on the vault’s handle. Each has a different image hanging from it. 
-->Pick the key bearing the image of a cheerful young woman wearing a blue dress and adorned with a halo
-    You slide the key into the lock, and by some miracle, it turns. The door swings open. Inside is the strangest array of food you’ve ever seen. You pick a few of the squishy logs, and something covered in rainbow dots.
-    <<set $food to ($food + 1)>>
-->Pick the key with Colonel Sanders (placeholder)
-    You try to slide the key into the lock, and some mechanism inside comes loose at the jostling. You’ll never be able to unlock it now!
-->Pick the key with Ronald Mcdonald (placeholder)
-    You try to slide the key into the lock, and some mechanism inside comes loose at the jostling. You’ll never be able to unlock it now!
-
-[here is where puzzle no. 3 will go when I have the chance to work on it]
-[for now pretend you made it home safely yayyyy]
-<<jump Get Home Ending>>
+You see a strange white vault. You approach to see faded text on it reading ‘refrigeraltar’. 
+There’s also a note thanking "Little Deborah, the mightiest god of the pantryon". 
+When you touch the handle to try to pull it open, your hand comes away dusty, but the vault doesn’t open. 
+<<jump citychoice>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 3369,419
@@ -863,7 +821,7 @@ The creature shrieks in a terrible way and dives at you with flapping wings and 
 <<jump Grove>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3587,592
+__PrivCrochet_position: 3617,471
 __PrivCrochet_tags: 
 title: Bird Succeed
 ---
@@ -872,7 +830,7 @@ You follow the creature to a nest full of dead bugs. They may be gross, but you 
 <<jump Grove>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3860,601
+__PrivCrochet_position: 3866,530
 __PrivCrochet_tags: 
 title: Seed Bird Fail
 ---
@@ -912,4 +870,99 @@ Prarie Sounds - Cicadas - raw.wav by Liancu -- https://freesound.org/s/344730/ -
 crow-ambience by larsn.wav -- https://freesound.org/s/719361/ -- License: Creative Commons 0
 
 Campfire Crackle 2 by rbirdwise -- https://freesound.org/s/157186/ -- License: Attribution 3.0
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3736,-111
+__PrivCrochet_tags: 
+title: forestchoice
+---
+Maybe you could follow one?
+-> Follow the largest flying creature with a scary looking hooked beak
+    <<jump Hawk Fail>>
+-> Follow the little flying creature that has a narrow, pointed beak
+    <<jump Bird Succeed>>
+-> Follow the small creature with a short, cone-shaped beak
+    <<jump Seed Bird Fail>>
+-> Consult the guide <<if $guide == 1>>
+    <<jump forestguide>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3989,142
+__PrivCrochet_tags: 
+title: forestguide
+---
+You pull out the guide and flip through the pages, trying to find information on the creatures you see.
+Eventually, you find a page about "birds", with pictures that seem to match what you're looking at.
+[i]On the subject of birds:[/i]
+[i]Birds are sacred creatures. If you see one cross your path, consider it good luck. [/i] 
+[i]Hawks have long, hooked beaks. They use those to tear through flesh, so try and stay away from them![/i] 
+[i]The bluebirds have long, thin, pointy beaks, and luckily, they don't attack people. They tend to eat insects instead.[/i]
+[i]The sparrows are tiny, and have short, cone-shaped beaks. They only eat seeds.[/i]
+<<jump forestchoice>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 5025,40
+__PrivCrochet_tags: 
+title: groveguide
+---
+You pull out the guide and flip through the pages until you find a page about mushrooms.
+[i]On the subject of mushrooms:[/i]
+[i]If it’s red, you'll end up dead. If it’s white, it’s not alright. If it’s brown, chow down. If it’s blue, we’re not actually sure.[/i]
+<<jump grovechoice>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4653,143
+__PrivCrochet_tags: 
+title: grovechoice
+---
+You don't know which ones are edible.
+->Take the brown ones
+    You put the mushrooms in your bag and carry on.
+    <<set $food to ($food + 1)>>
+    <<set $poison to 0>>
+    <<jump City>>
+->Take the red and white ones
+    You put the mushrooms in your bag and carry on.
+    <<set $poison to 1>>
+    <<jump City>>
+->Take the white, flat-topped ones
+    You put the mushrooms in your bag and carry on.
+    <<set $poison to 1>>
+    <<jump City>>
+->Consult the guide <<if $guide == 1>>
+    <<jump groveguide>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4503,-256
+__PrivCrochet_tags: 
+title: citychoice
+---
+You notice a rusted lock, and a ring of three keys hanging on the vault’s handle. Each has a different image hanging from it. 
+->Pick the key bearing the image of a cheerful young woman wearing a blue dress and adorned with a halo
+    You slide the key into the lock, and by some miracle, it turns. The door swings open. 
+    Inside is the strangest array of food you’ve ever seen. You pick a few of the squishy logs, and something covered in rainbow dots.
+    <<set $food to ($food + 1)>>
+    <<jump status>>
+->Pick the key bearing the image of an old man in a white suit and bowtie
+    You try to slide the key into the lock, and some mechanism inside comes loose at the jostling. You’ll never be able to unlock it now!
+    <<jump status>>
+->Pick the key bearing the image of a grotesque man with ghostly white skin, a red nose and hair, and a giant 'M'
+    You try to slide the key into the lock, and some mechanism inside comes loose at the jostling. You’ll never be able to unlock it now!
+    <<jump status>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4355,-536
+__PrivCrochet_tags: 
+title: status
+---
+<<if $food >= 2>>
+    It was a long journey, but luckily, the food you found kept you alive.
+    You've managed to find your way home! 
+    <<jump Get Home Ending>>
+<<elseif $food < 2>>
+    You struggle to make it with the little food you have, but it's not enough.
+    Eventually, you succumb to the hunger, unable to move.
+    Realizing that your time is up, you close your eyes and think of home one last time.
+    Your journey ends.
+    <<jump Credits>>
 ===
