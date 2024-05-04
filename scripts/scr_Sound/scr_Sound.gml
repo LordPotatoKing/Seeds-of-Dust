@@ -52,7 +52,7 @@ if _effect != global._prev_effect{
         case "Loop"	: audio_play_sound(snd_heartbeet,	 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
         default		: audio_play_sound(snd_waa,			 0, true);	show_debug_message("waa"); break; // Set loop to true for default case
     }
-	_effect=global._prev_effect
+	global._prev_effect = _effect
 }
 else{
 	show_debug_message("effect already playing")
