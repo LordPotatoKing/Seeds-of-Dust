@@ -58,6 +58,7 @@ function my_room_set(_room_name) {
 		case "rm_mushroom_grove": my_room_goto(rm_mushroom_grove); break;
 		case "rm_petrified_forest": my_room_goto(rm_petrified_forest); break;
 		case "rm_underground": my_room_goto(rm_underground); break;
+		case "rm_the_end": my_room_goto(rm_the_end); break;
 	}
 }
 

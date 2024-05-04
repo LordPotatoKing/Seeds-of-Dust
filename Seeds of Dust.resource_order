@@ -63,6 +63,7 @@
     {"name":"rm_map","order":2,"path":"rooms/rm_map/rm_map.yy",},
     {"name":"rm_mushroom_grove","order":3,"path":"rooms/rm_mushroom_grove/rm_mushroom_grove.yy",},
     {"name":"rm_petrified_forest","order":4,"path":"rooms/rm_petrified_forest/rm_petrified_forest.yy",},
+    {"name":"rm_the_end","order":6,"path":"rooms/rm_the_end/rm_the_end.yy",},
     {"name":"rm_underground","order":5,"path":"rooms/rm_underground/rm_underground.yy",},
     {"name":"__ChatterboxClassBodySubstring","order":1,"path":"scripts/__ChatterboxClassBodySubstring/__ChatterboxClassBodySubstring.yy",},
     {"name":"__ChatterboxClassInstruction","order":2,"path":"scripts/__ChatterboxClassInstruction/__ChatterboxClassInstruction.yy",},
@@ -167,5 +168,6 @@
     {"name":"spr_tile_underground","order":5,"path":"sprites/spr_tile_underground/spr_tile_underground.yy",},
     {"name":"spr_transitions","order":6,"path":"sprites/spr_transitions/spr_transitions.yy",},
     {"name":"spr_you_are_here_map_sprite","order":9,"path":"sprites/spr_you_are_here_map_sprite/spr_you_are_here_map_sprite.yy",},
+    {"name":"Spr_the_End","order":3,"path":"sprites/Spr_the_End/Spr_the_End.yy",},
   ],
 }

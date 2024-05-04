@@ -112,6 +112,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_mushroom_grove","path":"rooms/rm_mushroom_grove/rm_mushroom_grove.yy",},},
     {"id":{"name":"rm_petrified_forest","path":"rooms/rm_petrified_forest/rm_petrified_forest.yy",},},
+    {"id":{"name":"rm_the_end","path":"rooms/rm_the_end/rm_the_end.yy",},},
     {"id":{"name":"rm_underground","path":"rooms/rm_underground/rm_underground.yy",},},
     {"id":{"name":"__ChatterboxBufferBatch","path":"scripts/__ChatterboxBufferBatch/__ChatterboxBufferBatch.yy",},},
     {"id":{"name":"__ChatterboxClassBodySubstring","path":"scripts/__ChatterboxClassBodySubstring/__ChatterboxClassBodySubstring.yy",},},
@@ -338,6 +339,7 @@
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_transitions","path":"sprites/spr_transitions/spr_transitions.yy",},},
     {"id":{"name":"spr_you_are_here_map_sprite","path":"sprites/spr_you_are_here_map_sprite/spr_you_are_here_map_sprite.yy",},},
+    {"id":{"name":"Spr_the_End","path":"sprites/Spr_the_End/Spr_the_End.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -353,6 +355,7 @@
     {"roomId":{"name":"rm_gui","path":"rooms/rm_gui/rm_gui.yy",},},
     {"roomId":{"name":"rm_intro_animation","path":"rooms/rm_intro_animation/rm_intro_animation.yy",},},
     {"roomId":{"name":"rm_dialog","path":"rooms/rm_dialog/rm_dialog.yy",},},
+    {"roomId":{"name":"rm_the_end","path":"rooms/rm_the_end/rm_the_end.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

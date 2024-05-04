@@ -842,6 +842,8 @@ __PrivCrochet_position: 3387,-1041
 __PrivCrochet_tags: 
 title: Credits
 ---
+<<rm("rm_the_end")>>
+
 Developed by:
 Aidan Ahern, Andy Moy, Deana Exline, Jorge Anzaldo, Kenny Canalizo, and Lucas Ferguson
 
