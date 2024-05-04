@@ -1,7 +1,11 @@
 /// @description Initialize Chatterbox and set varubles
 // You can write your code in this editor
 
-
+	// initalise golbal vars
+global._prev_effect	=""
+global._left_npc	=""
+global._right_npc	=""
+global._prev_music	=""
 
 ChatterboxLoadFromFile("yarnwithpuzzles6.yarn")				// load file
 
@@ -29,6 +33,5 @@ _r_size = [0.7,0.75]
 _l_color = [c_ltgray,c_white]						//Chariture sprite blend [dark,bright]
 _r_color = [c_ltgray,c_white]
 	
-global._left_npc	=""
-global._right_npc	=""
+
 

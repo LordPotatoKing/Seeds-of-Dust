@@ -275,7 +275,7 @@ title: Option G.A
 <<music("Valley", "true")>>
 <<effect("Camp", "true")>>
 Brooklyn: We can give you a guide book that would help you survive the wilderness. In exchange, we could use help with one of the crows.
-<<effect ("Crows", "true")>>
+<<effect("Crows", "true")>>
 Brooklyn: It's stolen a family heirloom from one of our people, and their religion prevents them from taking anything from a crow. That bird over there is the thief, if you could get the item returned.
 ->Find something shiny to distract the crow
     <<jump Option N.A>>
