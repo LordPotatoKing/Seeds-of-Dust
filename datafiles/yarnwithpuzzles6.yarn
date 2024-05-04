@@ -100,6 +100,7 @@ Brooklyn: We can introduce you to the crows!
 -> No thank you, we're fine on our own.
     Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
     <<jump Forest>>
+    <<set $guide to 0>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 359,724
@@ -130,6 +131,7 @@ Brooklyn: We can introduce you to the crows!
 -> No thank you, I'm fine on my own.
     Brooklyn: If you insist on going alone, do be careful. This world can be inhospitable, and things that look trustworthy aren't always what they seem.
     <<jump Forest>>
+    <<set $guide to 0>>
 ===
 __PrivCrochet_colorID: 1
 __PrivCrochet_position: 783,-537
@@ -903,7 +905,7 @@ Eventually, you find a page about "birds", with pictures that seem to match what
 <<jump forestchoice>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 5025,40
+__PrivCrochet_position: 5018,29
 __PrivCrochet_tags: 
 title: groveguide
 ---
