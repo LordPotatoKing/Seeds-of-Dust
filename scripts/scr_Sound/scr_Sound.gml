@@ -3,16 +3,18 @@
 
 function sound_music(_arguments){
 	show_debug_message($"music:{_arguments[0]},loop:{_arguments[1]}")
+	var _loop_=false
 	var _music=_arguments[0]
-	var _loop = _arguments[1]
-    //show_debug_message($"Effect:{_effect}, Loop={_loop}")
+	var _loop =_arguments[1]
+  
 
     if _loop !="true"{
-        var _loop_ = false;
+        _loop_ = false;
     } else {
-        var _loop_ = true;
+        _loop_ = true;
     }
-
+	
+if _music != global._prev_music{
 	switch (_music) {
 	    case "City"		:audio_play_sound(snd_floating_cities	,0,_loop_);show_debug_message($"playing {_music}, Loop={_loop_}"); break;
 		case "Valley"	:audio_play_sound(snd_enchanted_valley	,0,_loop_);show_debug_message($"playing {_music}, Loop={_loop_}"); break;
@@ -21,20 +23,26 @@ function sound_music(_arguments){
 		case "Loop"		:audio_play_sound(snd_heartbeet			,0,_loop_);show_debug_message($"playing {_music}, Loop={_loop_}"); break;
 	    default: audio_play_sound(snd_waa,0,true); break;
 	}
+	global._prev_music=_music
+}
+else{
+	show_debug_message("music already playing")
+}
 }
 
 function sound_effect(_arguments) {
 	show_debug_message($"effect:{_arguments[0]},loop:{_arguments[1]}")
+	var _loop_=0
 	var _effect=_arguments[0]
 	var _loop = _arguments[1]
     //show_debug_message($"Effect:{_effect}, Loop={_loop}")
 
     if _loop !="true"{
-        var _loop_ = false;
+        _loop_ = false;
     } else {
-        var _loop_ = true;
+        _loop_ = true;
     }
-
+if _effect != global._prev_effect{
     switch (_effect) {
         case "Bugs"	: audio_play_sound(snd_bugs,		 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
         case "Camp"	: audio_play_sound(snd_campfire,	 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
@@ -44,6 +52,11 @@ function sound_effect(_arguments) {
         case "Loop"	: audio_play_sound(snd_heartbeet,	 0, _loop_); show_debug_message($"playing {_effect}, Loop={_loop_}"); break;
         default		: audio_play_sound(snd_waa,			 0, true);	show_debug_message("waa"); break; // Set loop to true for default case
     }
+	_effect=global._prev_effect
+}
+else{
+	show_debug_message("effect already playing")
+}
 }
 
 

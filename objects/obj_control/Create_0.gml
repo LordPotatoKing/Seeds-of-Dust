@@ -31,4 +31,5 @@ _r_color = [c_ltgray,c_white]
 	
 global._left_npc	=""
 global._right_npc	=""
-
+global._prev_music	=""
+global._prev_effect	=""
